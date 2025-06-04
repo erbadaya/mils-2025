@@ -1,0 +1,2274 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="session2_files/libs/clipboard/clipboard.min.js"></script>
+<script src="session2_files/libs/quarto-html/tabby.min.js"></script>
+<script src="session2_files/libs/quarto-html/popper.min.js"></script>
+<script src="session2_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="session2_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="session2_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="session2_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="session2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.538">
+
+  <meta name="author" content="Badaya">
+  <title>Visual World Paradigm</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="session2_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="session2_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="session2_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="session2_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="session2_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="session2_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="session2_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <style>
+  .center-xy {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%), translateX(-50%);
+    transform: translateY(-50%), translateX(-50%);
+  }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Visual World Paradigm</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Badaya 
+</div>
+</div>
+</div>
+
+</section>
+<section>
+<section id="welcome-back" class="title-slide slide level1 center">
+<h1>Welcome back!</h1>
+
+</section>
+<section id="welcome" class="slide level2">
+<h2>Welcome</h2>
+<p>Any questions from yesterday?</p>
+</section></section>
+<section>
+<section id="visual-world-paradigm" class="title-slide slide level1 center">
+<h1>Visual World Paradigm</h1>
+
+</section>
+<section id="todays-plan" class="slide level2">
+<h2>Today’s plan</h2>
+<ol type="1">
+<li>Introduction</li>
+<li>Basic set up</li>
+<li>Trial sequence</li>
+<li>Linking hypothesis</li>
+<li>Confounds</li>
+<li>Pre-processing of data</li>
+</ol>
+</section>
+<section id="visual-world-paradigm-1" class="slide level2">
+<h2>Visual World Paradigm</h2>
+<p>The Visual World Paradigm (VWP) is an eye-tracking paradigm that commonly describes an experiment where <span class="fg" style="--col: #e64173">auditory and visual stimuli</span> are presented to a participant, with the goal of understanding how the formet influences the latter around a scene.</p>
+<ul>
+<li>Exploring speech as it unfolds (i.e., <span class="fg" style="--col: #e64173">time-locked</span>)
+<ul>
+<li>Or as it is produced (e.g., Meyer et al., 1998; Pistono &amp; Hartsuiker, 2023)</li>
+</ul></li>
+<li>“Natural measure”
+<ul>
+<li>As opposed to meta-linguistic judgements</li>
+</ul></li>
+<li>Combination of linguistic and non-linguistic information.</li>
+</ul>
+</section>
+<section id="visual-world-paradigm-2" class="slide level2">
+<h2>Visual World Paradigm</h2>
+<p>“While on a safari in <span class="fg" style="--col: #e64173">Africa</span> […] I noticed a hungry <span class="fg" style="--col: #e64173">lion</span> slowly moving through the tall grass toward a herd of grazing <span class="fg" style="--col: #e64173">zebra</span>”.</p>
+<ul>
+<li>Cooper’s (1974) method became later on popularised by Tanenhaus et al.&nbsp;(1995).</li>
+</ul>
+
+<img data-src="_images/_session3/cooper_vwp.jpg" class="r-stretch quarto-figure-center"><p class="caption">Cooper, 1974</p></section>
+<section id="uses" class="slide level2">
+<h2>Uses</h2>
+<p>Different levels of language comprehension (Huettig et al., 2011)</p>
+<ul>
+<li>Phonological level (e.g., Allopenna et al., 1998)
+<ul>
+<li>Beetle versus beaker</li>
+</ul></li>
+<li>Lexical level (e.g., semantic prediction, Altmann &amp; Kamide, 1999)
+<ul>
+<li>Eat versus move</li>
+</ul></li>
+<li>Syntactic level (e.g., Knoeferle et al., 2005)
+<ul>
+<li>Disambiguation of thematic roles.</li>
+</ul></li>
+<li>Discourse level (e.g., van Bergen &amp; Bosker, 2018)
+<ul>
+<li>Actually versus Indeed</li>
+</ul></li>
+<li>Pragmatic level (e.g., Grodner et al., 2010)
+<ul>
+<li>Adjective informativeness depends on speaker’s reliability.</li>
+</ul></li>
+</ul>
+</section>
+<section id="uses-1" class="slide level2">
+<h2>Uses</h2>
+<ul>
+<li>Dialogue (e.g., Brown-Schmidt &amp; Tanenhaus, 2008)
+<ul>
+<li>Common ground establishment.</li>
+</ul></li>
+<li>Paralinguistic cues (e.g., Arnold et al., 2004)
+<ul>
+<li>New versus given information following a disfluency.</li>
+</ul></li>
+<li>Linguistic relativity (e.g., Papafragou et al., 2008).
+<ul>
+<li>Fixation preference following encoding of motion.</li>
+</ul></li>
+</ul>
+<p>And many more (e.g., bilingualism, semantics/syntax interface,…)</p>
+</section>
+<section id="uses-2" class="slide level2">
+<h2>Uses</h2>
+<p>Different populations</p>
+<ul>
+<li>Children</li>
+<li>Aphasic patients (e.g., Mirman et al., 2011)</li>
+<li>Non-native listeners (e.g., Ito et al., 2018)</li>
+</ul>
+</section>
+<section id="visual-world-paradigm-3" class="slide level2">
+<h2>Visual World Paradigm</h2>
+<p>Some (and possibly all) studies that use the Visual World Paradigm share the same logic.</p>
+<p>Working example: Altmann and Kamide (1999)</p>
+<ul>
+<li>Brief summary of the paper?</li>
+</ul>
+<div class="fragment">
+<p>Anticipation (~prediction) of lexical items given verb semantics.</p>
+</div>
+</section>
+<section id="visual-world-paradigm-4" class="slide level2">
+<h2>Visual World Paradigm</h2>
+<p>What are the elements in Altmann and Kamide that you can identify as characteristic of the Visual World Paradigm?</p>
+<ul>
+<li>Auditory stimuli</li>
+<li>Visual stimuli</li>
+<li>Task</li>
+</ul>
+</section>
+<section id="design-auditory-stimuli" class="slide level2">
+<h2>Design: Auditory stimuli</h2>
+<p>Example of Altmann and Kamide?</p>
+<ul>
+<li>The boy will <em>eat</em> the cake (constraining).</li>
+<li>The boy will <em>move</em> the cake (unconstraining).</li>
+</ul>
+<p>Stimuli creation:</p>
+<ul>
+<li>Context matched.</li>
+<li>Counterbalancing.</li>
+<li>Comparison between levels.</li>
+<li>Inter alia.</li>
+</ul>
+</section>
+<section id="design-auditory-stimuli-1" class="slide level2">
+<h2>Design: Auditory stimuli</h2>
+<p>Variations in stimuli</p>
+<ul>
+<li>Fine-grained: Acoustic properties (e.g., duration, formant structure)</li>
+<li>Properties of words (e.g., semantic features, frequency of occurrence)</li>
+<li>Linguistic structure (e.g., syntactic structure, pragmatic properties)</li>
+</ul>
+</section>
+<section id="design-auditory-stimuli-2" class="slide level2">
+<h2>Design: Auditory stimuli</h2>
+<p>Eye-movements in the VWP are <span class="fg" style="--col: #e64173">time-locked</span>.</p>
+<ul>
+<li>Time window of analysis around a critical part of speech e.g., critical word.
+<ul>
+<li><span class="fg" style="--col: #e64173">Point-of-disambiguation</span></li>
+<li>Triggers (coding)</li>
+</ul></li>
+<li>Different time windows to explore <span class="fg" style="--col: #e64173">different processes</span> within speech comprehension.
+<ul>
+<li>Integration versus Prediction (analysis)</li>
+</ul></li>
+</ul>
+</section>
+<section id="design-auditory-stimuli-3" class="slide level2">
+<h2>Design: Auditory stimuli</h2>
+<p>Participants <em>listen</em> to these sentences.</p>
+<ul>
+<li>Need to <em>record</em> our stimuli.</li>
+</ul>
+<p>Tips:</p>
+<ul>
+<li>All recordings in one session.</li>
+<li>Talk to the person recording (to avoid monotonous voice).</li>
+<li>Sound-isolating recording studio.</li>
+<li>Several recordings of the same sentence.</li>
+<li>Consider cross-splicing.
+<ul>
+<li>Editing tools: Audacity, Praat.</li>
+</ul></li>
+<li>Control speaker’s traits.</li>
+</ul>
+</section>
+<section id="design-auditory-stimuli-4" class="slide level2">
+<h2>Design: Auditory stimuli</h2>
+<p>Can you think of other elements of audio that can serve as a time anchor?</p>
+<ul>
+<li>Prosodic contour.</li>
+<li>Case marking.</li>
+<li>Speech errors.</li>
+</ul>
+</section>
+<section id="design-auditory-stimuli-5" class="slide level2">
+<h2>Design: Auditory stimuli</h2>
+<p>Can you think of other properties of audio that can be manipulated?</p>
+<ul>
+<li>Speech rate.</li>
+<li>Traits of the speaker.</li>
+<li>Prosody.</li>
+<li>Noise.</li>
+<li>Inter alia.</li>
+</ul>
+</section>
+<section id="design-visual-stimuli" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Elements in Altmann and Kamide?</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="_images/_session3/altmannkamide1999.png"></p>
+</div>
+</div>
+</section>
+<section id="design-visual-stimuli-1" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Elements in Altmann and Kamide?</p>
+<p>4: Target/reference (cake) and <em>unrelated</em> (ball, train, car).</p>
+<ul>
+<li>And the boy.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="_images/_session3/altmannkamide1999.png"></p>
+</div>
+</div>
+</section>
+<section id="design-visual-stimuli-2" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<p>Eye-movements in the VWP are space-locked: Areas of Interest</p>
+<div class="row" height="30%">
+<p>Unrelated: Baseline for comparison</p>
+<p>Need to define Areas of Interest for later analysis.</p>
+<ul>
+<li>Slightly bigger than the edges of the images.</li>
+</ul>
+</div>
+<div class="row" height="70%">
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/target.JPG"></p>
+<p>Target (or referent)</p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/distractor1.JPG"></p>
+<p>Unrelated 1</p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/distractor2.JPG"></p>
+<p>Unrelated 2</p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/distractor3.JPG"></p>
+<p>Unrelated 3</p>
+</div>
+</div>
+</div>
+</section>
+<section id="design-visual-stimuli-3" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<p>Eye-movements in the VWP are space-locked: Areas of Interest</p>
+<ol type="1">
+<li>How many items can there be on display?</li>
+<li>How can items be displayed?</li>
+<li>How can we manipulate the items?</li>
+<li>How can we select images?</li>
+</ol>
+</section>
+<section id="design-visual-stimuli-4" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol type="1">
+<li>How many items can there be on display?</li>
+</ol>
+<ul>
+<li><span class="fg" style="--col: #e64173">[2, 5]</span></li>
+<li>Working memory (see Huettig et al., 2011)</li>
+</ul>
+</section>
+<section id="design-visual-stimuli-5" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="2" type="1">
+<li>How can items be displayed?</li>
+</ol>
+<p>Properties of the display allow for exploration of different processes in speech comprehension.</p>
+<ul>
+<li>Semirealistic scenes: <span class="fg" style="--col: #e64173">World knowledge</span>.</li>
+<li>Arrays: <span class="fg" style="--col: #e64173">Conceptual and lexical knowledge</span> associated with individual words.</li>
+<li>Printed words: <span class="fg" style="--col: #e64173">Phonological information and orthographic</span> processing, comprehension of abstract words.</li>
+</ul>
+<aside class="notes">
+<p>Mention the plausibility bit!!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="design-visual-stimuli-6" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="2" type="1">
+<li>How can items be displayed?</li>
+</ol>
+<div class="{columns}">
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session3/altmannkamide1999.png"></p>
+<figcaption>Altmann &amp; Kamide, 1999</figcaption>
+</figure>
+</div>
+</div>
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session3/array_example.jpg"></p>
+<figcaption>Huettig &amp; McQueen, 2007</figcaption>
+</figure>
+</div>
+</div>
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session3/ortho_example.jpg"></p>
+<figcaption>Huettig &amp; McQueen, 2007</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="design-visual-stimuli-7" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="3" type="1">
+<li>How can we manipulate the items?</li>
+</ol>
+<p>Basic set up:</p>
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/target.JPG"></p>
+<p>Target (or referent)</p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/distractor1.JPG"></p>
+<p>Unrelated 1</p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/distractor2.JPG"></p>
+<p>Unrelated 2</p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="_images/_session3/distractor3.JPG"></p>
+<p>Unrelated 3</p>
+</div>
+</div>
+</section>
+<section id="design-visual-stimuli-8" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="3" type="1">
+<li>How can we manipulate the items?</li>
+</ol>
+<p>Target versus <span class="fg" style="--col: #e64173">competitors</span> versus unrelated.</p>
+<p><span class="fg" style="--col: #e64173">Relationship between target and competitors(s)</span>.</p>
+<ul>
+<li>Semantic distance, phonological distance, etc. - even shape!</li>
+<li>Target (critical word) might not even be present.</li>
+</ul>
+<p>Different questions about language organisation.</p>
+</section>
+<section id="design-visual-stimuli-9" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="3" type="1">
+<li>How can we manipulate the items?</li>
+</ol>
+
+<img data-src="_images/_session3/phonological_manipulation.JPG" class="r-stretch quarto-figure-center"><p class="caption">Allopenna et al., 1996</p><aside class="notes">
+<p>word recognition -&gt; when do we recognise is X and not Y word that is being said. The typical VWP design for word recognition uses (typically four) images chosen to assess activation for specific classes of words. To assess phonological competitors, a display might include a target (sandal), and onset competitors (sandwich) or rhymes (candle). Typically, upon hearing the sa- in sandal, listeners fixate sandal and sandwich, but not candle, or an unrelated item like necklace. As more of the word is heard, looks to onset competitors rapidly drop off; after hearing sanda-, the listener stops looking at the sandwich, whereas looks to the sandal continue to increase. Later, items that didn’t fully match the onset receive some consideration (e.g., candle), suggesting that lexical activation reflects the overall phonological form of the input. The patterns of fixations across time indicate that lexical processing is incremental, parallel, and subject to competition.</p>
+<p>Rather sandwich is a sample from a set of onset competitors, and the listener is assumed to activate other, non-displayed onset competitors like sandbar or Santa. This assumption is essential for treating the VWP as a measure of lexical processing.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="design-visual-stimuli-10" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="3" type="1">
+<li>How can we manipulate the items?</li>
+</ol>
+
+<img data-src="_images/_session3/piano.JPG" class="r-stretch quarto-figure-center"><p class="caption">Huettig &amp; Altmann, 2005</p><aside class="notes">
+<p>We demonstrate here that such spontaneous fixation can be driven by partial semantic overlap between a word and a visual object. Participants heard the word ‘piano’ when (a) a piano was depicted amongst unrelated distractors; (b) a trumpet was depicted amongst those same distractors; and (c), both the piano and trumpet were depicted. The probability of fixating the piano and the trumpet in the first two conditions rose as the word ‘piano’ unfolded. In the final condition, only fixations to the piano rose, although the trumpet was fixated more than the distractors. We conclude that eye movements are driven by the degree of match, along various dimensions that go beyond simple visual form, between a word and the mental representations of objects in the concurrent visual field.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="design-visual-stimuli-11" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="3" type="1">
+<li>How can we manipulate the items?</li>
+</ol>
+<p>Shared versus privileged perspective in interactive experiments.</p>
+
+<img data-src="_images/_session3/priviledged_example.JPG" class="r-stretch quarto-figure-center"><p class="caption">Keysar et al., 1999</p></section>
+<section id="design-visual-stimuli-12" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<ol start="4" type="1">
+<li>How can we select images?</li>
+</ol>
+<p>Databases <em>or</em> create your own.</p>
+<ul>
+<li>Later case: Need for validation cf.&nbsp;confounds.
+<ul>
+<li>Name agreement.</li>
+</ul></li>
+</ul>
+<p>Tips:</p>
+<ul>
+<li>Control for visual salience.</li>
+<li>Control for size (coding).</li>
+<li>Familiarisation phase.</li>
+</ul>
+</section>
+<section id="design-visual-stimuli-13" class="slide level2">
+<h2>Design: Visual stimuli</h2>
+<p>Biases? Example: Anticipation of entities based on discourse markers</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Think of the potential biases induced by visual presentation!</p>
+<ul>
+<li>Eye-tracking versus EEG
+<ul>
+<li>Van Bergen &amp; Bosker (2018): Prediction of upcoming items following indeed/actually</li>
+<li>EEG follow-up study by Rasenberg et al.&nbsp;(2020)</li>
+<li>No support for prediction in N400 based on discourse markers</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><br> <br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session3/vanbergenbosker_display.PNG" height="300"></p>
+<figcaption>van Bergen &amp; Bosker (2018)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="task" class="slide level2">
+<h2>Task</h2>
+<p>As a function of your research question.</p>
+<ul>
+<li>Direct action</li>
+<li>Look and listen</li>
+</ul>
+<p>But also:</p>
+<ul>
+<li>Perform a concurrent task? (impair WM)</li>
+<li>Interpretation of speech?</li>
+</ul>
+<p>Remember: the active viewer (Yarbus).</p>
+</section></section>
+<section>
+<section id="structure" class="title-slide slide level1 center">
+<h1>Structure</h1>
+
+</section>
+<section id="structure-1" class="slide level2">
+<h2>Structure</h2>
+<p><strong>Before the experiment begins</strong></p>
+<ul>
+<li><p>Calibration and validation.</p>
+<ul>
+<li>Number of elements for interest areas.</li>
+<li>Size of interest areas.</li>
+<li>Horizontal and vertical areas.</li>
+</ul></li>
+<li><p>Decide sample rate.</p></li>
+</ul>
+</section>
+<section id="structure-2" class="slide level2">
+<h2>Structure</h2>
+
+<img data-src="_images/_session3/vwp_trialsequence_example.jpg" class="r-stretch"></section>
+<section id="drift-correction" class="slide level2">
+<h2>Drift correction</h2>
+<ul>
+<li>Ensure accuracy.</li>
+<li>Where?
+<ul>
+<li><span class="fg" style="--col: #e64173">Middle</span> (no bias for an image beforehand).</li>
+</ul></li>
+<li>When?
+<ul>
+<li>Beginning of every trial/block.</li>
+</ul></li>
+</ul>
+</section>
+<section id="preview-window" class="slide level2">
+<h2>Preview window</h2>
+<ul>
+<li>Very specific to the VWP</li>
+<li>Presentation of visual stimuli without auditory stimuli, so that participants can inspect the visual scene.
+<ul>
+<li>Most common critique of the VWP.</li>
+</ul></li>
+</ul>
+<p><span class="fg" style="--col: #e64173">Pros and cons</span> of preview window (e.g., Huettig &amp; McQueen, 2007).</p>
+<ul>
+<li>Eye movements towards objects as a function of preview window e.g., Chen &amp; Mirman (2015).</li>
+<li>Pre-activation of labels?</li>
+<li>Contestable?</li>
+<li>See Apfelbaum et al.&nbsp;(2021)</li>
+</ul>
+<aside class="notes">
+<p>The preview of the visual display is designed to take care of some of the non-linguistic tasks before the word is heard. Preview lets participants activate visuo-semantic features and bind them to spatial locations. As a result, when they hear the word, fixations should be primarily driven by lexical processes.</p>
+<p>unlikely that a trial is a closed-set:First it is unlikely that participants could activate all possible linguistic forms from a display (Magnuson, 2019). Even a concrete object like a wizard could be named a sorcerer, magician, warlock, or Harry, or could indicate properties or concepts (magic, spell, nemesis of He Who Shall Not Be Named, etc.).</p>
+<p>Chen Mirman is for more time in fixations for semantics given more preview time yee 2011 is that 1000 ms is for shapes, but not for function in competence</p>
+<p>This could bias fixations in at least two ways. First, the displayed pictures could prime their corresponding words, or inhibit activation of other words. Second, an even more challenging possibility is that fixations in the VWP do not reflect lexical processing at all. Listeners could generate names for each object in phonological working memory (“prenaming”) and recognition could play out in working memory as the incoming speech is matched to these wordforms Rather than viewing fixations as indicative of underlying activation dynamics, they might instead reflect performance in a memory task which is unrepresentative of processing in the 40,000-alternative lexicon.</p>
+<p>This study seems to indicate phonological preactivation during preview if enough time is available. However, the contrast between long and short preview does not sufficiently isolate what stimulus preview is doing. The differences between timing conditions may reflect semantic processing and location binding.</p>
+<p>Our results strongly reject this for several reasons. First, competitor effects were present regardless of preview condition–even in the No preview condition. Stimulus preview is not a prerequisite for observing competitor effects in the VWP.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="preview-window-1" class="slide level2">
+<h2>Preview window</h2>
+<p>Length?</p>
+<ul>
+<li><span class="fg" style="--col: #e64173">Previous research</span> e.g., 2000 ms, 1000 ms from target onset, etc.
+<ul>
+<li>Level of interest e.g., phonological activation versus semantic activation.</li>
+</ul></li>
+</ul>
+</section>
+<section id="audio-presentation" class="slide level2">
+<h2>Audio presentation</h2>
+<ul>
+<li>Send triggers for audio.
+<ul>
+<li>Give enough time for a measure to occur.</li>
+<li>Altmann and Kamide: Trigger -&gt; verb onset.</li>
+</ul></li>
+</ul>
+</section>
+<section id="measures" class="slide level2">
+<h2>Measures</h2>
+<p>Fixations and saccades.</p>
+<ul>
+<li>When &amp; where</li>
+<li>Operationalisation
+<ul>
+<li>Fixation counts, proportion on ROIs, saccadic latency…</li>
+<li>NB PFE for pupillometry.</li>
+</ul></li>
+<li>100-200 ms to launch a saccade (Matin et al., 1993)</li>
+</ul>
+<aside class="notes">
+<p>The former much more common than the latter. Because we launch a saccade when we want to fixate on something, we take saccade latency as a measure too. When you consider fixations, you need to acount for the time it takes people to launch a saccade.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="exercise" class="slide level2">
+<h2>Exercise</h2>
+<p>Work with the people around you and design a quick VWP</p>
+<ul>
+<li>What would you look at?</li>
+<li>How would a trial look like?</li>
+</ul>
+</section>
+<section id="measures-linking-hypothesis" class="slide level2">
+<h2>Measures: Linking hypothesis</h2>
+<p>Linking hypothesis: Link response to a hypothesized process.</p>
+<ul>
+<li>Eye movements reflect lexical access.
+<ul>
+<li>(In reading) Time spent looking at a word == how long it takes to process it.</li>
+</ul></li>
+</ul>
+<p>Visual World Parading = <span class="fg" style="--col: #e64173">Linguistic + non-linguistic information.</span></p>
+<ul>
+<li>What guides what? Whether and how do they interact?</li>
+<li><strong>How can we be sure that our results eye-movements were linguistically mediated?</strong></li>
+<li>What do you think drives eye-movements in the Visual World Paradigm?</li>
+</ul>
+</section>
+<section id="measures-linking-hypothesis-1" class="slide level2">
+<h2>Measures: Linking hypothesis</h2>
+<p>“Default”: Increases in fixation == increases in activation.</p>
+<ul>
+<li>Automatised routines; recognising a name triggers these routines, in turn, these routines trigger a saccade and thus fixations on objects (Tanenhaus et al., 2000).</li>
+</ul>
+</section>
+<section id="measures-linking-hypothesis-2" class="slide level2">
+<h2>Measures: Linking hypothesis</h2>
+<p>Do you think there is a caveat to this assumption? Why yes/no? Why do we care?</p>
+<p>Caveats (see Magnuson, 2019):</p>
+<ul>
+<li>There are saccades based on partial information.</li>
+<li>There are fixations on elements that share properties with the target.</li>
+<li>There are fixations on a target before it’s encountered in the signal.</li>
+<li>Some manipulations reduce fixations.</li>
+</ul>
+</section>
+<section id="measures-linking-hypothesis-3" class="slide level2">
+<h2>Measures: Linking hypothesis</h2>
+<p>Not necessarily (see Magnuson, 2019):</p>
+<ul>
+<li>Language processing guiding vision (e.g., Allopenna et al., 1998).
+<ul>
+<li>“Hidden competitors”</li>
+</ul></li>
+<li>Vision also affecting language processing (e.g.&nbsp;Huettig &amp; McQueen, 2007).
+<ul>
+<li>“Pre-naming”</li>
+</ul></li>
+<li>Listeners getting ahead of speech (e.g., Altmann &amp; Kamide, 1999).
+<ul>
+<li>Mental world.</li>
+</ul></li>
+<li>Just-in-time.
+<ul>
+<li>Bilateral interaction depending on the task.</li>
+</ul></li>
+</ul>
+<p>See also McMurray (2022)</p>
+<aside class="notes">
+<p>A much better discussion of this can be found in Magnuson (2019). I am only mentioning this because these linking hypothesis highlight different aspects we need to consider about the VWP and how we interpret fixations and saccades (e.g., whether they are language-mediated). Magnuson discusses models for those, as well as caveats for each.</p>
+<p>The first one has its origins in experiments showing that fixations are usualyl mediated by language-dependent factors. presented participants with a word (e.g.&nbsp;net) in a display that had no direct competitors. On some trials, the onset of the word (ne-) was spliced from another word (neck, not displayed); on other trials, the onset was spliced from a nonword (nep). When the coarticulatory cues partially activated a competing word (the neck case), participants showed slower fixations to the net than when they favored nep. This is evidence that they activated the competing wordform (neck), which inhibited the target, despite the fact that the competitor was not display. This effect also arises after training with novel wordforms with no meaning (Kapnoula et al., 2015). The visual display is not preventing even meaningless wordforms from being considered.</p>
+<p>The second one suggests that visual information can partially mediate fixations. This is idea is much more developed in Huettig et al.&nbsp;(2011). The idea is that representations are activated prior to speech, you can think of it as a way of ‘priming’. They also discuss that by necessity, vision and language need to be connected as we need to move our eyes towards something, so we need to link the linguistic information to spatial information (e.g., where is said object). Visual display activates visual features which in turn activate phonological and semantic features associated to those. Similarly, speech activates these. The overlap leads to even more activation. Note that this kind of entails that you are constantly activating labels when you are looking at the world.</p>
+<p>The mental world goes back a bit to the first one, but instead of purely describing phonological input, it also considers the possibility that individuals are building a mental world (kind of like a mental representation of what is being said). They then explore scenes with this mental representation. This was developed by Altmann and Kamide, so it kind of makes sense they advocate for something like this: They need to accomodate for prediction.</p>
+<p>The final one has components of the other three. Visual and linguistic information interact, what leads what is following Huettig and McQueen e.g., timing and task. One components is deep interaction: when one type of infor alters the other, for example, no showing examples of garden-path when nothing in the display does not support such interpretation (visual information gets ahead of whatever linguistic information may come up, and alters it, as opposed to biasing it).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="measures-linking-hypothesis-4" class="slide level2">
+<h2>Measures: Linking hypothesis</h2>
+<p>But why do we care?</p>
+<ul>
+<li>Role of preview window
+<ul>
+<li>Activation of phonological and semantic information</li>
+</ul></li>
+<li>Bottom-up versus top-down effects
+<ul>
+<li>Passive versus active processes (e.g., Pickering &amp; Gambi’s (2018) prediction-by-production)</li>
+</ul></li>
+<li>Proper interpretation of results.</li>
+</ul>
+<aside class="notes">
+<p>Bottom-up and top-down has to do with mental world</p>
+<p>Second, both the prenaming and feedback-based closed-set arguments make empirical predictions that are not supported. For example, fixations are sensitive to the lexical frequency of the displayed items (Dahan, Magnuson, &amp; Tanenhaus, 2001); if listeners only consider pictured items, then global lexical characteristics should not play a role</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="confounds" class="slide level2">
+<h2>Confounds</h2>
+<p><br> <br> <br></p>
+<div class="r-stack">
+<p>Given your knowledge in linguistics &amp; what we’ve discussed, what should we keep in mind when creating a VWP experiment?</p>
+</div>
+</section>
+<section id="confounds-1" class="slide level2">
+<h2>Confounds</h2>
+<p>Image presentation.</p>
+<ul>
+<li>Salience</li>
+</ul>
+<div class="r-stack">
+<p><img data-src="_images/_session3/train.png"> <img data-src="_images/_session3/boat_pic.jpg"></p>
+</div>
+</section>
+<section id="confounds-2" class="slide level2">
+<h2>Confounds</h2>
+<p><br> <br></p>
+<p>Image presentation</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Name agreement
+<ul>
+<li>Population</li>
+<li>Clarity</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="r-stack">
+<p><img data-src="_images/_session3/turtle.png"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="confounds-3" class="slide level2">
+<h2>Confounds</h2>
+<p>Image presentation</p>
+<ul>
+<li>Size &amp; quality</li>
+<li>Counterbalance position</li>
+<li>Luminance, contrast, etc. (pupillometry)</li>
+</ul>
+</section>
+<section id="confounds-4" class="slide level2">
+<h2>Confounds</h2>
+<p>Image relationship</p>
+<ul>
+<li>Semantic distance</li>
+<li>Phonological overlap</li>
+<li>Lexical properties e.g., frequency.</li>
+</ul>
+</section>
+<section id="confounds-5" class="slide level2">
+<h2>Confounds</h2>
+<p>Audio properties</p>
+<ul>
+<li>Same/different voices
+<ul>
+<li>Uncanny valley</li>
+</ul></li>
+<li>Phonetic cues (e.g., co-articulation)
+<ul>
+<li>Cross-splicing audios</li>
+</ul></li>
+<li>Volume</li>
+<li>Prosody</li>
+<li>Accent</li>
+</ul>
+</section>
+<section id="confounds-6" class="slide level2">
+<h2>Confounds</h2>
+<p>Audio properties</p>
+<ul>
+<li>Speech rate</li>
+</ul>
+
+<img data-src="_images/_session3/speechrate_vwp.png" class="r-stretch quarto-figure-center"><p class="caption">Huettig &amp; Guerra, 2019</p></section>
+<section id="side-note-reporting" class="slide level2">
+<h2>Side note: Reporting</h2>
+<p>At least:</p>
+<ul>
+<li>Position of items on the screen (and whether their position was counterbalanced)</li>
+<li>Size of the images</li>
+<li>Color of the images</li>
+<li>Database of images</li>
+<li>What was controlled for (e.g., frequency, match for name familiarity) &amp; where these values were obtained from</li>
+<li>Time-window of analysis (but cf.&nbsp;the analysis section day)</li>
+<li>If audio was edited, how &amp; software</li>
+<li>In some cases, a spectrogram is reported</li>
+<li>Task</li>
+<li>Length of preview window</li>
+</ul>
+<p><span class="fg" style="--col: #e64173">Read articles to familiarse yourself with how things are written</span></p>
+</section>
+<section id="pros-cons" class="slide level2">
+<h2>Pros &amp; cons</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="r-stack">
+<p><strong>Pros</strong></p>
+</div>
+<ul>
+<li>Ecological validity.</li>
+<li>Relatively easy.</li>
+<li>Accessible e.g., no meta-linguistic judgements.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="r-stack">
+<p><strong>Cons</strong></p>
+</div>
+<ul>
+<li>Ecological validity.</li>
+<li>Confounding variables.</li>
+<li>Linking hypothesis.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="variations" class="slide level2">
+<h2>Variations</h2>
+<p>Preferential look paradigm/Head-turn preference (~ VWP for infants)</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Different tracker</li>
+<li>Stimuli presentation
+<ul>
+<li>What is discourse-old versus difficult.</li>
+</ul></li>
+<li>Messier data, fewer trials</li>
+</ul>
+<p>Example of a lab protocol: Stone &amp; Bosworth (2017)</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/session_2/preferential_kids.png"></p>
+</div>
+</div>
+</section>
+<section id="variations-1" class="slide level2">
+<h2>Variations</h2>
+<p><strong>Do children’s and adults’ eye movements differ?</strong></p>
+<p>Scene viewing (Helo et al., 2014):</p>
+<ul>
+<li>Shorter fixations, bigger saccades as kids age (2, 4-6, 6-8, 8-10)</li>
+<li>Main effect of time (changes when viewing a scene)</li>
+<li>Different attentional modes?</li>
+</ul>
+<p>Biases for information?</p>
+<ul>
+<li>Social information, semantic information (see Linka et al., 2023)</li>
+</ul>
+</section>
+<section id="variations-2" class="slide level2">
+<h2>Variations</h2>
+<p>Language production.</p>
+<ul>
+<li>No auditory stimuli
+<ul>
+<li>Participants are asked to describe what they see</li>
+<li>Instructions</li>
+</ul></li>
+</ul>
+</section>
+<section id="variations-3" class="slide level2">
+<h2>Variations</h2>
+<ul>
+<li>The link between planning and eye movements is less direct.</li>
+<li>Eye movements ~ labour division of speech production (e.g., Levelt’s model)
+<ul>
+<li>Conceptual</li>
+<li>Formulation</li>
+<li>Articulation</li>
+</ul></li>
+<li>How does looking at an object relate to production stages?
+<ul>
+<li>Do people fixate for longer on objects harder to retrieve?</li>
+<li>Do people start producing speech prior to fixating on the object to name?</li>
+</ul></li>
+</ul>
+</section>
+<section id="variations-4" class="slide level2">
+<h2>Variations</h2>
+<p>Language production.</p>
+<ul>
+<li>A direct fixation is not necessary to identify an object or when producing a label.
+<ul>
+<li>Speakers tend to look at the next object they will name (about 1 s before articulation).</li>
+</ul></li>
+</ul>
+</section>
+<section id="variations-5" class="slide level2">
+<h2>Variations</h2>
+<p>Language production.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Only images.
+<ul>
+<li><span class="fg" style="--col: #e64173">Time-locked to voice onset/offset</span>.</li>
+<li>Manipulations: Image degradation, word frequency, etc.
+<ul>
+<li>Relation to the level of interest.</li>
+</ul></li>
+</ul></li>
+<li>Network task</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/session_2/example_pistono.JPG"></p>
+<figcaption>Pistono &amp; Hartsuiker, 2023</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="variations-6" class="slide level2">
+<h2>Variations</h2>
+<p>Mouse-tracking e.g., King et al., 2019</p>
+<ul>
+<li>Same logic as eye-tracking: track x,y coordinates every X ms (bounded by refresh rate)</li>
+<li>Motor movements taken to reflect mental trajectories (Spivey et al., 2005).</li>
+<li>See Spivey (2025) as well.</li>
+</ul>
+</section>
+<section id="variations-7" class="slide level2">
+<h2>Variations</h2>
+<ul>
+<li>Can be run online (less costly, e.g., large-scale experiments; wider audience e.g., clinical groups).</li>
+<li>Computer requirements.</li>
+<li>Participant instructions (e.g., emphasize they need to move the mouse, but not too much!).</li>
+<li>Eye movements are temporally sensitive, mouse movements are spatially sensitive.</li>
+<li>Motor movements are delayed in comparison to eye movements (Farmer et al., 2007).</li>
+</ul>
+</section>
+<section id="variations-8" class="slide level2">
+<h2>Variations</h2>
+<ul>
+<li>Web-cam tracking e.g., Slim &amp; Hartsuiker, 2023
+<ul>
+<li>ROIs size</li>
+<li>Display size</li>
+</ul></li>
+</ul>
+</section>
+<section id="pre-processing" class="slide level2">
+<h2>Pre-processing</h2>
+</section>
+<section id="raw-data" class="slide level2">
+<h2>Raw data</h2>
+<p>The eye-tracker is actually just recording gaze coordinates on the screen (i.e., gaze points) as well as timestamps in each interval (defined by the sampling rate).</p>
+<p>It also includes:</p>
+<ul>
+<li>Timestamps for stimuli on- and offsets (i.e., the triggers/messages we sent).</li>
+<li>Timestamps for participants’ responses.</li>
+<li>What they responded.</li>
+<li>Trial information.</li>
+</ul>
+</section>
+<section id="raw-data-1" class="slide level2">
+<h2>Raw data</h2>
+<p>ASCIII files</p>
+<ul>
+<li>Sampling rate</li>
+<li>x,y coordinates of gaze</li>
+</ul>
+
+<img data-src="_images/_session5/asciii1.JPG" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>EDF in text format. DV applies algorithms to convert this to a more user-friendly format. Here: some info about the eye-tracker and coordinates for calibration points.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="data-viewer" class="slide level2">
+<h2>Data Viewer</h2>
+<p>EDF files</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br> <br></p>
+<ul>
+<li>Conversion of ASCIII files.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session5/8.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session5/20.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="data-viewer-1" class="slide level2">
+<h2>Data Viewer</h2>
+<p>EDF files</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br> <br></p>
+<ul>
+<li>List of all participants and trials from each participant.</li>
+<li>List of all events pertaining to each trial.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="_images/_session5/34.png"></p>
+</div>
+</div>
+</section></section>
+<section>
+<section id="pre-processing-1" class="title-slide slide level1 center">
+<h1>Pre-processing</h1>
+
+</section>
+<section id="software" class="slide level2">
+<h2>Software</h2>
+<p>Licensed software</p>
+<ul>
+<li>User-friendly, no need to code.</li>
+<li>A function of your eye-tracker.
+<ul>
+<li>Data Viewer - EyeLink (SR Research)</li>
+<li>Tobii Pro Studio/Lab - Tobii</li>
+<li>BeGaze - SMI</li>
+</ul></li>
+</ul>
+<p>Open software</p>
+<ul>
+<li>MATLAB, Python, R packages.
+<ul>
+<li>gazeR, eyetrackingR</li>
+</ul></li>
+</ul>
+</section>
+<section id="data-processing" class="slide level2">
+<h2>Data processing</h2>
+<p>All steps:</p>
+<ul>
+<li>Pre-process data</li>
+<li>Export data</li>
+<li>Visualization</li>
+<li>Data wrangling</li>
+<li>Analysis</li>
+</ul>
+</section>
+<section id="data-processing-1" class="slide level2">
+<h2>Data processing</h2>
+<p>Today:</p>
+<ul>
+<li><span class="fg" style="--col: #e64173">Pre-process data</span></li>
+<li><span class="fg" style="--col: #e64173">Export data for analysis</span></li>
+<li>Visualization</li>
+<li>Data wrangling</li>
+<li>Analysis</li>
+</ul>
+</section>
+<section id="data-pre-processing" class="slide level2">
+<h2>Data pre-processing</h2>
+<ol type="1">
+<li>Import data into software</li>
+<li>Assess data
+<ul>
+<li>Checks</li>
+</ul></li>
+<li>(Automatized) cleaning</li>
+<li>Prepare data for analysis &amp; export
+<ul>
+<li>Time windows</li>
+<li>Areas of Interest</li>
+</ul></li>
+</ol>
+</section>
+<section id="import-data" class="slide level2">
+<h2>Import data</h2>
+<p>Different software = different data files.</p>
+<ul>
+<li>Data Viewer: .edf files</li>
+<li>R packages: ASCIII files; reports from DV</li>
+</ul>
+<p>Different software = additional steps.</p>
+<ul>
+<li>R packages: binning, assigning AIs…</li>
+</ul>
+</section>
+<section id="assess-data" class="slide level2">
+<h2>Assess data</h2>
+<p>Two aspects:</p>
+<ul>
+<li>Pre-processing due to eye movements.
+<ul>
+<li>Short/long fixations, track loss.</li>
+</ul></li>
+<li>Pre-processing due to participants.
+<ul>
+<li>Missed trials, participation criteria.</li>
+</ul></li>
+</ul>
+</section>
+<section id="assess-data-1" class="slide level2">
+<h2>Assess data</h2>
+<p>~ Sanity check (!= visualization)</p>
+<ul>
+<li>Does everything make sense?</li>
+<li>Is there anything missing?
+<ul>
+<li>Trial-by-trial visual check</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Espe: have them think of AIs, missing timestamps, missing participants/trials…</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="assess-data-2" class="slide level2">
+<h2>Assess data</h2>
+<p>Unusable participants</p>
+<ul>
+<li>Rare</li>
+<li>File corrupted?
+<ul>
+<li>Lab log</li>
+<li>Example: A participant blinked too much during the experiment, too many unusable trials.</li>
+<li>If large data loss, it may be easier to exclude the participant.</li>
+</ul></li>
+</ul>
+</section>
+<section id="assess-data-3" class="slide level2">
+<h2>Assess data</h2>
+<p>Unusable trials</p>
+<ul>
+<li>More common</li>
+<li>Poor calibration (cf.&nbsp;drift correction)?
+<ul>
+<li>Umbrella term: “track loss” (could mean anything: participant sneezed, distraction, too fast)</li>
+</ul></li>
+<li>Field-specific</li>
+<li>Lab log!</li>
+</ul>
+</section>
+<section id="assess-data-4" class="slide level2">
+<h2>Assess data</h2>
+<p>Common sense + <strong>lab log</strong></p>
+<ul>
+<li>Remove participants (lab log? other exclusion criteria?)</li>
+<li>Items to discard
+<ul>
+<li>Misunderstood sentences?</li>
+<li>Unforeseen confounds?</li>
+</ul></li>
+</ul>
+
+<img data-src="_images/_session5/ex_loglab.JPG" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="cleaning" class="slide level2">
+<h2>Cleaning</h2>
+<ul>
+<li>Keep a <strong>log of all changes</strong> (trial &amp; participant exclusion)
+<ul>
+<li>Especially if you did not save the viewing session.</li>
+<li>Write up e.g., % trials removed.</li>
+</ul></li>
+</ul>
+<p>Try to think ahead (pre-registration!) and report all your steps and motivation.</p>
+
+<img data-src="_images/_session5/reading_cleaning_logbook.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="exporting" class="slide level2">
+<h2>Exporting</h2>
+<p>Prepare data to be analysed elsewhere (e.g., R, SPSS).</p>
+<p>Data Viewer has different reports.</p>
+
+<img data-src="_images/_session5/9.png" class="r-stretch"></section></section>
+<section>
+<section id="visual-world-paradigm-pipeline" class="title-slide slide level1 center">
+<h1>Visual World Paradigm pipeline</h1>
+
+</section>
+<section id="visual-world-paradigm-pipeline-1" class="slide level2">
+<h2>Visual World Paradigm pipeline</h2>
+<p>Spoiler: No standardisation of a pre-processing pipeline</p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session5/knoerfele1.JPG"></p>
+<figcaption>Knoeferle &amp; Crocker, 2006</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session5/basque.JPG"></p>
+<figcaption>Arantzeta et al., 2017</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session5/names.JPG"></p>
+<figcaption>Apfelbaum et al., 2021</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="visual-world-paradigm-pipeline-2" class="slide level2">
+<h2>Visual World Paradigm pipeline</h2>
+<p>Example: eyetrackingR package</p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="_images/_session5/eyetrackingR1.JPG" class="quarto-figure quarto-figure-left"></p>
+</figure>
+</div>
+</div><div class="column" style="width:70%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="_images/_session5/eyetrackingR2.JPG" class="quarto-figure quarto-figure-right"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="vwp-assess-data" class="slide level2">
+<h2>VWP: Assess data</h2>
+<ul>
+<li>Are triggers there?
+<ul>
+<li>And with the correct timing?*</li>
+</ul></li>
+<li>Are IAs there?
+<ul>
+<li>And with the correct labels?</li>
+</ul></li>
+</ul>
+</section>
+<section id="vwp-assess-data-1" class="slide level2">
+<h2>VWP: Assess data</h2>
+<p>Fixations etc. across the screen (both in defined AIs and elsewhere).</p>
+<ul>
+<li>What do we look for?
+<ul>
+<li>~ Subjective decisions, e.g., not looking ~ not processing speech</li>
+<li>Individual differences, e.g., different strategies (L1 v L2)</li>
+</ul></li>
+<li>Inspect trials with unusual behaviour for that participant?</li>
+</ul>
+</section>
+<section id="vwp-assess-data-2" class="slide level2">
+<h2>VWP: Assess data</h2>
+<p>Track loss</p>
+<ul>
+<li>Trial report: AVERAGE_BLINK_DURATION, BLINK_DURATION, IP_DURATION</li>
+<li>Proportion of track loss computed as: (AVERAGE_BLINK_DURATION * BLINK_COUNT) / IP_DURATION
+<ul>
+<li>But this will also include blinks!</li>
+</ul></li>
+<li>Not common to encounter this step in reports.
+<ul>
+<li>Kids vs.&nbsp;adults</li>
+</ul></li>
+<li>Other software will have implemented it differently</li>
+</ul>
+<aside class="notes">
+<p>Kids blink more, noisy data. It doesn’t mean that we don’t need to report track loss for adults, just that there are no established criteria for cleaning in VWP, unfortunately.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="vwp-pre-process-data" class="slide level2">
+<h2>VWP: Pre-process data</h2>
+<p><strong>Fixations</strong>, saccades.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>(Short and too long) fixations and blinks.
+<ul>
+<li>Merge nearby fixations (thresholds)?</li>
+<li>Merge fixations separated by blink?
+<ul>
+<li>A blink can interrupt a fixation and make it look like two.</li>
+</ul></li>
+</ul></li>
+<li>Consult literature!</li>
+<li>Again, no standard procedure.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="_images/_session5/dv_filter.JPG" height="500"></p>
+</div>
+</div>
+</section>
+<section id="vwp-pre-process-data-1" class="slide level2">
+<h2>VWP: Pre-process data</h2>
+<p>Fixations <em>across time</em> : Time window of analysis defined by triggers</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Triggers, e.g., target_onset - target_offset</p>
+<ul>
+<li>Make sure your AIs are displayed when setting TW.
+<ul>
+<li>Preferences &gt; Data Filters &gt; Show AIs</li>
+</ul></li>
+<li>What if there is a time-out?
+<ul>
+<li>Strict Event Matching unchecked, Offset message blank</li>
+</ul></li>
+<li>Several TWs possible
+<ul>
+<li>Different reports when exporting</li>
+</ul></li>
+<li>Launching a saccade takes ± 200 ms
+<ul>
+<li>Change Start Event Offset, End Event Offset</li>
+<li>Consult previous literature!</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="_images/_session5/27.png"></p>
+</div>
+</div>
+</section>
+<section id="vwp-pre-process-data-2" class="slide level2">
+<h2>VWP: Pre-process data</h2>
+<p>Fixations <em>across time</em>: How do we group those fixations?</p>
+<ul>
+<li><strong>Time bins</strong>
+<ul>
+<li>Segment the time course into groups of X ms with Y number of samples per ms</li>
+<li>Finer analysis of time course</li>
+<li>Sampling frequency</li>
+</ul></li>
+</ul>
+</section>
+<section id="vwp-pre-process-data-3" class="slide level2">
+<h2>VWP: Pre-process data</h2>
+<p>Recap: sampling rate of X Hz = X number of samples per second.</p>
+<ul>
+<li><p>Higher sample rate, less space between samples.</p></li>
+<li><p>1000 Hz is a 1000 sample (one per ms). We can create a bin of 20 ms, that comprises 20 samples.</p></li>
+<li><p>500 Hz would yield 10 samples in a 20 ms bin.</p></li>
+<li><p>Sampling rate also limits the size of our bins!</p>
+<ul>
+<li>If we gather a sample every 25 ms (i.e., tracking at 40 Hz, 1000/40), we cannot make 20 ms bins.</li>
+</ul></li>
+<li><p>In Data Viewer = Time binning report</p></li>
+</ul>
+</section>
+<section id="vwp-time-binning-report" class="slide level2">
+<h2>VWP: Time binning report</h2>
+<ul>
+<li>Time binning report: Only samples on AIs, or also including on-screen samples that are not on AIs?
+<ul>
+<li>Trade-off.</li>
+<li>Affects how <em>proportions</em> are calculated.</li>
+<li>But counts are still there.</li>
+</ul></li>
+</ul>
+<p>Familiarity with previous literature is <strong>key</strong>.</p>
+</section>
+<section id="vwp-time-binning-report-1" class="slide level2">
+<h2>VWP: Time binning report</h2>
+<p>What does each mean?</p>
+<ul>
+<li>Across All Samples: Number of samples in each IA/Total number of samples per bin</li>
+<li>Across All On-Screen Samples (both defined and undefined): Number of samples in each IA/Sum of samples where fixations landed on IAs and Null interest area<sup>1</sup>.</li>
+<li>Across All Samples Assigned to Predefined Interest Areas Only: Number of samples in each IA/Sum of samples where fixations landed on IAs.</li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>Areas where we don’t have IAs defined (e.g., the center of the screen).</p></li></ol></aside></section>
+<section id="vwp-time-binning-report-2" class="slide level2">
+<h2>VWP: Time binning report</h2>
+<p>What does this really mean?</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Assuming that we have 200 samples in a bin:</p>
+<ul>
+<li><p>But 15 are blinks, 30 off-screen events, and 5 are data excluded.</p></li>
+<li><p>There are 50 samples in uncoded areas of interest (i.e., IA 0)</p></li>
+<li><p>There are 10 samples with data for IA 1.</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><p>In the All Samples report:</p>
+<ul>
+<li>The proportion of samples related to IA 1 is 5% (10/200)</li>
+</ul></li>
+<li><p>In the All On-Screen Samples:</p>
+<ul>
+<li>The proportion of samples related to IA 1 is 6.7% (10/(200 - 30 - 15 - 5))</li>
+</ul></li>
+<li><p>In All Interest Area Samples:</p>
+<ul>
+<li>The proportion of samples related to IA 1 is 10% (10/(200 - 30 - 15 - 5 - 50))</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="vwp-time-binning-report-3" class="slide level2">
+<h2>VWP: Time binning report</h2>
+<ul>
+<li>All On-Screen
+<ul>
+<li>Overall increased attention towards the images.</li>
+</ul></li>
+<li>All Interest Area Samples
+<ul>
+<li>IA_0 = track loss (trade-off).</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Overall increased attention - they look more at pictures than screen in general. They still look more at one picture than the other but magnitude of effect differs depending on report (proportions are different).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="vwp-time-binning-report-4" class="slide level2">
+<h2>VWP: Time binning report</h2>
+<p>IA_0</p>
+<ul>
+<li>Interesting when exploring some RQs (i.e., do people prefer to not fixate on anything?)</li>
+<li>However! You don’t know where exactly they were looking at (only that it was not defined!)</li>
+</ul>
+</section>
+<section id="vwp-time-binning-report-5" class="slide level2">
+<h2>VWP: Time binning report</h2>
+<p>What do we count as samples for analysis?</p>
+<ul>
+<li>All Samples in Fixations and Saccades</li>
+<li>Exclude Samples during Saccades</li>
+<li>Exclude Samples during Saccades and Exclude Bins that Contain Non-Fixation Samples</li>
+</ul>
+<p>No straight-forward answer. Things to consider:</p>
+<ul>
+<li>Fixations and Saccades:</li>
+<li>Only fixations: Proportions more ‘true’ to fixation behaviour <strong>but</strong> also less ‘true’ to actual behaviour.</li>
+<li>Only bins with fixations: Loss of data.</li>
+</ul>
+</section>
+<section id="vwp-exporting" class="slide level2">
+<h2>VWP: Exporting</h2>
+<p>Time binning report</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Choose variables (or just export all)</li>
+<li>Define the size of your bin</li>
+<li>On-screen events only (unless you want that information)</li>
+<li>E.g., samples in fixations and saccades</li>
+<li>Separate report unchecked</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="_images/_session5/12.png"></p>
+</div>
+</div>
+<aside class="notes">
+<p>Espe: they might ask you how come the report doesn’t include saccades if you can select the data here: the answer is that here you are deciding whether to count what happened during a saccade. It’s a bit difficult to explain, the important bit is that when they write it up they need to report (if they are analysing fixations) if they included samples in saccades or not.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="vwp-output" class="slide level2">
+<h2>VWP: Output</h2>
+<p>Time binning report</p>
+<p>Participant ID (RECORDING_SESSION_LABEL), trial number (TRIAL_LABEL/INDEX) (added automatically by Data Viewer) +</p>
+<p>BIN_INDEX: Which bin it is. This will help us figure out time (by taking the bin number and multiplying it by the size of your time bin, but you can also use ‘BIN_START_TIME’).</p>
+
+<img data-src="_images/_session5/7.png" class="r-stretch"></section>
+<section id="vwp-output-1" class="slide level2">
+<h2>VWP: Output</h2>
+<p>Time binning report</p>
+<p>Non-eye movement related variables that we need, i.e., most (except participant ID &amp; trial number) variables that you coded yourself (can be found at the end of the list in blue).</p>
+
+<img data-src="_images/_session5/6.png" class="r-stretch"></section>
+<section id="vwp-output-2" class="slide level2">
+<h2>VWP: Output</h2>
+<p>Time binning report</p>
+<p>Variables of interest when looking at fixations: you have duplicated columns per eye. Since you’ll most likely do monocular tracking, you’ll only need one set.</p>
+<p>Information duplicated per Interest Area. If you have two visuals, then two; three visuals, then three, and so on (<em>IA_x</em> &amp; Information duplicated per eye). Even if it was monocular recording, it preserves columns for each eye.</p>
+<ul>
+<li>IA_1_ID, IA_2_ID and so on: The label of the item that was presented in that region (target/distractor).</li>
+<li>BIN_SAMPLE_COUNT: The number of samples per bin.</li>
+<li>RIGHT_BLINK_SAMPLE_COUNT: Number of samples in a given bin that were a blink.</li>
+</ul>
+</section>
+<section id="vwp-output-3" class="slide level2">
+<h2>VWP: Output</h2>
+<p>Time binning report</p>
+<ul>
+<li>RIGHT_IA_1_SAMPLE_COUNT, RIGHT_IA_2_SAMPLE_COUNT and so on<sup>1</sup>: The number of fixations that fell in that area per bin (out of the number of samples per bin, i.e., if each bin has 10 samples, then it’s out of ten).</li>
+<li>RIGHT_IA_1_SAMPLE_COUNT_%, RIGHT_IA_2_SAMPLE_COUNT_% and so on: The proportion of fixations that fell in that area (i.e., a transformation of count).</li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>Or AVERAGE_, because we have done binocular reading, the average equals the count on our eye recorded.</p></li></ol></aside></section>
+<section id="vwp-output-4" class="slide level2">
+<h2>VWP: Output</h2>
+<p>.txt → import in Excel and save as .xlsx or .csv</p>
+
+<img data-src="_images/_session5/5.png" class="r-stretch"></section>
+<section id="vwp-reporting" class="slide level2">
+<h2>VWP: Reporting</h2>
+<p>Data preparation:</p>
+<ul>
+<li>Number of participants/trials lost to reasons other than eye movements (e.g., % of wrong answers on comprehension questions)</li>
+<li>What constitutes a sample e.g., with or without saccades</li>
+<li>How samples were calculated e.g., only on areas of interest, or the whole display</li>
+<li>How many samples per bin</li>
+<li>How many ms per bin</li>
+<li>Time window of analysis</li>
+</ul>
+<div class="quarto-auto-generated-content">
+<p><img src="/_images/logo_mils.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>Introduction to eye-tracking</p>
+</div>
+</div>
+</section></section>
+
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="session2_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="session2_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="session2_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="session2_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="session2_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="session2_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="session2_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="session2_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="session2_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="session2_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

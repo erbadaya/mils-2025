@@ -1,0 +1,1274 @@
+---
+title: "Visual World Paradigm"
+author: "Badaya"
+format: 
+   clean-revealjs:
+    logo: /_images/logo_mils.png
+    footer: "Introduction to eye-tracking"
+    include-in-header: 
+      text: |
+        <style>
+        .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 40%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+editor: visual
+---
+
+# Welcome back!
+
+## Welcome
+
+Any questions from yesterday?
+
+# Visual World Paradigm
+
+## Today's plan
+
+1. Introduction
+2. Basic set up
+3. Trial sequence
+4. Linking hypothesis
+5. Confounds
+6. Pre-processing of data
+
+## Visual World Paradigm
+
+The Visual World Paradigm (VWP) is an eye-tracking paradigm that commonly describes an experiment where [auditory and visual stimuli]{.fg style="--col: #e64173"} are presented to a participant, with the goal of understanding how the formet influences the latter around a scene.
+
+-   Exploring speech as it unfolds (i.e., [time-locked]{.fg style="--col: #e64173"})
+    -   Or as it is produced (e.g., Meyer et al., 1998; Pistono & Hartsuiker, 2023)
+-   "Natural measure"
+    -   As opposed to meta-linguistic judgements
+-   Combination of linguistic and non-linguistic information.
+
+## Visual World Paradigm
+
+"While on a safari in [Africa]{.fg style="--col: #e64173"} \[...\] I noticed a hungry [lion]{.fg style="--col: #e64173"} slowly moving through the tall grass toward a herd of grazing [zebra]{.fg style="--col: #e64173"}".
+
+-   Cooper's (1974) method became later on popularised by Tanenhaus et al. (1995).
+
+![Cooper, 1974](_images/_session3/cooper_vwp.jpg)
+
+## Uses
+
+Different levels of language comprehension (Huettig et al., 2011)
+
+-   Phonological level (e.g., Allopenna et al., 1998)
+    -   Beetle versus beaker
+-   Lexical level (e.g., semantic prediction, Altmann & Kamide, 1999)
+    -   Eat versus move
+-   Syntactic level (e.g., Knoeferle et al., 2005)
+    -   Disambiguation of thematic roles.
+-   Discourse level (e.g., van Bergen & Bosker, 2018)
+    -   Actually versus Indeed
+-   Pragmatic level (e.g., Grodner et al., 2010)
+    -   Adjective informativeness depends on speaker's reliability.
+
+## Uses
+
+-   Dialogue (e.g., Brown-Schmidt & Tanenhaus, 2008)
+    -   Common ground establishment.
+-   Paralinguistic cues (e.g., Arnold et al., 2004)
+    -   New versus given information following a disfluency.
+-   Linguistic relativity (e.g., Papafragou et al., 2008).
+    -   Fixation preference following encoding of motion.
+
+And many more (e.g., bilingualism, semantics/syntax interface,...)
+
+## Uses
+
+Different populations
+
+-   Children
+-   Aphasic patients (e.g., Mirman et al., 2011)
+-   Non-native listeners (e.g., Ito et al., 2018)
+
+
+## Visual World Paradigm
+
+Some (and possibly all) studies that use the Visual World Paradigm share the same logic.
+
+Working example: Altmann and Kamide (1999)
+
+-   Brief summary of the paper?
+
+. . .
+
+Anticipation (\~prediction) of lexical items given verb semantics.
+
+## Visual World Paradigm
+
+What are the elements in Altmann and Kamide that you can identify as characteristic of the Visual World Paradigm?
+
+-   Auditory stimuli
+-   Visual stimuli
+-   Task
+
+## Design: Auditory stimuli
+
+Example of Altmann and Kamide?
+
+-   The boy will *eat* the cake (constraining).
+-   The boy will *move* the cake (unconstraining).
+
+Stimuli creation:
+
+-   Context matched.
+-   Counterbalancing.
+-   Comparison between levels.
+-   Inter alia.
+
+## Design: Auditory stimuli
+
+Variations in stimuli
+
+-   Fine-grained: Acoustic properties (e.g., duration, formant structure)
+-   Properties of words (e.g., semantic features, frequency of occurrence)
+-   Linguistic structure (e.g., syntactic structure, pragmatic properties)
+
+## Design: Auditory stimuli
+
+Eye-movements in the VWP are [time-locked]{.fg style="--col: #e64173"}.
+
+-   Time window of analysis around a critical part of speech e.g., critical word.
+    -   [Point-of-disambiguation]{.fg style="--col: #e64173"}
+    -   Triggers (coding)
+-   Different time windows to explore [different processes]{.fg style="--col: #e64173"} within speech comprehension.
+    -   Integration versus Prediction (analysis)
+
+## Design: Auditory stimuli
+
+Participants *listen* to these sentences.
+
+-   Need to *record* our stimuli.
+
+Tips:
+
+-   All recordings in one session.
+-   Talk to the person recording (to avoid monotonous voice).
+-   Sound-isolating recording studio.
+-   Several recordings of the same sentence.
+-   Consider cross-splicing.
+    -   Editing tools: Audacity, Praat.
+-   Control speaker's traits.
+
+## Design: Auditory stimuli
+
+Can you think of other elements of audio that can serve as a time anchor?
+
+-   Prosodic contour.
+-   Case marking.
+-   Speech errors.
+
+## Design: Auditory stimuli
+
+Can you think of other properties of audio that can be manipulated?
+
+-   Speech rate.
+-   Traits of the speaker.
+-   Prosody.
+-   Noise.
+-   Inter alia.
+
+## Design: Visual stimuli
+
+::: columns
+::: {.column width="50%"}
+Elements in Altmann and Kamide?
+:::
+
+::: {.column width="50%"}
+![](_images/_session3/altmannkamide1999.png)
+:::
+:::
+
+## Design: Visual stimuli
+
+::: columns
+::: {.column width="50%"}
+Elements in Altmann and Kamide?
+
+4: Target/reference (cake) and *unrelated* (ball, train, car).
+
+-   And the boy.
+:::
+
+::: {.column width="50%"}
+![](_images/_session3/altmannkamide1999.png)
+:::
+:::
+
+## Design: Visual stimuli
+
+Eye-movements in the VWP are space-locked: Areas of Interest
+
+::: {.row height="30%"}
+Unrelated: Baseline for comparison
+
+Need to define Areas of Interest for later analysis.
+
+-   Slightly bigger than the edges of the images.
+:::
+
+::: {.row height="70%"}
+::: columns
+::: {.column width="25%"}
+![](_images/_session3/target.JPG)
+
+Target (or referent)
+:::
+
+::: {.column width="25%"}
+![](_images/_session3/distractor1.JPG)
+
+Unrelated 1
+:::
+
+::: {.column width="25%"}
+![](_images/_session3/distractor2.JPG)
+
+Unrelated 2
+:::
+
+::: {.column width="25%"}
+![](_images/_session3/distractor3.JPG)
+
+Unrelated 3
+:::
+:::
+:::
+
+## Design: Visual stimuli
+
+Eye-movements in the VWP are space-locked: Areas of Interest
+
+1.  How many items can there be on display?
+2.  How can items be displayed?
+3.  How can we manipulate the items?
+4.  How can we select images?
+
+## Design: Visual stimuli
+
+1.  How many items can there be on display?
+
+-   [\[2, 5\]]{.fg style="--col: #e64173"}
+-   Working memory (see Huettig et al., 2011)
+
+## Design: Visual stimuli
+
+2.  How can items be displayed?
+
+Properties of the display allow for exploration of different processes in speech comprehension.
+
+-   Semirealistic scenes: [World knowledge]{.fg style="--col: #e64173"}.
+-   Arrays: [Conceptual and lexical knowledge]{.fg style="--col: #e64173"} associated with individual words.
+-   Printed words: [Phonological information and orthographic]{.fg style="--col: #e64173"} processing, comprehension of abstract words.
+
+::: notes
+Mention the plausibility bit!!
+:::
+
+## Design: Visual stimuli
+
+2.  How can items be displayed?
+
+::: {columns}
+::: {.column width="30%"}
+![Altmann & Kamide, 1999](_images/_session3/altmannkamide1999.png)
+:::
+
+::: {.column width="30%"}
+![Huettig & McQueen, 2007](_images/_session3/array_example.jpg)
+:::
+
+::: {.column width="30%"}
+![Huettig & McQueen, 2007](_images/_session3/ortho_example.jpg)
+:::
+:::
+
+## Design: Visual stimuli
+
+3.  How can we manipulate the items?
+
+Basic set up:
+
+::: columns
+::: {.column width="25%"}
+![](_images/_session3/target.JPG)
+
+Target (or referent)
+:::
+
+::: {.column width="25%"}
+![](_images/_session3/distractor1.JPG)
+
+Unrelated 1
+:::
+
+::: {.column width="25%"}
+![](_images/_session3/distractor2.JPG)
+
+Unrelated 2
+:::
+
+::: {.column width="25%"}
+![](_images/_session3/distractor3.JPG)
+
+Unrelated 3
+:::
+:::
+
+## Design: Visual stimuli
+
+3.  How can we manipulate the items?
+
+Target versus [competitors]{.fg style="--col: #e64173"} versus unrelated.
+
+[Relationship between target and competitors(s)]{.fg style="--col: #e64173"}.
+
+-   Semantic distance, phonological distance, etc. - even shape!
+-   Target (critical word) might not even be present.
+
+Different questions about language organisation.
+
+## Design: Visual stimuli
+
+3.  How can we manipulate the items?
+
+![Allopenna et al., 1996](_images/_session3/phonological_manipulation.JPG)
+
+::: notes
+word recognition -\> when do we recognise is X and not Y word that is being said. The typical VWP design for word recognition uses (typically four) images chosen to assess activation for specific classes of words. To assess phonological competitors, a display might include a target (sandal), and onset competitors (sandwich) or rhymes (candle). Typically, upon hearing the sa- in sandal, listeners fixate sandal and sandwich, but not candle, or an unrelated item like necklace. As more of the word is heard, looks to onset competitors rapidly drop off; after hearing sanda-, the listener stops looking at the sandwich, whereas looks to the sandal continue to increase. Later, items that didn't fully match the onset receive some consideration (e.g., candle), suggesting that lexical activation reflects the overall phonological form of the input. The patterns of fixations across time indicate that lexical processing is incremental, parallel, and subject to competition.
+
+Rather sandwich is a sample from a set of onset competitors, and the listener is assumed to activate other, non-displayed onset competitors like sandbar or Santa. This assumption is essential for treating the VWP as a measure of lexical processing.
+:::
+
+## Design: Visual stimuli
+
+3.  How can we manipulate the items?
+
+![Huettig & Altmann, 2005](_images/_session3/piano.JPG)
+
+::: notes
+We demonstrate here that such spontaneous fixation can be driven by partial semantic overlap between a word and a visual object. Participants heard the word 'piano' when (a) a piano was depicted amongst unrelated distractors; (b) a trumpet was depicted amongst those same distractors; and (c), both the piano and trumpet were depicted. The probability of fixating the piano and the trumpet in the first two conditions rose as the word 'piano' unfolded. In the final condition, only fixations to the piano rose, although the trumpet was fixated more than the distractors. We conclude that eye movements are driven by the degree of match, along various dimensions that go beyond simple visual form, between a word and the mental representations of objects in the concurrent visual field.
+:::
+
+## Design: Visual stimuli
+
+3.  How can we manipulate the items?
+
+Shared versus privileged perspective in interactive experiments.
+
+![Keysar et al., 1999](_images/_session3/priviledged_example.JPG)
+
+## Design: Visual stimuli
+
+4.  How can we select images?
+
+Databases *or* create your own.
+
+-   Later case: Need for validation cf. confounds.
+    -   Name agreement.
+
+Tips:
+
+-   Control for visual salience.
+-   Control for size (coding).
+-   Familiarisation phase.
+
+## Design: Visual stimuli
+
+Biases? Example: Anticipation of entities based on discourse markers
+
+::: columns
+::: {.column width="50%"}
+Think of the potential biases induced by visual presentation!
+
+-   Eye-tracking versus EEG
+    -   Van Bergen & Bosker (2018): Prediction of upcoming items following indeed/actually
+    -   EEG follow-up study by Rasenberg et al. (2020)
+    -   No support for prediction in N400 based on discourse markers
+:::
+
+::: {.column width="50%"}
+<br> <br>
+
+![van Bergen & Bosker (2018)](_images/_session3/vanbergenbosker_display.PNG){height="300"}
+:::
+:::
+
+## Task
+
+As a function of your research question.
+
+-   Direct action
+-   Look and listen
+
+But also:
+
+-   Perform a concurrent task? (impair WM)
+-   Interpretation of speech?
+
+Remember: the active viewer (Yarbus).
+
+# Structure
+
+## Structure
+
+**Before the experiment begins**
+
+-   Calibration and validation.
+
+    -   Number of elements for interest areas.
+    -   Size of interest areas.
+    -   Horizontal and vertical areas.
+
+-   Decide sample rate.
+
+## Structure
+
+![](_images/_session3/vwp_trialsequence_example.jpg)
+
+## Drift correction
+
+-   Ensure accuracy.
+-   Where?
+    -   [Middle]{.fg style="--col: #e64173"} (no bias for an image beforehand).
+-   When?
+    -   Beginning of every trial/block.
+
+## Preview window
+
+-   Very specific to the VWP
+-   Presentation of visual stimuli without auditory stimuli, so that participants can inspect the visual scene.
+    -   Most common critique of the VWP.
+
+[Pros and cons]{.fg style="--col: #e64173"} of preview window (e.g., Huettig & McQueen, 2007).
+
+-   Eye movements towards objects as a function of preview window e.g., Chen & Mirman (2015).
+-   Pre-activation of labels?
+-   Contestable?
+-   See Apfelbaum et al. (2021)
+
+::: notes
+The preview of the visual display is designed to take care of some of the non-linguistic tasks before the word is heard. Preview lets participants activate visuo-semantic features and bind them to spatial locations. As a result, when they hear the word, fixations should be primarily driven by lexical processes.
+
+unlikely that a trial is a closed-set:First it is unlikely that participants could activate all possible linguistic forms from a display (Magnuson, 2019). Even a concrete object like a wizard could be named a sorcerer, magician, warlock, or Harry, or could indicate properties or concepts (magic, spell, nemesis of He Who Shall Not Be Named, etc.).
+
+Chen Mirman is for more time in fixations for semantics given more preview time yee 2011 is that 1000 ms is for shapes, but not for function in competence
+
+This could bias fixations in at least two ways. First, the displayed pictures could prime their corresponding words, or inhibit activation of other words. Second, an even more challenging possibility is that fixations in the VWP do not reflect lexical processing at all. Listeners could generate names for each object in phonological working memory ("prenaming") and recognition could play out in working memory as the incoming speech is matched to these wordforms Rather than viewing fixations as indicative of underlying activation dynamics, they might instead reflect performance in a memory task which is unrepresentative of processing in the 40,000-alternative lexicon.
+
+This study seems to indicate phonological preactivation during preview if enough time is available. However, the contrast between long and short preview does not sufficiently isolate what stimulus preview is doing. The differences between timing conditions may reflect semantic processing and location binding.
+
+Our results strongly reject this for several reasons. First, competitor effects were present regardless of preview condition--even in the No preview condition. Stimulus preview is not a prerequisite for observing competitor effects in the VWP.
+:::
+
+## Preview window
+
+Length?
+
+-   [Previous research]{.fg style="--col: #e64173"} e.g., 2000 ms, 1000 ms from target onset, etc.
+    -   Level of interest e.g., phonological activation versus semantic activation.
+
+## Audio presentation
+
+-   Send triggers for audio.
+    -   Give enough time for a measure to occur.
+    -   Altmann and Kamide: Trigger -\> verb onset.
+
+## Measures
+
+Fixations and saccades.
+
+-   When & where
+-   Operationalisation
+    -   Fixation counts, proportion on ROIs, saccadic latency...
+    -   NB PFE for pupillometry.
+-   100-200 ms to launch a saccade (Matin et al., 1993)
+
+::: notes
+The former much more common than the latter. Because we launch a saccade when we want to fixate on something, we take saccade latency as a measure too. When you consider fixations, you need to acount for the time it takes people to launch a saccade.
+:::
+
+## Exercise
+
+Work with the people around you and design a quick VWP
+
+-   What would you look at?
+-   How would a trial look like?
+
+## Measures: Linking hypothesis
+
+Linking hypothesis: Link response to a hypothesized process.
+
+-   Eye movements reflect lexical access.
+    -   (In reading) Time spent looking at a word == how long it takes to process it.
+
+Visual World Parading = [Linguistic + non-linguistic information.]{.fg style="--col: #e64173"}
+
+-   What guides what? Whether and how do they interact?
+-   **How can we be sure that our results eye-movements were linguistically mediated?**
+-   What do you think drives eye-movements in the Visual World Paradigm?
+
+## Measures: Linking hypothesis
+
+"Default": Increases in fixation == increases in activation.
+
+-   Automatised routines; recognising a name triggers these routines, in turn, these routines trigger a saccade and thus fixations on objects (Tanenhaus et al., 2000).
+
+## Measures: Linking hypothesis
+
+Do you think there is a caveat to this assumption? Why yes/no? Why do we care?
+
+Caveats (see Magnuson, 2019):
+
+-   There are saccades based on partial information.
+-   There are fixations on elements that share properties with the target.
+-   There are fixations on a target before it's encountered in the signal.
+-   Some manipulations reduce fixations.
+
+## Measures: Linking hypothesis
+
+Not necessarily (see Magnuson, 2019):
+
+-   Language processing guiding vision (e.g., Allopenna et al., 1998).
+    -   "Hidden competitors"
+-   Vision also affecting language processing (e.g. Huettig & McQueen, 2007).
+    -   "Pre-naming"
+-   Listeners getting ahead of speech (e.g., Altmann & Kamide, 1999).
+    -   Mental world.
+-   Just-in-time.
+    -   Bilateral interaction depending on the task.
+
+See also McMurray (2022)
+
+::: notes
+A much better discussion of this can be found in Magnuson (2019). I am only mentioning this because these linking hypothesis highlight different aspects we need to consider about the VWP and how we interpret fixations and saccades (e.g., whether they are language-mediated). Magnuson discusses models for those, as well as caveats for each.
+
+The first one has its origins in experiments showing that fixations are usualyl mediated by language-dependent factors. presented participants with a word (e.g. net) in a display that had no direct competitors. On some trials, the onset of the word (ne-) was spliced from another word (neck, not displayed); on other trials, the onset was spliced from a nonword (nep). When the coarticulatory cues partially activated a competing word (the neck case), participants showed slower fixations to the net than when they favored nep. This is evidence that they activated the competing wordform (neck), which inhibited the target, despite the fact that the competitor was not display. This effect also arises after training with novel wordforms with no meaning (Kapnoula et al., 2015). The visual display is not preventing even meaningless wordforms from being considered.
+
+The second one suggests that visual information can partially mediate fixations. This is idea is much more developed in Huettig et al. (2011). The idea is that representations are activated prior to speech, you can think of it as a way of 'priming'. They also discuss that by necessity, vision and language need to be connected as we need to move our eyes towards something, so we need to link the linguistic information to spatial information (e.g., where is said object). Visual display activates visual features which in turn activate phonological and semantic features associated to those. Similarly, speech activates these. The overlap leads to even more activation. Note that this kind of entails that you are constantly activating labels when you are looking at the world.
+
+The mental world goes back a bit to the first one, but instead of purely describing phonological input, it also considers the possibility that individuals are building a mental world (kind of like a mental representation of what is being said). They then explore scenes with this mental representation. This was developed by Altmann and Kamide, so it kind of makes sense they advocate for something like this: They need to accomodate for prediction.
+
+The final one has components of the other three. Visual and linguistic information interact, what leads what is following Huettig and McQueen e.g., timing and task. One components is deep interaction: when one type of infor alters the other, for example, no showing examples of garden-path when nothing in the display does not support such interpretation (visual information gets ahead of whatever linguistic information may come up, and alters it, as opposed to biasing it).
+:::
+
+## Measures: Linking hypothesis
+
+But why do we care?
+
+-   Role of preview window
+    -   Activation of phonological and semantic information
+-   Bottom-up versus top-down effects
+    -   Passive versus active processes (e.g., Pickering & Gambi's (2018) prediction-by-production)
+-   Proper interpretation of results.
+
+::: notes
+Bottom-up and top-down has to do with mental world
+
+Second, both the prenaming and feedback-based closed-set arguments make empirical predictions that are not supported. For example, fixations are sensitive to the lexical frequency of the displayed items (Dahan, Magnuson, & Tanenhaus, 2001); if listeners only consider pictured items, then global lexical characteristics should not play a role
+:::
+
+## Confounds
+
+<br> <br> <br>
+
+::: r-stack
+Given your knowledge in linguistics & what we've discussed, what should we keep in mind when creating a VWP experiment?
+:::
+
+## Confounds
+
+Image presentation.
+
+-   Salience
+
+::: r-stack
+![](_images/_session3/train.png) ![](_images/_session3/boat_pic.jpg)
+:::
+
+## Confounds
+
+<br> <br>
+
+Image presentation
+
+::: columns
+::: {.column width="50%"}
+-   Name agreement
+    -   Population
+    -   Clarity
+:::
+
+::: {.column width="50%"}
+::: r-stack
+![](_images/_session3/turtle.png)
+:::
+:::
+:::
+
+## Confounds
+
+Image presentation
+
+-   Size & quality
+-   Counterbalance position
+-   Luminance, contrast, etc. (pupillometry)
+
+## Confounds
+
+Image relationship
+
+-   Semantic distance
+-   Phonological overlap
+-   Lexical properties e.g., frequency.
+
+## Confounds
+
+Audio properties
+
+-   Same/different voices
+    -   Uncanny valley
+-   Phonetic cues (e.g., co-articulation)
+    -   Cross-splicing audios
+-   Volume
+-   Prosody
+-   Accent
+
+## Confounds
+
+Audio properties
+
+-   Speech rate
+
+![Huettig & Guerra, 2019](_images/_session3/speechrate_vwp.png)
+
+## Side note: Reporting
+
+At least:
+
+-   Position of items on the screen (and whether their position was counterbalanced)
+-   Size of the images
+-   Color of the images
+-   Database of images
+-   What was controlled for (e.g., frequency, match for name familiarity) & where these values were obtained from
+-   Time-window of analysis (but cf. the analysis section day)
+-   If audio was edited, how & software
+-   In some cases, a spectrogram is reported
+-   Task
+-   Length of preview window
+
+[Read articles to familiarse yourself with how things are written]{.fg style="--col: #e64173"}
+
+## Pros & cons
+
+::: columns
+::: {.column width="50%"}
+::: r-stack
+**Pros**
+:::
+
+-   Ecological validity.
+-   Relatively easy.
+-   Accessible e.g., no meta-linguistic judgements.
+:::
+
+::: {.column width="50%"}
+::: r-stack
+**Cons**
+:::
+
+-   Ecological validity.
+-   Confounding variables.
+-   Linking hypothesis.
+:::
+:::
+
+## Variations
+
+Preferential look paradigm/Head-turn preference (\~ VWP for infants)
+
+::: columns
+::: {.column width="50%"}
+-   Different tracker
+-   Stimuli presentation
+    -   What is discourse-old versus difficult.
+-   Messier data, fewer trials
+
+Example of a lab protocol: Stone & Bosworth (2017)
+:::
+
+::: {.column width="50%"}
+![](images/session_2/preferential_kids.png)
+:::
+:::
+
+## Variations
+
+**Do children's and adults' eye movements differ?**
+
+Scene viewing (Helo et al., 2014):
+
+-   Shorter fixations, bigger saccades as kids age (2, 4-6, 6-8, 8-10)
+-   Main effect of time (changes when viewing a scene)
+-   Different attentional modes?
+
+Biases for information?
+
+-   Social information, semantic information (see Linka et al., 2023)
+
+## Variations
+
+Language production.
+
+-   No auditory stimuli
+    -   Participants are asked to describe what they see
+    -   Instructions
+
+## Variations
+
+-   The link between planning and eye movements is less direct.
+-   Eye movements \~ labour division of speech production (e.g., Levelt's model)
+    -   Conceptual
+    -   Formulation
+    -   Articulation
+-   How does looking at an object relate to production stages?
+    -   Do people fixate for longer on objects harder to retrieve?
+    -   Do people start producing speech prior to fixating on the object to name?
+
+## Variations
+
+Language production.
+
+-   A direct fixation is not necessary to identify an object or when producing a label.
+    -   Speakers tend to look at the next object they will name (about 1 s before articulation).
+
+## Variations
+
+Language production.
+
+::: columns
+::: {.column width="50%"}
+-   Only images.
+    -   [Time-locked to voice onset/offset]{.fg style="--col: #e64173"}.
+    -   Manipulations: Image degradation, word frequency, etc.
+        -   Relation to the level of interest.
+-   Network task
+:::
+
+::: {.column width="50%"}
+<br>
+
+![Pistono & Hartsuiker, 2023](images/session_2/example_pistono.JPG)
+:::
+:::
+
+## Variations
+
+Mouse-tracking e.g., King et al., 2019
+
+-   Same logic as eye-tracking: track x,y coordinates every X ms (bounded by refresh rate)
+-   Motor movements taken to reflect mental trajectories (Spivey et al., 2005).
+   - See Spivey (2025) as well.
+
+## Variations
+
+-   Can be run online (less costly, e.g., large-scale experiments; wider audience e.g., clinical groups).
+-   Computer requirements.
+-   Participant instructions (e.g., emphasize they need to move the mouse, but not too much!).
+-   Eye movements are temporally sensitive, mouse movements are spatially sensitive.
+-   Motor movements are delayed in comparison to eye movements (Farmer et al., 2007).
+
+## Variations
+
+-   Web-cam tracking e.g., Slim & Hartsuiker, 2023
+    -   ROIs size
+    -   Display size
+
+## Pre-processing
+
+## Raw data
+
+The eye-tracker is actually just recording gaze coordinates on the screen (i.e., gaze points) as well as timestamps in each interval (defined by the sampling rate).
+
+It also includes:
+
+-   Timestamps for stimuli on- and offsets (i.e., the triggers/messages we sent).
+-   Timestamps for participants' responses.
+-   What they responded.
+-   Trial information.
+
+## Raw data
+
+ASCIII files
+
+-   Sampling rate
+-   x,y coordinates of gaze
+
+![](_images/_session5/asciii1.JPG){fig-align="center"}
+
+::: notes
+EDF in text format. DV applies algorithms to convert this to a more user-friendly format. Here: some info about the eye-tracker and coordinates for calibration points.
+:::
+
+## Data Viewer
+
+EDF files
+
+::: columns
+::: {.column width="50%"}
+<br> <br>
+
+-   Conversion of ASCIII files.
+:::
+
+::: {.column width="50%"}
+![](_images/_session5/8.png){fig-align="center"}
+
+![](_images/_session5/20.png){fig-align="center"}
+:::
+:::
+
+## Data Viewer
+
+EDF files
+
+::: columns
+::: {.column width="50%"}
+<br> <br>
+
+-   List of all participants and trials from each participant.
+-   List of all events pertaining to each trial.
+:::
+
+::: {.column width="50%"}
+![](_images/_session5/34.png)
+:::
+:::
+
+# Pre-processing
+
+## Software
+
+Licensed software
+
+-   User-friendly, no need to code.
+-   A function of your eye-tracker.
+    -   Data Viewer - EyeLink (SR Research)
+    -   Tobii Pro Studio/Lab - Tobii
+    -   BeGaze - SMI
+
+Open software
+
+-   MATLAB, Python, R packages.
+    -   gazeR, eyetrackingR
+
+## Data processing
+
+All steps:
+
+-   Pre-process data
+-   Export data
+-   Visualization
+-   Data wrangling
+-   Analysis
+
+## Data processing
+
+Today:
+
+-   [Pre-process data]{.fg style="--col: #e64173"}
+-   [Export data for analysis]{.fg style="--col: #e64173"}
+-   Visualization
+-   Data wrangling
+-   Analysis
+
+## Data pre-processing
+
+1.  Import data into software
+2.  Assess data
+    -   Checks
+3.  (Automatized) cleaning
+4.  Prepare data for analysis & export
+    -   Time windows
+    -   Areas of Interest
+
+## Import data
+
+Different software = different data files.
+
+-   Data Viewer: .edf files
+-   R packages: ASCIII files; reports from DV
+
+Different software = additional steps.
+
+-   R packages: binning, assigning AIs...
+
+## Assess data
+
+Two aspects:
+
+-   Pre-processing due to eye movements.
+    -   Short/long fixations, track loss.
+-   Pre-processing due to participants.
+    -   Missed trials, participation criteria.
+
+## Assess data
+
+\~ Sanity check (!= visualization)
+
+-   Does everything make sense?
+-   Is there anything missing?
+    -   Trial-by-trial visual check
+
+::: notes
+Espe: have them think of AIs, missing timestamps, missing participants/trials...
+:::
+
+## Assess data
+
+Unusable participants
+
+-   Rare
+-   File corrupted?
+    -   Lab log
+    -   Example: A participant blinked too much during the experiment, too many unusable trials.
+    -   If large data loss, it may be easier to exclude the participant.
+
+## Assess data
+
+Unusable trials
+
+-   More common
+-   Poor calibration (cf. drift correction)?
+    -   Umbrella term: "track loss" (could mean anything: participant sneezed, distraction, too fast)
+-   Field-specific
+-   Lab log!
+
+## Assess data
+
+Common sense + **lab log**
+
+-   Remove participants (lab log? other exclusion criteria?)
+-   Items to discard
+    -   Misunderstood sentences?
+    -   Unforeseen confounds?
+
+![](_images/_session5/ex_loglab.JPG){fig-align="center"}
+
+## Cleaning
+
+-   Keep a **log of all changes** (trial & participant exclusion)
+    -   Especially if you did not save the viewing session.
+    -   Write up e.g., % trials removed.
+
+Try to think ahead (pre-registration!) and report all your steps and motivation.
+
+![](_images/_session5/reading_cleaning_logbook.png){fig-align="center"}
+
+## Exporting
+
+Prepare data to be analysed elsewhere (e.g., R, SPSS).
+
+Data Viewer has different reports.
+
+![](_images/_session5/9.png)
+
+# Visual World Paradigm pipeline
+
+## Visual World Paradigm pipeline
+
+Spoiler: No standardisation of a pre-processing pipeline
+
+::: columns
+::: {.column width="30%"}
+![Knoeferle & Crocker, 2006](_images/_session5/knoerfele1.JPG)
+:::
+
+::: {.column width="30%"}
+![Arantzeta et al., 2017](_images/_session5/basque.JPG)
+:::
+
+::: {.column width="30%"}
+![Apfelbaum et al., 2021](_images/_session5/names.JPG)
+:::
+:::
+
+## Visual World Paradigm pipeline
+
+Example: eyetrackingR package
+
+::: columns
+::: {.column width="30%"}
+![](_images/_session5/eyetrackingR1.JPG){fig-align="left"}
+:::
+
+::: {.column width="70%"}
+![](_images/_session5/eyetrackingR2.JPG){fig-align="right"}
+:::
+:::
+
+## VWP: Assess data
+
+-   Are triggers there?
+    -   And with the correct timing?\*
+-   Are IAs there?
+    -   And with the correct labels?
+
+## VWP: Assess data
+
+Fixations etc. across the screen (both in defined AIs and elsewhere).
+
+-   What do we look for?
+    -   \~ Subjective decisions, e.g., not looking \~ not processing speech
+    -   Individual differences, e.g., different strategies (L1 v L2)
+-   Inspect trials with unusual behaviour for that participant?
+
+## VWP: Assess data
+
+Track loss
+
+-   Trial report: AVERAGE_BLINK_DURATION, BLINK_DURATION, IP_DURATION
+-   Proportion of track loss computed as: (AVERAGE_BLINK_DURATION \* BLINK_COUNT) / IP_DURATION
+    -   But this will also include blinks!
+-   Not common to encounter this step in reports.
+    -   Kids vs. adults
+-   Other software will have implemented it differently
+
+::: notes
+Kids blink more, noisy data. It doesn't mean that we don't need to report track loss for adults, just that there are no established criteria for cleaning in VWP, unfortunately.
+:::
+
+## VWP: Pre-process data
+
+**Fixations**, saccades.
+
+::: columns
+::: {.column width="50%"}
+-   (Short and too long) fixations and blinks.
+    -   Merge nearby fixations (thresholds)?
+    -   Merge fixations separated by blink?
+        -   A blink can interrupt a fixation and make it look like two.
+-   Consult literature!
+-   Again, no standard procedure.
+:::
+
+::: {.column width="50%"}
+![](_images/_session5/dv_filter.JPG){height="500px"}
+:::
+:::
+
+## VWP: Pre-process data
+
+Fixations *across time* : Time window of analysis defined by triggers
+
+::: columns
+::: {.column width="50%"}
+Triggers, e.g., target_onset - target_offset
+
+-   Make sure your AIs are displayed when setting TW.
+    -   Preferences \> Data Filters \> Show AIs
+-   What if there is a time-out?
+    -   Strict Event Matching unchecked, Offset message blank
+-   Several TWs possible
+    -   Different reports when exporting
+-   Launching a saccade takes ± 200 ms
+    -   Change Start Event Offset, End Event Offset
+    -   Consult previous literature!
+:::
+
+::: {.column width="50%"}
+![](_images/_session5/27.png)
+:::
+:::
+
+## VWP: Pre-process data
+
+Fixations *across time*: How do we group those fixations?
+
+-   **Time bins**
+    -   Segment the time course into groups of X ms with Y number of samples per ms
+    -   Finer analysis of time course
+    -   Sampling frequency
+
+## VWP: Pre-process data
+
+Recap: sampling rate of X Hz = X number of samples per second.
+
+-   Higher sample rate, less space between samples.
+
+-   1000 Hz is a 1000 sample (one per ms). We can create a bin of 20 ms, that comprises 20 samples.
+
+-   500 Hz would yield 10 samples in a 20 ms bin.
+
+-   Sampling rate also limits the size of our bins!
+
+    -   If we gather a sample every 25 ms (i.e., tracking at 40 Hz, 1000/40), we cannot make 20 ms bins.
+
+-   In Data Viewer = Time binning report
+
+## VWP: Time binning report
+
+-   Time binning report: Only samples on AIs, or also including on-screen samples that are not on AIs?
+    -   Trade-off.
+    -   Affects how *proportions* are calculated.
+    -   But counts are still there.
+
+Familiarity with previous literature is **key**.
+
+## VWP: Time binning report
+
+What does each mean?
+
+-   Across All Samples: Number of samples in each IA/Total number of samples per bin
+-   Across All On-Screen Samples (both defined and undefined): Number of samples in each IA/Sum of samples where fixations landed on IAs and Null interest area[^1].
+-   Across All Samples Assigned to Predefined Interest Areas Only: Number of samples in each IA/Sum of samples where fixations landed on IAs.
+
+[^1]: Areas where we don't have IAs defined (e.g., the center of the screen).
+
+## VWP: Time binning report
+
+What does this really mean?
+
+::: columns
+::: {.column width="50%"}
+Assuming that we have 200 samples in a bin:
+
+-   But 15 are blinks, 30 off-screen events, and 5 are data excluded.
+
+-   There are 50 samples in uncoded areas of interest (i.e., IA 0)
+
+-   There are 10 samples with data for IA 1.
+:::
+
+::: {.column width="50%"}
+-   In the All Samples report:
+
+    -   The proportion of samples related to IA 1 is 5% (10/200)
+
+-   In the All On-Screen Samples:
+
+    -   The proportion of samples related to IA 1 is 6.7% (10/(200 - 30 - 15 - 5))
+
+-   In All Interest Area Samples:
+
+    -   The proportion of samples related to IA 1 is 10% (10/(200 - 30 - 15 - 5 - 50))
+:::
+:::
+
+## VWP: Time binning report
+
+-   All On-Screen
+    -   Overall increased attention towards the images.
+-   All Interest Area Samples
+    -   IA_0 = track loss (trade-off).
+
+::: notes
+Overall increased attention - they look more at pictures than screen in general. They still look more at one picture than the other but magnitude of effect differs depending on report (proportions are different).
+:::
+
+## VWP: Time binning report
+
+IA_0
+
+-   Interesting when exploring some RQs (i.e., do people prefer to not fixate on anything?)
+-   However! You don't know where exactly they were looking at (only that it was not defined!)
+
+## VWP: Time binning report
+
+What do we count as samples for analysis?
+
+-   All Samples in Fixations and Saccades
+-   Exclude Samples during Saccades
+-   Exclude Samples during Saccades and Exclude Bins that Contain Non-Fixation Samples
+
+No straight-forward answer. Things to consider:
+
+-   Fixations and Saccades:
+-   Only fixations: Proportions more 'true' to fixation behaviour **but** also less 'true' to actual behaviour.
+-   Only bins with fixations: Loss of data.
+
+## VWP: Exporting
+
+Time binning report
+
+::: columns
+::: {.column width="50%"}
+-   Choose variables (or just export all)
+-   Define the size of your bin
+-   On-screen events only (unless you want that information)
+-   E.g., samples in fixations and saccades
+-   Separate report unchecked
+:::
+
+::: {.column width="50%"}
+![](_images/_session5/12.png)
+:::
+:::
+
+::: notes
+Espe: they might ask you how come the report doesn't include saccades if you can select the data here: the answer is that here you are deciding whether to count what happened during a saccade. It's a bit difficult to explain, the important bit is that when they write it up they need to report (if they are analysing fixations) if they included samples in saccades or not.
+:::
+
+## VWP: Output
+
+Time binning report
+
+Participant ID (RECORDING_SESSION_LABEL), trial number (TRIAL_LABEL/INDEX) (added automatically by Data Viewer) +
+
+BIN_INDEX: Which bin it is. This will help us figure out time (by taking the bin number and multiplying it by the size of your time bin, but you can also use 'BIN_START_TIME').
+
+![](_images/_session5/7.png)
+
+## VWP: Output
+
+Time binning report
+
+Non-eye movement related variables that we need, i.e., most (except participant ID & trial number) variables that you coded yourself (can be found at the end of the list in blue).
+
+![](_images/_session5/6.png)
+
+## VWP: Output
+
+Time binning report
+
+Variables of interest when looking at fixations: you have duplicated columns per eye. Since you'll most likely do monocular tracking, you'll only need one set.
+
+Information duplicated per Interest Area. If you have two visuals, then two; three visuals, then three, and so on (*IA_x* & Information duplicated per eye). Even if it was monocular recording, it preserves columns for each eye.
+
+-   IA_1_ID, IA_2_ID and so on: The label of the item that was presented in that region (target/distractor).
+-   BIN_SAMPLE_COUNT: The number of samples per bin.
+-   RIGHT_BLINK_SAMPLE_COUNT: Number of samples in a given bin that were a blink.
+
+## VWP: Output
+
+Time binning report
+
+-   RIGHT_IA_1_SAMPLE_COUNT, RIGHT_IA_2_SAMPLE_COUNT and so on[^2]: The number of fixations that fell in that area per bin (out of the number of samples per bin, i.e., if each bin has 10 samples, then it's out of ten).
+-   RIGHT_IA_1_SAMPLE_COUNT\_%, RIGHT_IA_2_SAMPLE_COUNT\_% and so on: The proportion of fixations that fell in that area (i.e., a transformation of count).
+
+[^2]: Or AVERAGE\_, because we have done binocular reading, the average equals the count on our eye recorded.
+
+## VWP: Output
+
+.txt → import in Excel and save as .xlsx or .csv
+
+![](_images/_session5/5.png)
+
+## VWP: Reporting
+
+Data preparation:
+
+-   Number of participants/trials lost to reasons other than eye movements (e.g., % of wrong answers on comprehension questions)
+-   What constitutes a sample e.g., with or without saccades
+-   How samples were calculated e.g., only on areas of interest, or the whole display
+-   How many samples per bin
+-   How many ms per bin
+-   Time window of analysis

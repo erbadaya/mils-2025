@@ -103,6 +103,18 @@ Requirements
 | Day 4 | Lab session                       |            DataViewer, PsychoPy            |
 | Day 5 |  Practice with data & analysis    |    DataViewer, R                           |
 
+# Introduction to eye-tracking
+
+## Today's plan
+
+1. Why do we move our eyes?
+  - The Human Visual System
+  - Visual attention
+2. Eye movements
+3. How do eye-trackers work?
+4. Basics of an eye-tracking experiment
+5. Eye-tracking in language research
+
 ## Why do we move our eyes? The Human Visual System
 
 ::: columns
@@ -1512,6 +1524,22 @@ But what about stimuli? What to control for?
 - Link on Ufora for databases.
 - Each day we'll discuss the specific confounds of each paradigm.
 
+## Side note: Reporting
+
+What to report? (At least):
+
+-   Manufacturer (e.g., SR Research, Tobii) and model of the tracker (e.g., desktop-mounted, tower-mounted).
+-   Eye tracked
+-   Sampling frequency
+-   Size of the monitor, size of stimuli.
+-   Distance participant - camera & participant - monitor.
+-   Calibration and validation (number of points)
+-   Drift correction (position, number of times)
+-   Light (especially in pupillometry studies)
+-   How areas of interest are defined
+
+Ideally: see Dunn et al. (2024)
+
 # Eye-tracking in research
 
 ## Eye-tracking in research
@@ -1580,6 +1608,7 @@ Read (silently) a piece of text
 
 -   We investigate naturalistic reading behaviour to make inferences about underlying linguistic processing mechanisms (lexical access, semantic and syntactic integration, prediction...)
 -   Stimuli of different length (single sentence vs. text), different tasks (skim for gist, answer specific questions, etc.)
+
 
 ## Plan for tomorrow
 
