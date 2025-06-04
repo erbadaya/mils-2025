@@ -1564,8 +1564,7 @@ Badaya &amp; Baltais
 <h2>How do eye-trackers work? Accuracy</h2>
 <p><span class="fg" style="--col: #e64173">Accuracy</span>: Difference between the measurement and its true value.</p>
 <ul>
-<li>Measured in visual angles</li>
-<li>0.5 visual anles. <img data-src="_images/_session1/accuracy.JPG"></li>
+<li>Measured in visual angles <img data-src="_images/_session1/accuracy.JPG"></li>
 </ul>
 </section>
 <section id="how-do-eye-trackers-work-accuracy-1" class="slide level2">
@@ -1581,7 +1580,10 @@ Badaya &amp; Baltais
 </section>
 <section id="how-do-eye-trackers-work-precision" class="slide level2">
 <h2>How do eye-trackers work? Precision</h2>
-<p><span class="fg" style="--col: #e64173">Precision</span>: Ability to reproduce a reliable measurement. <br> - Noise in the data</p>
+<p><span class="fg" style="--col: #e64173">Precision</span>: Ability to reproduce a reliable measurement.</p>
+<ul>
+<li>Noise in the data</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="_images/_session1/precision_accuracy.JPG" class="quarto-figure quarto-figure-center" height="300"></p>
@@ -1811,7 +1813,11 @@ Badaya &amp; Baltais
 <section id="basics-of-an-experiment" class="slide level2">
 <h2>Basics of an experiment</h2>
 <p>Goal: Ensure high quality data + Understand the basics of an eye-tracking experiment</p>
-<p>Two components: - The eye-tracking lab. - The experiment.</p>
+<p>Two components:</p>
+<ul>
+<li>The eye-tracking lab.</li>
+<li>The experiment.</li>
+</ul>
 </section>
 <section id="the-eye-tracking-lab" class="slide level2">
 <h2>The eye-tracking lab</h2>
@@ -1853,7 +1859,7 @@ Badaya &amp; Baltais
 <li>Distance participant - monitor</li>
 <li>Distance participant - camera</li>
 <li>Interplay with screen size.</li>
-<li><span class="bg" style="--col: #e64173">/!\</span> Trackable range of the tracker</li>
+<li>/!\ Trackable range of the tracker</li>
 <li>Constant across participants</li>
 </ul></li>
 </ul>
@@ -1888,6 +1894,10 @@ Badaya &amp; Baltais
 </section>
 <section id="the-eye-tracking-lab-4" class="slide level2">
 <h2>The eye-tracking lab</h2>
+<p>We will discuss how to set up a participant on Thursday. - And share a “manual” of tips.</p>
+</section>
+<section id="the-eye-tracking-lab-5" class="slide level2">
+<h2>The eye-tracking lab</h2>
 <p>What information do you think is sent between the two computers?</p>
 <ul>
 <li>Areas of Interest</li>
@@ -1896,19 +1906,22 @@ Badaya &amp; Baltais
 <li>Stimuli per trial</li>
 <li>…</li>
 </ul>
-<p><span class="bg" style="--col: #e64173">/!\</span> Keep this in mind when coding the experiment.</p>
+<p>/!\ Keep this in mind when coding the experiment.</p>
 </section>
-<section id="the-experiment" class="slide level2">
+<section id="the-experiment" class="slide level2 smaller">
 <h2>The experiment</h2>
 <p>How can I code an eye-tracking experiment?</p>
 <div class="columns">
-<p>:::{.column width = “30%”}</p><p>General commercial software:</p><ul>
+<div class="column" style="width:30%;">
+<p>General commercial software:</p>
+<ul>
 <li>E-Prime</li>
 <li>Presentation</li>
 <li>PsyScope</li>
-</ul><p>Advantages: User-friendly.</p><p>Disadvantages: License.</p>
-</div>
-<p>:::{.column width = “30%”}</p>
+</ul>
+<p>Advantages: User-friendly.</p>
+<p>Disadvantages: License.</p>
+</div><div class="column" style="width:30%;">
 <p>Commercial software associated with eye-tracking hardware</p>
 <ul>
 <li>SMI: Experiment Center</li>
@@ -1917,7 +1930,7 @@ Badaya &amp; Baltais
 </ul>
 <p>Advantages: User-friendly, created with eye-tracking experiments in mind.</p>
 <p>Disadvantages: License (but if you own an eye-tracker, you commonly have one).</p>
-<p>::: :::{.column width = “30%”}</p>
+</div><div class="column" style="width:30%;">
 <p>Programming environments</p>
 <ul>
 <li>MATLAB (Psychophysics Toolbox)</li>
@@ -1925,7 +1938,8 @@ Badaya &amp; Baltais
 </ul>
 <p>Advantages: Free software, nicely documented, versatile, user-friendly interfaces.</p>
 <p>Disadvantages: More complex functionalities require coding (“more intimidating”).</p>
-<p>::: :::</p>
+</div>
+</div>
 </section>
 <section id="the-experiment-1" class="slide level2">
 <h2>The experiment</h2>
@@ -2250,6 +2264,14 @@ Badaya &amp; Baltais
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="fu">et_tracker.sendMessage</span>(<span class="st">'audio_onset'</span>) <span class="co"># Trigger for a specific event</span></span>
 <span id="cb5-2"><a href=""></a><span class="fu">et_tracker.sendMessage</span>(<span class="st">'!V TRIAL_VAR set type %s'</span> % trial[<span class="st">"set_type"</span>]) <span class="co"># Information about the trial</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="the-experiment-4" class="slide level2">
+<h2>The experiment</h2>
+<p>But what about stimuli? What to control for?</p>
+<ul>
+<li>Link on Ufora for databases.</li>
+<li>Each day we’ll discuss the specific confounds of each paradigm.</li>
+</ul>
 </section></section>
 <section>
 <section id="eye-tracking-in-research" class="title-slide slide level1 center">
@@ -2351,6 +2373,18 @@ Badaya &amp; Baltais
 <h2>Plan for tomorrow</h2>
 <ul>
 <li>Install DataViewer</li>
+<li>Read Altmann &amp; Kamide (1999)
+<ul>
+<li>If time allows, read Huettig et al.’s (2011) review on the Visual World Paradigm</li>
+</ul></li>
+</ul>
+<p>Tomorrow we’ll cover:</p>
+<ul>
+<li>Basic set up of the Visual World Paradigm</li>
+<li>Linking hypothesis</li>
+<li>Measures</li>
+<li>Confounds</li>
+<li>Pre-processing</li>
 </ul>
 </section>
 <section id="references" class="slide level2">

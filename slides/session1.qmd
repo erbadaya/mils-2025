@@ -891,7 +891,6 @@ Precision
 [Accuracy]{.fg style="--col: #e64173"}: Difference between the measurement and its true value.
 
 -   Measured in visual angles
-  - 0.5 visual anles.
 ![](_images/_session1/accuracy.JPG)
 
 ## How do eye-trackers work? Accuracy
@@ -904,7 +903,8 @@ Good enough accuracy?
 
 ## How do eye-trackers work? Precision
 
-[Precision]{.fg style="--col: #e64173"}: Ability to reproduce a reliable measurement. <br>
+[Precision]{.fg style="--col: #e64173"}: Ability to reproduce a reliable measurement. 
+
 - Noise in the data
 
 ![From Holmqvist et al., 2011](_images/_session1/precision_accuracy.JPG){fig-align="center" height="300px"}
@@ -1094,6 +1094,7 @@ Combination with other techniques.
 Goal: Ensure high quality data + Understand the basics of an eye-tracking experiment
 
 Two components:
+
   - The eye-tracking lab.
   - The experiment.
 
@@ -1134,7 +1135,7 @@ Hardware set up.
     -   Distance participant - monitor
     -   Distance participant - camera
     -   Interplay with screen size.
-    -   [/!\\]{.bg style="--col: #e64173"} Trackable range of the tracker
+    -   /!\\ Trackable range of the tracker
     -   Constant across participants
 
 All in a sound isolated, no-sunlight room.  
@@ -1163,6 +1164,11 @@ Host PC and camera are connected and synchronized. Host PC and Presentation PC a
 
 ## The eye-tracking lab
 
+We will discuss how to set up a participant on Thursday.
+- And share a "manual" of tips.
+
+## The eye-tracking lab
+
 What information do you think is sent between the two computers?
 
 -   Areas of Interest
@@ -1171,14 +1177,14 @@ What information do you think is sent between the two computers?
 -   Stimuli per trial
 -   ...
 
-[/!\\]{.bg style="--col: #e64173"} Keep this in mind when coding the experiment.
+/!\\ Keep this in mind when coding the experiment.
 
-## The experiment
+## The experiment{.smaller}
 
 How can I code an eye-tracking experiment?
 
-:::columns
-:::{.column width = "30%"}
+::: columns
+::: {.column width="30%"}
 
 General commercial software:
 
@@ -1191,7 +1197,7 @@ Advantages: User-friendly.
 Disadvantages: License.
 
 :::
-:::{.column width = "30%"}
+:::{.column width="30%"}
 
 Commercial software associated with eye-tracking hardware
 
@@ -1204,7 +1210,7 @@ Advantages: User-friendly, created with eye-tracking experiments in mind.
 Disadvantages: License (but if you own an eye-tracker, you commonly have one).
 
 :::
-:::{.column width = "30%"}
+:::{.column width="30%"}
 
 Programming environments
 
@@ -1499,6 +1505,13 @@ et_tracker.sendMessage('audio_onset') # Trigger for a specific event
 et_tracker.sendMessage('!V TRIAL_VAR set type %s' % trial["set_type"]) # Information about the trial
 ```
 
+## The experiment
+
+But what about stimuli? What to control for? 
+
+- Link on Ufora for databases.
+- Each day we'll discuss the specific confounds of each paradigm.
+
 # Eye-tracking in research
 
 ## Eye-tracking in research
@@ -1571,7 +1584,16 @@ Read (silently) a piece of text
 ## Plan for tomorrow
 
 - Install DataViewer
+- Read Altmann & Kamide (1999)
+  - If time allows, read Huettig et al.'s (2011) review on the Visual World Paradigm
 
+Tomorrow we'll cover:
+
+- Basic set up of the Visual World Paradigm
+- Linking hypothesis
+- Measures
+- Confounds
+- Pre-processing
 
 ## References
 
