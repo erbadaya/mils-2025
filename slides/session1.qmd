@@ -28,13 +28,13 @@ Teaching team
 ::: columns
 ::: {.column width="50%"}
 -   Esperanza Badaya
-    -   Research focus: Speech comprehension 
+    -   Research focus: Speech comprehension
     -   esperanza.badaya\@ugent.be
 :::
 
 ::: {.column width="50%"}
 -   Mariia Baltais
-    -   Research focus: Reading 
+    -   Research focus: Reading
     -   mariia.baltais\@ugent.be
 :::
 :::
@@ -60,16 +60,16 @@ Learning objectives
     -   Set up, confounds, measures of interest.
 -   Introduction to eye-tracking data from raw data to analysis.
     -   Data pre-processing, wrangling, models and visualization.
-    
+
 ## Overview of the course
 
 Idea: Work on teams
 
-- Easier to explore data
-- Easier for lab visits
-- Option: Develop an toy experiment.
-  - Template scripts on PsychoPy available.
-    
+-   Easier to explore data
+-   Easier for lab visits
+-   Option: Develop an toy experiment.
+    -   Template scripts on PsychoPy available.
+
 ## Overview of the course
 
 Materials (all available on Ufora and GitHub)
@@ -83,7 +83,7 @@ Materials (all available on Ufora and GitHub)
 
 Requirements
 
-- Install PsychoPy 
+-   Install PsychoPy
 -   Install R, RStudio
     -   version 4.4.1
     -   packages tidyverse, lme4
@@ -92,28 +92,30 @@ Requirements
 -   Readings
     -   Experimental design .pdf
     -   Recommended readings per day
-    
+
 ## Overview of the course
 
-| Date  |              Content              |                 Materials                  |
-|:-------------:|:-----------------------:|:------------------------------:|
-| Day 1 |   Introduction to eye-tracking    |                    None                    |
-| Day 2 |       Visual World Paradigm       | PsychoPy, DataViewer, 2 readings, datasets |
-| Day 3 |              Reading              | DataViewer, 2 readings, datasets           |
-| Day 4 | Lab session                       |            DataViewer, PsychoPy            |
-| Day 5 |  Practice with data & analysis    |    DataViewer, R                           |
+| Date  |            Content            |                 Materials                  |
+|:----------------:|:----------------------:|:-----------------------------:|
+| Day 1 | Introduction to eye-tracking  |                    None                    |
+| Day 2 |     Visual World Paradigm     | PsychoPy, DataViewer, 2 readings, datasets |
+| Day 3 |            Reading            |      DataViewer, 2 readings, datasets      |
+| Day 4 |          Lab session          |            DataViewer, PsychoPy            |
+| Day 5 | Practice with data & analysis |               DataViewer, R                |
 
 # Introduction to eye-tracking
 
 ## Today's plan
 
-1. Why do we move our eyes?
-  - The Human Visual System
-  - Visual attention
-2. Eye movements
-3. How do eye-trackers work?
-4. Basics of an eye-tracking experiment
-5. Eye-tracking in language research
+1.  Why do we move our eyes?
+
+-   The Human Visual System
+-   Visual attention
+
+2.  Eye movements
+3.  How do eye-trackers work?
+4.  Basics of an eye-tracking experiment
+5.  Eye-tracking in language research
 
 ## Why do we move our eyes? The Human Visual System
 
@@ -133,12 +135,11 @@ Important parts of the eye's anatomy:
 ![](_images/_session1/eye_anatomy.png)
 :::
 :::
-  
+
 ## Why do we move our eyes? The Human Visual System
 
 ::: columns
 ::: {.column width="50%"}
-
 -   Light hits the cornea.
     -   Some light is reflected (Purkinje reflections)
 -   Light enters the eye via the pupil.
@@ -159,15 +160,14 @@ The fovea is a small section of our [visual field]{.fg style="--col: #e64173"}.
 
 -   Space respect to our eyes that we can perceive.
 -   Measured in visual angles.
-    - Interplay between distance and size.
-    - Important for stimuli presentation.
+    -   Interplay between distance and size.
+    -   Important for stimuli presentation.
 :::
 
 ::: {.column width="50%"}
 ![](_images/_session1/central_vision.png)
 :::
 :::
-
 
 ## Why do we move our eyes? The Human Visual System
 
@@ -191,7 +191,6 @@ Retina:
 
 ::: columns
 ::: {.column width="50%"}
-
 -   Light hits the cornea.
     -   Some light is reflected (Purkinje reflections)
 -   Light enters the eye via the pupil.
@@ -215,7 +214,7 @@ Photoreceptors with different properties (e.g., spectral sensitivity, photopigme
     -   [Black and white]{.fg style="--col: #e64173"}.
     -   Low-light conditions (scotopic vision).
 
-## Why do we move our eyes? The Human Visual System{.smaller}
+## Why do we move our eyes? The Human Visual System {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -278,11 +277,11 @@ Attention determines what we process and the detail of the representation built.
 ![Open University](_images/_session1/endogenous.jpg)
 :::
 :::
-  
+
 ## Why do we move our eyes? Visual attention
 
 ![](_images/_session1/natural_environment.PNG)
-  
+
 ## Why do we move our eyes? Visual attention
 
 Yarbus (1960): Scanpaths guided by attention.
@@ -331,17 +330,17 @@ We only have access to overt attention.
 
 Description v [cognitive processes]{.fg style="--col: #e64173"}
 
-- Linking hypotheses & assumptions
-  - Often times, lack of an explicit link.
-  - Underlying assumptions not explicit.
-  
+-   Linking hypotheses & assumptions
+    -   Often times, lack of an explicit link.
+    -   Underlying assumptions not explicit.
+
 . . .
-  
+
 Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just & Carpenter, 1980).
 
-  -   [Where]{.fg style="--col: #e64173"} we look indicates [what we are processing]{.fg style="--col: #e64173"}, [for how long we look]{.fg style="--col: #e64173"} indicates the [cognitive effort it takes to process it]{.fg style="--col: #e64173"}.
-  - Contestable.
-  - Underlying assumptions: Serial processing.
+-   [Where]{.fg style="--col: #e64173"} we look indicates [what we are processing]{.fg style="--col: #e64173"}, [for how long we look]{.fg style="--col: #e64173"} indicates the [cognitive effort it takes to process it]{.fg style="--col: #e64173"}.
+-   Contestable.
+-   Underlying assumptions: Serial processing.
 
 ## Why do we do it?
 
@@ -354,13 +353,13 @@ Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just
 
 ## Nature of eye-movements
 
--   One dominant eye[^2].
+-   One dominant eye[^1].
 -   Binocular disparity:
     -   Relatively small in healthy subjects.
     -   Decreases over the time of a fixation.
     -   No complete temporal synchrony in eye movements.
 
-[^2]: More on this when we cover properly the lab set up.
+[^1]: More on this when we cover properly the lab set up.
 
 ## Eye movements
 
@@ -379,12 +378,44 @@ Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just
 **What eye movements can you think of?**
 
 ::: incremental
--   Fixations.
 -   Saccades.
+-   Fixations.
 -   Blinks.
 -   Smooth pursuit.
 -   Pupil size changes.
 :::
+
+## Eye movements: Saccades
+
+"Jerky" movement: Fast movement of the eye, usually from one fixation to another.
+
+-   Temporary blindness (i.e., [saccadic suppression]{.fg style="--col: #e64173"}).
+-   Reactive saccades versus Voluntary saccades.
+    -   Sudden appearance of an object versus Exploration.
+
+## Eye movements: Saccades
+
+Parameters
+
+-   Amplitude: distance travelled.
+    -   Average: 15°.
+-   Temporal parameters (onset, offset, duration).
+    -   Average duration: 30 - 80 ms.
+-   Direction: Forward and backwards (i.e., regressions) saccades.
+-   Accuracy: Over- and under-shooting.
+    -   In simple lab conditions, fall slightly short of the target, thus followed by a small corrective saccade.
+
+## Eye movements: Saccades
+
+Forward and backwards (i.e., regressions) saccades.
+
+-   Short and long regressions.
+
+![Conklin et al. (2018)](_images/_session1/example_reading.JPG){fig-align="center"}
+
+## Eye movements: Fixation
+
+![](_images/_session1/fixation_saccades.png){fig-align="center"}
 
 ## Eye movements: Fixations
 
@@ -395,6 +426,8 @@ When our eye 'stops' i.e., multiple gaze points close in time and/or space.
 -   Average duration: 200 - 300 ms.
 
 -   Minimal duration: 20 - 50 ms (not standard).
+- Refraction period + Voluntary period
+- Oculomotor delay
 
 <br>
 
@@ -429,37 +462,6 @@ When our eye 'stops'.
 :::
 :::
 
-## Eye movements: Saccades
-
-![](_images/_session1/fixation_saccades.png){fig-align="center"}
-
-## Eye movements: Saccades
-
-"Jerky" movement: Fast movement of the eye, usually from one fixation to another.
-
--   Temporary blindness (i.e., [saccadic suppression]{.fg style="--col: #e64173"}).
--   Reactive saccades versus Voluntary saccades.
-    -   Sudden appearance of an object versus Exploration.
-
-## Eye movements: Saccades
-
-Parameters
-
--   Amplitude: distance travelled.
-    -   Average: 15°.
--   Temporal parameters (onset, offset, duration).
-    -   Average duration: 30 - 80 ms.
--   Direction: Forward and backwards (i.e., regressions) saccades.
--   Accuracy: Over- and under-shooting.
-    -   In simple lab conditions, fall slightly short of the target, thus followed by a small corrective saccade.
-    
-## Eye movements: Saccades
-
-Forward and backwards (i.e., regressions) saccades.
-
--   Short and long regressions.
-
-![Conklin et al. (2018)](_images/_session1/example_reading.JPG){fig-align="center"}
 
 ## Eye movements: Blinks
 
@@ -468,7 +470,7 @@ By necessity, people blink.
 -   Usually, surrounded by saccades.
 -   Pupil changes when eyelids open/close.
 -   Lab conditions.
-- Cognitive effort.
+-   Cognitive effort.
 
 ## Eye movements: Smooth pursuit
 
@@ -566,15 +568,14 @@ Eye movements can be later operationalised as a function of the research questio
 
 ## Eye movements: Space
 
-We talk about [Areas of Interest (AOI)]{.fg style="--col: #e64173"}[^3].
+We talk about [Areas of Interest (AOI)]{.fg style="--col: #e64173"}[^2].
 
-[^3]: Or Regions of Interest (ROI), Interest Area (IA)
+[^2]: Or Regions of Interest (ROI), Interest Area (IA)
 
 -   Use to explore eye movements around them.
-- /!\\ Consequences for experimental design and coding.
+-   /!\\ Consequences for experimental design and coding.
 
-![](_images/_session1/example_IA.jpg){fig-align="center"}
-## Eye movements: Space x Time
+![](_images/_session1/example_IA.jpg){fig-align="center"} \## Eye movements: Space x Time
 
 Speech comprehension
 
@@ -584,7 +585,7 @@ Reading
 
 -   Timed measures: first fixation duration, total reading time.
     -   How long did a person spent reading a certain word the first time they saw it?
-    
+
 ## Eye movements: Conceptualisation
 
 Field-specific
@@ -595,13 +596,13 @@ Field-specific
 ::: notes
 Obviously, when we conduct an ET exp for eye movements, we may use this measurements 'raw', but in some cases, they can be further divided, and how they link to a cognitive process may differ as a function of the field
 :::
-  
+
 ## Eye movements: Conceptualisation
 
 How do you think you can link these eye movements to language research?
 
-- What are the links?
-- What are your predictions?
+-   What are the links?
+-   What are your predictions?
 
 ## Eye movements: Conceptualisation
 
@@ -611,8 +612,7 @@ Lots of ways to convey information: Example: Reading
 
 -   Fixations and saccades grouped into early/intermediate/late measures
     -   Which map onto different hypothesized processes
-    
-- /!\\ Linking hypothesis
+-   /!\\ Linking hypothesis
 :::
 
 ::: {.row height="60%"}
@@ -621,10 +621,9 @@ Lots of ways to convey information: Example: Reading
 :::
 
 ::: notes
-Not going into this, I will only mention this briefly e.g., in reading, for example, the duration of fixations can be subdivided into the first fixation, the amount of fixations on an area of interest etc. and those are believed to map onto different stages of reading comprehension
-Ask yourself: What are your predictions?
+Not going into this, I will only mention this briefly e.g., in reading, for example, the duration of fixations can be subdivided into the first fixation, the amount of fixations on an area of interest etc. and those are believed to map onto different stages of reading comprehension Ask yourself: What are your predictions?
 :::
-  
+
 ## Eye movements
 
 -   There are five major eye movements (or events) that an eye-tracker can capture.
@@ -710,7 +709,7 @@ Now you can see why nowadays eye-tracking is non-invasive.
 :::
 :::
 :::
-  
+
 ## How do eye-trackers work?
 
 -   Detects gaze and records its x and y coordinates on the screen.
@@ -775,13 +774,13 @@ Why pupil and corneal reflection?
 -   A 'two-points of reference' system.
     -   Distance between pupil and corneal reflection changes with eye rotation, but is relatively [constant]{.fg style="--col: #e64173"} with head movements.
     -   Pupil position - CR position.
-    
+
 ## How do eye-trackers work?
 
 Monocular or binocular recording?
 
-- Usually: One eye (assumption: synchrony).
-- **But**: Depends on your research question (e.g., microsaccades), compensate for data loss.
+-   Usually: One eye (assumption: synchrony).
+-   **But**: Depends on your research question (e.g., microsaccades), compensate for data loss.
 
 ## How do eye-trackers work?
 
@@ -835,15 +834,15 @@ Example: 50 Hz sampling frequency.
 [This is why sampling frequency matters]{.fg style="--col: #e64173"}.
 
 -   Depends on your measure of interest, e.g., reading versus observing a scene.
-  -   [Reading]{.fg style="--col: #e64173"} usually requires [higher]{.fg style="--col: #e64173"} sampling frequency because of the measures of interest.
-  
+-   [Reading]{.fg style="--col: #e64173"} usually requires [higher]{.fg style="--col: #e64173"} sampling frequency because of the measures of interest.
+
 ## How do eye-trackers work?: Sampling frequency
 
 How small (or slow) can you go with the sampling frequency?
 
 -   Nyquist-Shannon sampling theorem
     -   Twice as large as the event you want to measure.
-    
+
 In reality, more like 'rule-of-thumb'.
 
 ## How do eye-trackers work?: Sampling frequency
@@ -852,7 +851,7 @@ How small (or slow) can you go with the sampling frequency?
 
 Relationship between sampling error, sampling frequency, and [data points]{.fg style="--col: #e64173"}.
 
--   Lower sampling frequencies => more data points (power).
+-   Lower sampling frequencies =\> more data points (power).
     -   NB: More data points might not be the solution.
 
 Conventional: min. 500 Hz for picture viewing, min. 1000 Hz for reading.
@@ -897,27 +896,26 @@ Precision
 -   Temporal precision: Standard deviation of delays from actual movements until they are marked (eye-tracker latencies).
 :::
 :::
-  
+
 ## How do eye-trackers work? Accuracy
 
 [Accuracy]{.fg style="--col: #e64173"}: Difference between the measurement and its true value.
 
--   Measured in visual angles
-![](_images/_session1/accuracy.JPG)
+-   Measured in visual angles ![](_images/_session1/accuracy.JPG)
 
 ## How do eye-trackers work? Accuracy
 
 Good enough accuracy?
 
-- Reseach question e.g., AOI
-  - Size
-  - Location
+-   Reseach question e.g., AOI
+    -   Size
+    -   Location
 
 ## How do eye-trackers work? Precision
 
-[Precision]{.fg style="--col: #e64173"}: Ability to reproduce a reliable measurement. 
+[Precision]{.fg style="--col: #e64173"}: Ability to reproduce a reliable measurement.
 
-- Noise in the data
+-   Noise in the data
 
 ![From Holmqvist et al., 2011](_images/_session1/precision_accuracy.JPG){fig-align="center" height="300px"}
 
@@ -1093,11 +1091,11 @@ Combination with other techniques.
 
 -   Relatively expensive.
     -   In terms of money: up to 30,000 e (but in comparison to EEG?).
-    -   In terms of time: one participant at a time[^5].
+    -   In terms of time: one participant at a time[^3].
 -   Trade-off between accuracy and ecological validity.
 -   Participants' criteria.
 
-[^5]: Dual eye-tracking experiments are being done!
+[^3]: Dual eye-tracking experiments are being done!
 
 # How is an eye-tracking experiment?
 
@@ -1107,8 +1105,8 @@ Goal: Ensure high quality data + Understand the basics of an eye-tracking experi
 
 Two components:
 
-  - The eye-tracking lab.
-  - The experiment.
+-   The eye-tracking lab.
+-   The experiment.
 
 ## The eye-tracking lab
 
@@ -1138,7 +1136,7 @@ Hardware
 ![](_images/_session1/lab_setup2.jpg){fig-align="center"}
 :::
 :::
-  
+
 ## The eye-tracking lab
 
 Hardware set up.
@@ -1150,7 +1148,7 @@ Hardware set up.
     -   /!\\ Trackable range of the tracker
     -   Constant across participants
 
-All in a sound isolated, no-sunlight room.  
+All in a sound isolated, no-sunlight room.
 
 ## The eye-tracking lab
 
@@ -1176,8 +1174,7 @@ Host PC and camera are connected and synchronized. Host PC and Presentation PC a
 
 ## The eye-tracking lab
 
-We will discuss how to set up a participant on Thursday.
-- And share a "manual" of tips.
+We will discuss how to set up a participant on Thursday. - And share a "manual" of tips.
 
 ## The eye-tracking lab
 
@@ -1191,13 +1188,12 @@ What information do you think is sent between the two computers?
 
 /!\\ Keep this in mind when coding the experiment.
 
-## The experiment{.smaller}
+## The experiment {.smaller}
 
 How can I code an eye-tracking experiment?
 
 ::: columns
 ::: {.column width="30%"}
-
 General commercial software:
 
 -   E-Prime
@@ -1207,10 +1203,9 @@ General commercial software:
 Advantages: User-friendly.
 
 Disadvantages: License.
-
 :::
-:::{.column width="30%"}
 
+::: {.column width="30%"}
 Commercial software associated with eye-tracking hardware
 
 -   SMI: Experiment Center
@@ -1220,10 +1215,9 @@ Commercial software associated with eye-tracking hardware
 Advantages: User-friendly, created with eye-tracking experiments in mind.
 
 Disadvantages: License (but if you own an eye-tracker, you commonly have one).
-
 :::
-:::{.column width="30%"}
 
+::: {.column width="30%"}
 Programming environments
 
 -   MATLAB (Psychophysics Toolbox)
@@ -1232,18 +1226,17 @@ Programming environments
 Advantages: Free software, nicely documented, versatile, user-friendly interfaces.
 
 Disadvantages: More complex functionalities require coding ("more intimidating").
+:::
+:::
 
-:::
-:::
-  
 ## The experiment
 
 Focus of this course: **PsychoPy**
 
-- Templates on Ufora & GitHub
-- Minimal knowledge required
-  - Edit excel file (design & stimuli)
-  - Minimal changes with functions
+-   Templates on Ufora & GitHub
+-   Minimal knowledge required
+    -   Edit excel file (design & stimuli)
+    -   Minimal changes with functions
 
 ## The experiment
 
@@ -1447,7 +1440,7 @@ VWP
 -   Blank space!
 :::
 :::
-  
+
 ## Areas of Interest
 
 ::: columns
@@ -1465,8 +1458,7 @@ Careful definition of AIs.
 ::: {.column width="50%"}
 VWP
 
-- Margins
-
+-   Margins
 :::
 :::
 
@@ -1519,10 +1511,10 @@ et_tracker.sendMessage('!V TRIAL_VAR set type %s' % trial["set_type"]) # Informa
 
 ## The experiment
 
-But what about stimuli? What to control for? 
+But what about stimuli? What to control for?
 
-- Link on Ufora for databases.
-- Each day we'll discuss the specific confounds of each paradigm.
+-   Link on Ufora for databases.
+-   Each day we'll discuss the specific confounds of each paradigm.
 
 ## Side note: Reporting
 
@@ -1609,20 +1601,19 @@ Read (silently) a piece of text
 -   We investigate naturalistic reading behaviour to make inferences about underlying linguistic processing mechanisms (lexical access, semantic and syntactic integration, prediction...)
 -   Stimuli of different length (single sentence vs. text), different tasks (skim for gist, answer specific questions, etc.)
 
-
 ## Plan for tomorrow
 
-- Install DataViewer
-- Read Altmann & Kamide (1999)
-  - If time allows, read Huettig et al.'s (2011) review on the Visual World Paradigm
+-   Install DataViewer
+-   Read Altmann & Kamide (1999)
+    -   If time allows, read Huettig et al.'s (2011) review on the Visual World Paradigm
 
 Tomorrow we'll cover:
 
-- Basic set up of the Visual World Paradigm
-- Linking hypothesis
-- Measures
-- Confounds
-- Pre-processing
+-   Basic set up of the Visual World Paradigm
+-   Linking hypothesis
+-   Measures
+-   Confounds
+-   Pre-processing
 
 ## References
 

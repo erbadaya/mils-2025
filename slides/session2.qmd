@@ -29,12 +29,12 @@ Any questions from yesterday?
 
 ## Today's plan
 
-1. Introduction
-2. Basic set up
-3. Trial sequence
-4. Linking hypothesis
-5. Confounds
-6. Pre-processing of data
+1.  Introduction
+2.  Basic set up
+3.  Trial sequence
+4.  Linking hypothesis
+5.  Confounds
+6.  Pre-processing of data
 
 ## Visual World Paradigm
 
@@ -87,7 +87,6 @@ Different populations
 -   Children
 -   Aphasic patients (e.g., Mirman et al., 2011)
 -   Non-native listeners (e.g., Ito et al., 2018)
-
 
 ## Visual World Paradigm
 
@@ -776,7 +775,7 @@ Mouse-tracking e.g., King et al., 2019
 
 -   Same logic as eye-tracking: track x,y coordinates every X ms (bounded by refresh rate)
 -   Motor movements taken to reflect mental trajectories (Spivey et al., 2005).
-   - See Spivey (2025) as well.
+-   See Spivey (2025) as well.
 
 ## Variations
 
