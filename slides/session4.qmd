@@ -1,0 +1,241 @@
+---
+title: "Lab set up"
+author: "Badaya & Baltaiis"
+format: 
+   clean-revealjs:
+    logo: images/logo_mils.png
+    footer: "Introduction to eye-tracking"
+    include-in-header: 
+      text: |
+        <style>
+        .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 40%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+editor: visual
+---
+
+## Lab set up
+
+These slides are meant to support what we will cover on Thursday during our lab visit. The idea is that by having them, you won't feel the need to take as many notes. With that being said, there are details that we will mention in the lab visit that might not be here: This is not meant to be an exhaustive list of all the possible solutions for the problems one may experience while running an eye-tracking experiment. Here, we have listed the produce and solutions for the most common issues.
+
+## Structure of an eye-tracking experiment
+
+1.  Set up
+
+    -   Welcome participant, instructions
+        -   Including introduction to the eye-tracker
+    -   Check make up
+    -   Camera set up
+        -   Checks prior to experiment
+            -   Comfortable seating
+            -   Focus
+            -   Corners & areas of interest
+            -   Automatic & adjust thresholding
+
+2.  Experiment
+
+3.  After it
+
+## Structure of an eye-tracking experiment
+
+1.  Set up
+
+2.  Experiment
+
+    -   Calibration & validation
+    -   Practice trials & familiarisation (optional)
+    -   Experimental phase (recording sequence, block division - optional)
+        -   (Drift correction) Stimulus --\> Trigger --\> Follow-up
+        -   Goodbye screen
+
+3.  After it
+
+## Structure of an eye-tracking experiment
+
+1.  Set up
+
+2.  Experiment
+
+3.  After it
+
+    -   Post-experimental questionnaires & debriefing.
+
+## Participant set up
+
+Briefing
+
+-   Explain the experiment and allow them to ask questions.
+    -   Add instructions to the experiment & practice sessions.
+-   Let them know in advance the experiment structure (e.g., calibration \> validation \> experiment (practice if there is)).
+-   Explain (briefly) how the eye-tracker works.
+
+. . .
+
+Tempted to ask to not blink?
+
+-   Not blinking leads to dry eyes, and ultimately more blinking.
+-   Instead: Tell them when it is preferred for them to blink (if you decide to mention anything).
+
+## Participant set up
+
+Adjust seating
+
+-   Chinrest
+-   Chair height
+-   Sitting straight
+-   Head against foreheadrest, chin over chinrest.
+
+## Camera set up
+
+::: columns
+::: {.column width="50%"}
+Access to eye image
+
+-   Hidden image: set-up is automatic.
+    -   Easier to handle but potential for poorer data quality, e.g., data recording issues may go unnoticed.
+-   [Access]{.fg style="--col: #e64173"} to image.
+    -   Need for technical knowledge.
+:::
+
+::: {.column width="50%"}
+![](_images/_session1/host_pc_setup.JPG)
+:::
+:::
+
+## Camera set up
+
+Which eye to track? 
+
+- Dominant eye (by default, right eye)
+  - Ideally, eye dominance test.
+
+Detect the eye
+
+::: columns
+::: {.column width="50%"}
+![](_images/_session1/eye_undetected.JPG){height="300px"}
+:::
+
+::: {.column width="50%"}
+![](_images/_session1/eye_detected.JPG){height="300px"}
+:::
+:::
+
+## Camera set up
+
+Focus
+
+::: columns
+::: {.column width="50%"}
+![](_images/_session1/unfocused_camera.JPG){height="300px"}
+:::
+
+::: {.column width="50%"}
+![](_images/_session1/eye_detected.JPG){height="300px"}
+:::
+:::
+
+## Camera set up
+
+::: columns
+::: {.column width="50%"}
+<br> <br> <br>
+
+-   P-CR tracking:
+    -   Dark blue pupil
+    -   Light blue CR
+:::
+
+::: {.column width="50%"}
+![](_images/_session1/good_captureeye1.png) ![](_images/_session1/good_pupil.png)
+:::
+:::
+
+## Camera set up
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+Automatic thresholding + adjustments
+
+-   Reflections = impossible eye movements
+
+Pupil tracking
+
+-   Centroid versus Ellipse
+:::
+
+::: {.column width="50%"}
+![](_images/_session1/options.jpg){height="550px"}
+:::
+:::
+
+## Camera set up
+
+-   Ask them to move their eyes around the corners of the screen
+    -   Notice whether we lose track at any place
+    -   Especially near your AIs
+    -   Ensure pupil is not covered
+        -   E.g., hair, glasses frame
+
+## Camera set up: Issues
+
+-   No mascara
+    -   Dark lashes lead to issues -\> confounded with the pupil.
+-   Eyelids
+    -   Cover the pupil in lower gaze directions
+    -   An issue in some cases (e.g., tired participants)
+    -   Recording from lower then useful.
+
+## Camera set up: Issues
+
+-   Glasses
+    -   Darker image -\> issues in thresholding
+    -   Clean glasses
+    -   Adjust contrast/brightness
+-   Glasses
+    -   Reflect infrared light
+    -   Clean glasses
+    -   Move camera (angle rather than distance)
+        -   Place reflections far away from pupil and CR
+    -   Move mirror (only possible in tower-mounted eye-trackers)
+
+## Camera set up: Issues
+
+-   Contact lenses
+    -   Air bubbles between eye and contact lense interact with CR
+        -   Camera focus
+-   Wet eyes
+    -   Split up the CR
+        -   Breaks
+        -   Stop the experiment
+        -   Dim the light in the lab
+        -   Tell the participant to go home
+        
+## During the experiment
+
+During trials
+
+-   Lab log
+    -   Adjustments/recalibrations
+    -   Sneezes, sounds
+    -   Data cleaning
+    -   Blinking
+    -   Are they moving their lips while they read?
+    
+## End of experiment
+
+Any additional data you may want to explore in relation to eye-tracking data.
+
+-   Language proficiency?
+-   Personality traits?
+
+Debriefing
+
+See also Rodriguez Ronderos et al. (2018) - Eye Tracking During Visually Situated Language Comprehension: Flexibility and Limitations in Uncovering Visual Context Effects.
