@@ -47,7 +47,6 @@ What about yourselves?
 -   Research interest
 -   Goal for this course?
 
-/!\\ Please fill in this survey.
 
 ## Overview of the course
 
@@ -63,19 +62,9 @@ Learning objectives
 
 ## Overview of the course
 
-Idea: Work on teams
-
--   Easier to explore data
--   Easier for lab visits
--   Option: Develop an toy experiment.
-    -   Template scripts on PsychoPy available.
-
-## Overview of the course
-
 Materials (all available on Ufora and GitHub)
 
 -   Slides
--   Template scripts in PsychoPy
 -   Eye-tracking datasets
 -   Further resources (papers & book chapters)
 
@@ -83,24 +72,26 @@ Materials (all available on Ufora and GitHub)
 
 Requirements
 
--   Install PsychoPy
--   Install R, RStudio
-    -   version 4.4.1
-    -   packages tidyverse, lme4
 -   Install DataViewer
     -   version 4.4.1
 -   Readings
     -   Experimental design .pdf
     -   Recommended readings per day
 
+Optional:
+
+-   Install R, RStudio
+    -   version 4.4.1
+    -   packages tidyverse, lme4
+
 ## Overview of the course
 
 | Date  |            Content            |                 Materials                  |
 |:----------------:|:----------------------:|:-----------------------------:|
 | Day 1 | Introduction to eye-tracking  |                    None                    |
-| Day 2 |     Visual World Paradigm     | PsychoPy, DataViewer, 2 readings, datasets |
+| Day 2 |     Visual World Paradigm     | DataViewer, 2 readings, datasets |
 | Day 3 |            Reading            |      DataViewer, 2 readings, datasets      |
-| Day 4 |          Lab session          |            DataViewer, PsychoPy            |
+| Day 4 |          Lab session          |            None                            |
 | Day 5 | Practice with data & analysis |               DataViewer, R                |
 
 # Introduction to eye-tracking
@@ -108,10 +99,6 @@ Requirements
 ## Today's plan
 
 1.  Why do we move our eyes?
-
--   The Human Visual System
--   Visual attention
-
 2.  Eye movements
 3.  How do eye-trackers work?
 4.  Basics of an eye-tracking experiment
@@ -331,15 +318,15 @@ We only have access to overt attention.
 Description v [cognitive processes]{.fg style="--col: #e64173"}
 
 -   Linking hypotheses & assumptions
-    -   Often times, lack of an explicit link.
-    -   Underlying assumptions not explicit.
+    - Operational link between a response and a hypothesized process.
+      -   Often times, lack of an explicit link.
+      -   Underlying assumptions not explicit.
 
 . . .
 
 Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just & Carpenter, 1980).
 
 -   [Where]{.fg style="--col: #e64173"} we look indicates [what we are processing]{.fg style="--col: #e64173"}, [for how long we look]{.fg style="--col: #e64173"} indicates the [cognitive effort it takes to process it]{.fg style="--col: #e64173"}.
--   Contestable.
 -   Underlying assumptions: Serial processing.
 
 ## Why do we do it?
@@ -367,15 +354,17 @@ Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just
 **What eye movements can you think of?**
 
 ::: incremental
--   Think of how we talk about things: we [fixate]{.fg style="--col: #e64173"} on things, we [move]{.fg style="--col: #e64173"} our eyes.
+-   Think of how we talk about things: we [move]{.fg style="--col: #e64173"} our eyes, we [look at]{.fg style="--col: #e64173"} things.
 -   We also [blink]{.fg style="--col: #e64173"}.
--   We can also measure [pupil size]{.fg style="--col: #e64173"}.
+-   Our [pupils]{.fg style="--col: #e64173"} change in size.
 :::
 :::
 
 ## Eye movements
 
+::: {style="text-align: center"}
 **What eye movements can you think of?**
+:::
 
 ::: incremental
 -   Saccades.
@@ -433,6 +422,10 @@ When our eye 'stops' i.e., multiple gaze points close in time and/or space.
 
 ## Eye movements: Fixations
 
+![Nolte, 2023](_images/_session1/nolte_2023.JPG){fig-align="center" height="500px"}
+
+## Eye movements: Fixations
+
 When our eye 'stops'.
 
 -   Eye is *relatively* stable.
@@ -471,6 +464,7 @@ By necessity, people blink.
 -   Pupil changes when eyelids open/close.
 -   Lab conditions.
 -   Cognitive effort.
+  - See Cornelis et al. (2025) for an analysis of blinking behaviour while reading.
 
 ## Eye movements: Smooth pursuit
 
@@ -568,14 +562,14 @@ Eye movements can be later operationalised as a function of the research questio
 
 ## Eye movements: Space
 
-We talk about [Areas of Interest (AOI)]{.fg style="--col: #e64173"}[^2].
-
-[^2]: Or Regions of Interest (ROI), Interest Area (IA)
+We talk about [Areas of Interest (AOI)]{.fg style="--col: #e64173"}.
 
 -   Use to explore eye movements around them.
 -   /!\\ Consequences for experimental design and coding.
 
-![](_images/_session1/example_IA.jpg){fig-align="center"} \## Eye movements: Space x Time
+![](_images/_session1/example_IA.jpg){fig-align="center"} 
+
+## Eye movements: Space x Time
 
 Speech comprehension
 
@@ -591,7 +585,6 @@ Reading
 Field-specific
 
 -   Lots of measures & linking hypotheses
-    - Operational link between a response and a hypothesized process.
 -   Lots of ways to convey information
 
 ::: notes
@@ -789,7 +782,7 @@ Detects gaze and [records]{.fg style="--col: #e64173"} its x and y coordinates o
 
 -   How many times? [Sampling frequency]{.fg style="--col: #e64173"}
 
-## How do eye-trackers work?: Sampling frequency
+## How do eye-trackers work? Sampling frequency
 
 [Sampling frequency]{.fg style="--col: #e64173"} (or rate): Number of times the tracker measures gaze position per second. Measured in hertz (Hz).
 
@@ -798,7 +791,7 @@ Detects gaze and [records]{.fg style="--col: #e64173"} its x and y coordinates o
     -   1000/300 = 3.33
 -   Higher sampling frequency = more data points, and closer in time.
 
-## How do eye-trackers work?: Sampling frequency
+## How do eye-trackers work? Sampling frequency
 
 **Question**
 
@@ -811,7 +804,7 @@ Detects gaze and [records]{.fg style="--col: #e64173"} its x and y coordinates o
     -   0.5 ms.
 :::
 
-## How do eye-trackers work?: Sampling frequency
+## How do eye-trackers work? Sampling frequency
 
 Relationship between sampling frequency and measure of interest.
 
@@ -824,20 +817,20 @@ Example: 50 Hz sampling frequency.
     -   A saccade starts in these 20 ms, we miss it.
     -   A fixation begins in these 20 ms, we get it, but misrepresent its onset.
 
-## How do eye-trackers work?: Sampling frequency
+## How do eye-trackers work? Sampling frequency
 
 <br> <br>
 
 ![Measurement error represented by dashed line; picture taken when the vertical lines cross the horizontal lines.](_images/_session1/sample_rate.jpg){fig-align="center"}
 
-## How do eye-trackers work?: Sampling frequency
+## How do eye-trackers work? Sampling frequency
 
 [This is why sampling frequency matters]{.fg style="--col: #e64173"}.
 
 -   Depends on your measure of interest, e.g., reading versus observing a scene.
 -   [Reading]{.fg style="--col: #e64173"} usually requires [higher]{.fg style="--col: #e64173"} sampling frequency because of the measures of interest.
 
-## How do eye-trackers work?: Sampling frequency
+## How do eye-trackers work? Sampling frequency
 
 How small (or slow) can you go with the sampling frequency?
 
@@ -846,7 +839,7 @@ How small (or slow) can you go with the sampling frequency?
 
 In reality, more like 'rule-of-thumb'.
 
-## How do eye-trackers work?: Sampling frequency
+## How do eye-trackers work? Sampling frequency
 
 How small (or slow) can you go with the sampling frequency?
 
@@ -902,7 +895,10 @@ Precision
 
 [Accuracy]{.fg style="--col: #e64173"}: Difference between the measurement and its true value.
 
--   Measured in visual angles ![](_images/_session1/accuracy.JPG)
+-   Measured in visual angles 
+
+
+![](_images/_session1/accuracy.JPG){fig-align="center" height="300px"}
 
 ## How do eye-trackers work? Accuracy
 
@@ -1175,10 +1171,6 @@ Host PC and camera are connected and synchronized. Host PC and Presentation PC a
 
 ## The eye-tracking lab
 
-We will discuss how to set up a participant on Thursday. - And share a "manual" of tips.
-
-## The eye-tracking lab
-
 What information do you think is sent between the two computers?
 
 -   Areas of Interest
@@ -1187,7 +1179,7 @@ What information do you think is sent between the two computers?
 -   Stimuli per trial
 -   ...
 
-/!\\ Keep this in mind when coding the experiment.
+/!\\ Keep this in mind when coding an experiment.
 
 ## The experiment {.smaller}
 
@@ -1232,15 +1224,6 @@ Disadvantages: More complex functionalities require coding ("more intimidating")
 
 ## The experiment
 
-Focus of this course: **PsychoPy**
-
--   Templates on Ufora & GitHub
--   Minimal knowledge required
-    -   Edit excel file (design & stimuli)
-    -   Minimal changes with functions
-
-## The experiment
-
 Structure of an eye-tracking experiment
 
 1.  Set up
@@ -1280,7 +1263,8 @@ x,y coordinates of gaze position are estimated from measuring the pupil and the 
 ## Calibration
 
 -   Beginning of the experiment (blocks?)
--   Fixate on a series of points - 9HV standard
+-   Fixate on a series of points 
+    - 9HV standard
 -   Interplay with kind of eye-tracker:
     -   Portable versus fixed.
 
@@ -1300,23 +1284,6 @@ more points for small areas of interest,
 :::
 :::
 
-## Calibration
-
-```{r eval=FALSE, echo = TRUE}
-
-if not dummy_mode:
-    genv = EyeLinkCoreGraphicsPsychoPy(et_tracker, win) # we are using openGraphicsEx(), cf. manual openGraphics versus this.
-    foreground_color = (-1, -1, -1)
-    background_color = win.color
-    genv.setCalibrationColors(foreground_color, background_color)
-    pylink.openGraphicsEx(genv)
-    try:
-        et_tracker.doTrackerSetup()
-    except RuntimeError as err:
-        print('ERROR:', err)
-        et_tracker.exitCalibration()
-
-```
 
 ## Validation
 
@@ -1338,24 +1305,6 @@ Done after calibration to ensure accuracy. Same principle as calibration.
 :::
 :::
 
-## Validation
-
-```{r eval=FALSE, echo = TRUE}
-
-if not dummy_mode:
-    genv = EyeLinkCoreGraphicsPsychoPy(et_tracker, win) # we are using openGraphicsEx(), cf. manual openGraphics versus this.
-    foreground_color = (-1, -1, -1)
-    background_color = win.color
-    genv.setCalibrationColors(foreground_color, background_color)
-    pylink.openGraphicsEx(genv)
-    try:
-        et_tracker.doTrackerSetup()
-    except RuntimeError as err:
-        print('ERROR:', err)
-        et_tracker.exitCalibration()
-
-```
-
 ------------------------------------------------------------------------
 
 Technically speaking, you could now start recording.
@@ -1373,7 +1322,7 @@ Every so often, re-check our measurement (accuracy): Drift correction/check.
 
 -   Commonly, each trial/every other trial/blocks
 -   Ensure accuracy
--   But cf. what it actually does - move grid?
+-   But cf. what it actually does 
 -   Where the fixation cross appears depends on your task.
     -   At the position where you want high accuracy.
     -   Reading: e.g., beginning of the sentence/paragraph.
@@ -1391,23 +1340,6 @@ Every so often, re-check our measurement (accuracy): Drift correction/check.
 :::
 :::
 
-## Drift correction
-
-```{r, eval = FALSE, echo = TRUE}
-
-while not dummy_mode:
-        if (not et_tracker.isConnected()) or et_tracker.breakPressed():
-            abort_exp()
-        try:
-            error = et_tracker.doDriftCorrect(int(1920/2.0),
-                                              int(1080/2.0), 1, 1)
-            # break following a success drift-check
-            if error is not pylink.ESC_KEY:
-                break
-        except:
-            pass
-
-```
 
 ## Areas of Interest
 
@@ -1442,26 +1374,7 @@ VWP
 :::
 :::
 
-## Areas of Interest
 
-::: columns
-::: {.column width="50%"}
-Reading
-
-Careful definition of AIs.
-
--   Manually versus automatic (individual words)
--   Issues: Segmentation of pre-critical and spillover regions.
--   Issue: Duplicate data.
--   Issue: Classification of eye-movements (regressions)
-:::
-
-::: {.column width="50%"}
-VWP
-
--   Margins
-:::
-:::
 
 ## Areas of Interest
 
@@ -1478,17 +1391,6 @@ Size depends on accuracy and precision of the eye-tracker.
 
 Particularly relevant for gaze-contingent paradigms!
 
-## Areas of Interest
-
-```{r, eval = FALSE, echo = TRUE}
-
-et_tracker.sendMessage('!V IAREA RECTANGLE %d %d %d %d %d %s' % roi_points(target, img_width, img_height, 960., 540., units = 'pix', monitor = myMon), "target"))
-            et_tracker.sendMessage('!V IAREA RECTANGLE %d %d %d %d %d %s' % roi_points(distractor_01, img_width, img_height, 960., 540., units = 'pix', monitor = myMon), "distractor_01"))
-            et_tracker.sendMessage('!V IAREA RECTANGLE %d %d %d %d %d %s' % roi_points(distractor_02, img_width, img_height, 960., 540., units = 'pix', monitor = myMon), "distractor_02"))
-            et_tracker.sendMessage('!V IAREA RECTANGLE %d %d %d %d %d %s' % roi_points(distractor_03, img_width, img_height, 960., 540., units = 'pix', monitor = myMon), "distractor_03"))
-
-```
-
 ## Triggers
 
 Trigger: Information about an event, i.e., when it happens.
@@ -1503,12 +1405,6 @@ But when you also have audio:
 
 Related to stimulus-synchrony!
 
-## Triggers
-
-```{r, eval = FALSE, echo = TRUE}
-et_tracker.sendMessage('audio_onset') # Trigger for a specific event
-et_tracker.sendMessage('!V TRIAL_VAR set type %s' % trial["set_type"]) # Information about the trial
-```
 
 ## The experiment
 
@@ -1517,7 +1413,7 @@ But what about stimuli? What to control for?
 -   Link on Ufora for databases.
 -   Each day we'll discuss the specific confounds of each paradigm.
 
-## Side note: Reporting
+## Side note: Reporting{.smaller}
 
 What to report? (At least):
 
@@ -1539,7 +1435,7 @@ Ideally: see Dunn et al. (2024)
 
 Research traditions: Visual search (serial versus parallel processing), reading research (processes involved in text comprehension), scene perception (forming a representation of a scene), usability.
 
--   Flash-preview moving-window paradigm, visual world paradigm, anti-saccadic paradigm, saccadic mislocalization, social interaction paradigm, change blingness paradigm, gaze-contigent paradigms, preferential-looking paradigms, prosaccade paradigm...
+-   Flash-preview moving-window paradigm, visual world paradigm, anti-saccadic paradigm, saccadic mislocalization, social interaction paradigm, change blindness paradigm, gaze-contigent paradigms, preferential-looking paradigms, prosaccade paradigm...
 
     -   And combine other paradigms with eye-tracking
 
@@ -1593,7 +1489,7 @@ Read (silently) a piece of text
 -   Can be a sentence, paragraphs etc.
 -   Huge datasets of eye movements data (e.g., GECO, Cop et al., 2017; MECO, Siegelman et al., 2022)
 
-{{< video https://www.youtube.com/watch?v=TwNNij89qro width="60%" height="60%" >}}
+{{< video https://www.youtube.com/watch?v=TwNNij89qro width="40%" height="40%" >}}
 
 ## Eye-tracking in language research
 
@@ -1616,198 +1512,58 @@ Tomorrow we'll cover:
 -   Confounds
 -   Pre-processing
 
-## References
+## References{.smaller}
 
-## Extra slides
+Alexander, R. G., & Martinez-Conde, S. (2019). Fixational eye movements. *Eye movement research: An introduction to its scientific foundations and applications*, 73-115.
 
-## Structure of an eye-tracking experiment
+Carroll, T. (2017). Eye Behavior While Reading Words of Sanskrit and Urdu Origin in Hindi. Brigham Young University.
 
-1.  Set up
+Chiew, K. S., & Braver, T. S. (2013). Temporal dynamics of motivation-cognitive control interactions revealed by high-resolution pupillometry. *Frontiers in psychology, 4*, 15.
 
-    -   Welcome participant, instructions
-        -   Including introduction to the eye-tracker
-    -   Check make up
-    -   Camera set up
-        -   Checks prior to experiment
-            -   Comfortable seating
-            -   Focus
-            -   Corners & areas of interest
-            -   Automatic & adjust thresholding
+Conklin, K., Pellicer-Sánchez, A., & Carrol, G. (2018). *Eye-tracking: A guide for applied linguistics research*. Cambridge University Press.
 
-2.  Experiment
+Cooper, R. M. (1974). The control of eye fixation by the meaning of spoken language: a new methodology for the real-time investigation of speech perception, memory, and language processing. Cognitive psychology.
 
-3.  After it
+Cop, U., Dirix, N., Drieghe, D., & Duyck, W. (2017). Presenting GECO: An eyetracking corpus of monolingual and bilingual sentence reading. *Behavior Research Methods, 49*(2), 602--615. https://doi.org/10.3758/s13428-016-0734-0
 
-## Structure of an eye-tracking experiment
+## References{.smaller}
 
-1.  Set up
+Cornelis, X., Dirix, N., & Bogaerts, L. (2025). The timing of spontaneous eye blinks in text reading suggests cognitive role. Scientific Reports, 15(1), 1-10.
 
-2.  Experiment
+Dunn, M. J., Alexander, R. G., Amiebenomo, O. M., Arblaster, G., Atan, D., Erichsen, J. T., ... & Sprenger, A. (2024). Minimal reporting guideline for research involving eye tracking (2023 edition). *Behavior research methods, 56*(5), 4351-4357.
 
-    -   Calibration & validation
-    -   Practice trials & familiarisation (optional)
-    -   Experimental phase (recording sequence, block division - optional)
-        -   (Drift correction) Stimulus --\> Trigger --\> Follow-up
-        -   Goodbye screen
+Fink, L., Simola, J., Tavano, A., Lange, E., Wallot, S., & Laeng, B. (2024). From pre-processing to advanced dynamic modeling of pupil data. *Behavior Research Methods, 56*(3), 1376-1412.
 
-3.  After it
+Holmqvist, K., Nyström, M., Andersson, R., Dewhurst, R., Jarodzka, H., & Van de Weijer, J. (2011). *Eye tracking: A comprehensive guide to methods and measures*. oup Oxford.
 
-## Structure of an eye-tracking experiment
+Hutton, S. B. (2019). *Eye tracking methodology. Eye movement research: An introduction to its scientific foundations and applications*, 277-308.
 
-1.  Set up
+King, J. P., Loy, J. E., & Corley, M. (2018). Contextual effects on online pragmatic inferences of deception. *Discourse Processes, 55*(2), 123-135.
 
-2.  Experiment
+Mathôt, S., Grainger, J., & Strijkers, K. (2017). Pupillary responses to words that convey a sense of brightness or darkness. *Psychological science, 28*(8), 1116-1124.
 
-3.  After it
 
-    -   Post-experimental questionnaires & debriefing.
+## References{.smaller}
 
-## Participant set up
+Nolte, C. (2023). *What you see is what you get: a closer look at bias in the visual world paradigm* (Doctoral dissertation, The University of Iowa).
 
-Briefing
+Nyström, M., Hooge, I. T., Hessels, R. S., Andersson, R., Hansen, D. W., Johansson, R., & Niehorster, D. C. (2025). The fundamentals of eye tracking part 3: How to choose an eye tracker. *Behavior Research Methods, 57*(2), 67.
 
--   Explain the experiment and allow them to ask questions.
-    -   Add instructions to the experiment & practice sessions.
--   Let them know in advance the experiment structure (e.g., calibration \> validation \> experiment (practice if there is)).
--   Explain (briefly) how the eye-tracker works.
+Papoutsaki, A., Sangkloy, P., Laskey, J., Daskalova, N., Huang, J., & Hays, J. (2016). WebGazer : Scalable webcam eye tracking using user interactions. *International Joint Conference on Artificial Intelligence.*
 
-. . .
+Siegelman, N., Schroeder, S., Acartürk, C., Ahn, H. D., Alexeeva, S., Amenta, S., ... & Kuperman, V. (2022). Expanding horizons of cross-linguistic research on reading: The Multilingual Eye-movement Corpus (MECO). *Behavior research methods, 54*(6), 2843-2863.
 
-Tempted to ask to not blink?
+Spivey, M. J. (2025). A linking hypothesis for eyetracking and mousetracking in the visual world paradigm. *Brain Research*, 149477.
 
--   Not blinking leads to dry eyes, and ultimately more blinking.
--   Instead: Tell them when it is preferred for them to blink (if you decide to mention anything).
+Strauch, C., Wang, C. A., Einhäuser, W., Van der Stigchel, S., & Naber, M. (2022). Pupillometry as an integrated readout of distinct attentional networks. *Trends in Neurosciences, 45*(8), 635-647.
 
-## Participant set up
+## References{.smaller}
 
-Adjust seating
+Tanenhaus, M. K., Spivey-Knowlton, M. J., Eberhard, K. M., & Sedivy, J. C. (1995). Integration of visual and linguistic information in spoken language comprehension. *Science, 268*(5217), 1632-1634.
 
--   Chinrest
--   Chair height
--   Sitting straight
--   Head against foreheadrest, chin over chinrest.
+Trueswell, J. C. (2008). Using eye movements as a developmental measure within psycholinguistics. *Language acquisition and language disorders, 44*, 73.
 
-## Camera set up
+Wilcox, E. G., Ding, C., Sachan, M., & Jäger, L. A. (2024). Mouse Tracking for Reading (MoTR): A new naturalistic incremental processing measurement tool. *Journal of Memory and Language, 138*, 104534.
 
-::: columns
-::: {.column width="50%"}
-Access to eye image
+Yarbus, A. L. (1967). Eye movements and vision. New York: Plenum
 
--   Hidden image: set-up is automatic.
-    -   Easier to handle but potential for poorer data quality, e.g., data recording issues may go unnoticed.
--   [Access]{.fg style="--col: #e64173"} to image.
-    -   Need for technical knowledge.
-:::
-
-::: {.column width="50%"}
-![](_images/_session1/host_pc_setup.JPG)
-:::
-:::
-
-## Camera set up
-
-Which eye to track? - Dominant eye (by default, right eye)
-
-Detect the eye
-
-::: columns
-::: {.column width="50%"}
-![](_images/_session1/eye_undetected.JPG){height="300px"}
-:::
-
-::: {.column width="50%"}
-![](_images/_session1/eye_detected.JPG){height="300px"}
-:::
-:::
-
-## Camera set up
-
-Focus
-
-::: columns
-::: {.column width="50%"}
-![](_images/_session1/unfocused_camera.JPG){height="300px"}
-:::
-
-::: {.column width="50%"}
-![](_images/_session1/eye_detected.JPG){height="300px"}
-:::
-:::
-
-## Camera set up
-
-::: columns
-::: {.column width="50%"}
-<br> <br> <br>
-
--   P-CR tracking:
-    -   Dark blue pupil
-    -   Light blue CR
-:::
-
-::: {.column width="50%"}
-![](_images/_session1/good_captureeye1.png) ![](_images/_session1/good_pupil.png)
-:::
-:::
-
-## Camera set up
-
-::: columns
-::: {.column width="50%"}
-<br>
-
-Automatic thresholding + adjustments
-
--   Reflections = impossible eye movements
-
-Pupil tracking
-
--   Centroid versus Ellipse
-:::
-
-::: {.column width="50%"}
-![](_images/_session1/options.jpg){height="550px"}
-:::
-:::
-
-## Camera set up
-
--   Ask them to move their eyes around the corners of the screen
-    -   Notice whether we lose track at any place
-    -   Especially near your AIs
-    -   Ensure pupil is not covered
-        -   E.g., hair, glasses frame
-
-## Camera set up: Issues
-
--   No mascara
-    -   Dark lashes lead to issues -\> confounded with the pupil.
--   Eyelids
-    -   Cover the pupil in lower gaze directions
-    -   An issue in some cases (e.g., tired participants)
-    -   Recording from lower then useful.
-
-## Camera set up: Issues
-
--   Glasses
-    -   Darker image -\> issues in thresholding
-    -   Clean glasses
-    -   Adjust contrast/brightness
--   Glasses
-    -   Reflect infrared light
-    -   Clean glasses
-    -   Move camera (angle rather than distance)
-        -   Place reflections far away from pupil and CR
-    -   Move mirror (only possible in tower-mounted eye-trackers)
-
-## Camera set up: Issues
-
--   Contact lenses
-    -   Air bubbles between eye and contact lense interact with CR
-        -   Camera focus
--   Wet eyes
-    -   Split up the CR
-        -   Breaks
-        -   Stop the experiment
-        -   Dim the light in the lab
-        -   Tell the participant to go home

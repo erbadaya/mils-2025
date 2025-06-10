@@ -31,71 +31,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="session1_files/libs/revealjs/dist/theme/quarto.css">
   <link href="session1_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -449,7 +384,6 @@ Badaya &amp; Baltais
 <li>Research interest</li>
 <li>Goal for this course?</li>
 </ul>
-<p>/!\ Please fill in this survey.</p>
 </section>
 <section id="overview-of-the-course" class="slide level2">
 <h2>Overview of the course</h2>
@@ -472,36 +406,17 @@ Badaya &amp; Baltais
 </section>
 <section id="overview-of-the-course-1" class="slide level2">
 <h2>Overview of the course</h2>
-<p>Idea: Work on teams</p>
-<ul>
-<li>Easier to explore data</li>
-<li>Easier for lab visits</li>
-<li>Option: Develop an toy experiment.
-<ul>
-<li>Template scripts on PsychoPy available.</li>
-</ul></li>
-</ul>
-</section>
-<section id="overview-of-the-course-2" class="slide level2">
-<h2>Overview of the course</h2>
 <p>Materials (all available on Ufora and GitHub)</p>
 <ul>
 <li>Slides</li>
-<li>Template scripts in PsychoPy</li>
 <li>Eye-tracking datasets</li>
 <li>Further resources (papers &amp; book chapters)</li>
 </ul>
 </section>
-<section id="overview-of-the-course-3" class="slide level2">
+<section id="overview-of-the-course-2" class="slide level2">
 <h2>Overview of the course</h2>
 <p>Requirements</p>
 <ul>
-<li>Install PsychoPy</li>
-<li>Install R, RStudio
-<ul>
-<li>version 4.4.1</li>
-<li>packages tidyverse, lme4</li>
-</ul></li>
 <li>Install DataViewer
 <ul>
 <li>version 4.4.1</li>
@@ -512,14 +427,22 @@ Badaya &amp; Baltais
 <li>Recommended readings per day</li>
 </ul></li>
 </ul>
+<p>Optional:</p>
+<ul>
+<li>Install R, RStudio
+<ul>
+<li>version 4.4.1</li>
+<li>packages tidyverse, lme4</li>
+</ul></li>
+</ul>
 </section>
-<section id="overview-of-the-course-4" class="slide level2">
+<section id="overview-of-the-course-3" class="slide level2">
 <h2>Overview of the course</h2>
 <table>
 <colgroup>
-<col style="width: 20%">
-<col style="width: 34%">
-<col style="width: 44%">
+<col style="width: 24%">
+<col style="width: 32%">
+<col style="width: 42%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -537,7 +460,7 @@ Badaya &amp; Baltais
 <tr class="even">
 <td style="text-align: center;">Day 2</td>
 <td style="text-align: center;">Visual World Paradigm</td>
-<td style="text-align: center;">PsychoPy, DataViewer, 2 readings, datasets</td>
+<td style="text-align: center;">DataViewer, 2 readings, datasets</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Day 3</td>
@@ -547,7 +470,7 @@ Badaya &amp; Baltais
 <tr class="even">
 <td style="text-align: center;">Day 4</td>
 <td style="text-align: center;">Lab session</td>
-<td style="text-align: center;">DataViewer, PsychoPy</td>
+<td style="text-align: center;">None</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Day 5</td>
@@ -566,12 +489,6 @@ Badaya &amp; Baltais
 <h2>Today’s plan</h2>
 <ol type="1">
 <li>Why do we move our eyes?</li>
-</ol>
-<ul>
-<li>The Human Visual System</li>
-<li>Visual attention</li>
-</ul>
-<ol start="2" type="1">
 <li>Eye movements</li>
 <li>How do eye-trackers work?</li>
 <li>Basics of an eye-tracking experiment</li>
@@ -865,15 +782,17 @@ Badaya &amp; Baltais
 <ul>
 <li>Linking hypotheses &amp; assumptions
 <ul>
+<li>Operational link between a response and a hypothesized process.
+<ul>
 <li>Often times, lack of an explicit link.</li>
 <li>Underlying assumptions not explicit.</li>
+</ul></li>
 </ul></li>
 </ul>
 <div class="fragment">
 <p>Example in language: The <span class="fg" style="--col: #e64173">eye-mind hypothesis</span> (Just &amp; Carpenter, 1980).</p>
 <ul>
 <li><span class="fg" style="--col: #e64173">Where</span> we look indicates <span class="fg" style="--col: #e64173">what we are processing</span>, <span class="fg" style="--col: #e64173">for how long we look</span> indicates the <span class="fg" style="--col: #e64173">cognitive effort it takes to process it</span>.</li>
-<li>Contestable.</li>
 <li>Underlying assumptions: Serial processing.</li>
 </ul>
 </div>
@@ -910,26 +829,70 @@ Badaya &amp; Baltais
 <p><strong>What eye movements can you think of?</strong></p>
 <div>
 <ul>
-<li class="fragment">Think of how we talk about things: we <span class="fg" style="--col: #e64173">fixate</span> on things, we <span class="fg" style="--col: #e64173">move</span> our eyes.</li>
+<li class="fragment">Think of how we talk about things: we <span class="fg" style="--col: #e64173">move</span> our eyes, we <span class="fg" style="--col: #e64173">look at</span> things.</li>
 <li class="fragment">We also <span class="fg" style="--col: #e64173">blink</span>.</li>
-<li class="fragment">We can also measure <span class="fg" style="--col: #e64173">pupil size</span>.</li>
+<li class="fragment">Our <span class="fg" style="--col: #e64173">pupils</span> change in size.</li>
 </ul>
 </div>
 </div>
 </section>
 <section id="eye-movements-2" class="slide level2">
 <h2>Eye movements</h2>
+<div style="text-align: center">
 <p><strong>What eye movements can you think of?</strong></p>
+</div>
 <div>
 <ul>
-<li class="fragment">Fixations.</li>
 <li class="fragment">Saccades.</li>
+<li class="fragment">Fixations.</li>
 <li class="fragment">Blinks.</li>
 <li class="fragment">Smooth pursuit.</li>
 <li class="fragment">Pupil size changes.</li>
 </ul>
 </div>
 </section>
+<section id="eye-movements-saccades" class="slide level2">
+<h2>Eye movements: Saccades</h2>
+<p>“Jerky” movement: Fast movement of the eye, usually from one fixation to another.</p>
+<ul>
+<li>Temporary blindness (i.e., <span class="fg" style="--col: #e64173">saccadic suppression</span>).</li>
+<li>Reactive saccades versus Voluntary saccades.
+<ul>
+<li>Sudden appearance of an object versus Exploration.</li>
+</ul></li>
+</ul>
+</section>
+<section id="eye-movements-saccades-1" class="slide level2">
+<h2>Eye movements: Saccades</h2>
+<p>Parameters</p>
+<ul>
+<li>Amplitude: distance travelled.
+<ul>
+<li>Average: 15°.</li>
+</ul></li>
+<li>Temporal parameters (onset, offset, duration).
+<ul>
+<li>Average duration: 30 - 80 ms.</li>
+</ul></li>
+<li>Direction: Forward and backwards (i.e., regressions) saccades.</li>
+<li>Accuracy: Over- and under-shooting.
+<ul>
+<li>In simple lab conditions, fall slightly short of the target, thus followed by a small corrective saccade.</li>
+</ul></li>
+</ul>
+</section>
+<section id="eye-movements-saccades-2" class="slide level2">
+<h2>Eye movements: Saccades</h2>
+<p>Forward and backwards (i.e., regressions) saccades.</p>
+<ul>
+<li>Short and long regressions.</li>
+</ul>
+
+<img data-src="_images/_session1/example_reading.JPG" class="quarto-figure quarto-figure-center r-stretch"><p class="caption">Conklin et al.&nbsp;(2018)</p></section>
+<section id="eye-movements-fixation" class="slide level2">
+<h2>Eye movements: Fixation</h2>
+
+<img data-src="_images/_session1/fixation_saccades.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="eye-movements-fixations" class="slide level2">
 <h2>Eye movements: Fixations</h2>
 <p>When our eye ‘stops’ i.e., multiple gaze points close in time and/or space.</p>
@@ -937,10 +900,21 @@ Badaya &amp; Baltais
 <li><p>Eye is <em>relatively</em> stable.</p></li>
 <li><p>Average duration: 200 - 300 ms.</p></li>
 <li><p>Minimal duration: 20 - 50 ms (not standard).</p></li>
+<li><p>Refraction period + Voluntary period</p></li>
+<li><p>Oculomotor delay</p></li>
 </ul>
 <p><br></p>
 </section>
 <section id="eye-movements-fixations-1" class="slide level2">
+<h2>Eye movements: Fixations</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session1/nolte_2023.JPG" class="quarto-figure quarto-figure-center" height="500"></p>
+<figcaption>Nolte, 2023</figcaption>
+</figure>
+</div>
+</section>
+<section id="eye-movements-fixations-2" class="slide level2">
 <h2>Eye movements: Fixations</h2>
 <p>When our eye ‘stops’.</p>
 <ul>
@@ -951,11 +925,11 @@ Badaya &amp; Baltais
 </ul>
 
 <img data-src="_images/_session1/fixation_tremor.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="eye-movements-fixations-2" class="slide level2">
+<section id="eye-movements-fixations-3" class="slide level2">
 <h2>Eye movements: Fixations</h2>
 
 <img data-src="_images/_session1/micro_saccades.PNG" class="r-stretch quarto-figure-center"><p class="caption">Alexander &amp; Martinez-Conde (2019)</p></section>
-<section id="eye-movements-fixations-3" class="slide level2">
+<section id="eye-movements-fixations-4" class="slide level2">
 <h2>Eye movements: Fixations</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -978,48 +952,6 @@ Badaya &amp; Baltais
 </div>
 </div>
 </section>
-<section id="eye-movements-saccades" class="slide level2">
-<h2>Eye movements: Saccades</h2>
-
-<img data-src="_images/_session1/fixation_saccades.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="eye-movements-saccades-1" class="slide level2">
-<h2>Eye movements: Saccades</h2>
-<p>“Jerky” movement: Fast movement of the eye, usually from one fixation to another.</p>
-<ul>
-<li>Temporary blindness (i.e., <span class="fg" style="--col: #e64173">saccadic suppression</span>).</li>
-<li>Reactive saccades versus Voluntary saccades.
-<ul>
-<li>Sudden appearance of an object versus Exploration.</li>
-</ul></li>
-</ul>
-</section>
-<section id="eye-movements-saccades-2" class="slide level2">
-<h2>Eye movements: Saccades</h2>
-<p>Parameters</p>
-<ul>
-<li>Amplitude: distance travelled.
-<ul>
-<li>Average: 15°.</li>
-</ul></li>
-<li>Temporal parameters (onset, offset, duration).
-<ul>
-<li>Average duration: 30 - 80 ms.</li>
-</ul></li>
-<li>Direction: Forward and backwards (i.e., regressions) saccades.</li>
-<li>Accuracy: Over- and under-shooting.
-<ul>
-<li>In simple lab conditions, fall slightly short of the target, thus followed by a small corrective saccade.</li>
-</ul></li>
-</ul>
-</section>
-<section id="eye-movements-saccades-3" class="slide level2">
-<h2>Eye movements: Saccades</h2>
-<p>Forward and backwards (i.e., regressions) saccades.</p>
-<ul>
-<li>Short and long regressions.</li>
-</ul>
-
-<img data-src="_images/_session1/example_reading.JPG" class="quarto-figure quarto-figure-center r-stretch"><p class="caption">Conklin et al.&nbsp;(2018)</p></section>
 <section id="eye-movements-blinks" class="slide level2">
 <h2>Eye movements: Blinks</h2>
 <p>By necessity, people blink.</p>
@@ -1028,6 +960,7 @@ Badaya &amp; Baltais
 <li>Pupil changes when eyelids open/close.</li>
 <li>Lab conditions.</li>
 <li>Cognitive effort.</li>
+<li>See Cornelis et al.&nbsp;(2025) for an analysis of blinking behaviour while reading.</li>
 </ul>
 </section>
 <section id="eye-movements-smooth-pursuit" class="slide level2">
@@ -1142,12 +1075,15 @@ Badaya &amp; Baltais
 </section>
 <section id="eye-movements-space" class="slide level2">
 <h2>Eye movements: Space</h2>
-<p>We talk about <span class="fg" style="--col: #e64173">Areas of Interest (AOI)</span><sup>1</sup>.</p>
+<p>We talk about <span class="fg" style="--col: #e64173">Areas of Interest (AOI)</span>.</p>
 <ul>
 <li>Use to explore eye movements around them.</li>
 <li>/!\ Consequences for experimental design and coding.</li>
 </ul>
-<p><img data-src="_images/_session1/example_IA.jpg" class="quarto-figure quarto-figure-center"> ## Eye movements: Space x Time</p>
+
+<img data-src="_images/_session1/example_IA.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="eye-movements-space-x-time" class="slide level2">
+<h2>Eye movements: Space x Time</h2>
 <p>Speech comprehension</p>
 <ul>
 <li>When a fixation is triggered towards an object upon hearing its name.</li>
@@ -1159,7 +1095,7 @@ Badaya &amp; Baltais
 <li>How long did a person spent reading a certain word the first time they saw it?</li>
 </ul></li>
 </ul>
-<aside><ol class="aside-footnotes"><li id="fn2"><p>Or Regions of Interest (ROI), Interest Area (IA)</p></li></ol></aside></section>
+</section>
 <section id="eye-movements-conceptualisation-1" class="slide level2">
 <h2>Eye movements: Conceptualisation</h2>
 <p>Field-specific</p>
@@ -1440,7 +1376,7 @@ Badaya &amp; Baltais
 </ul>
 </section>
 <section id="how-do-eye-trackers-work-sampling-frequency" class="slide level2">
-<h2>How do eye-trackers work?: Sampling frequency</h2>
+<h2>How do eye-trackers work? Sampling frequency</h2>
 <p><span class="fg" style="--col: #e64173">Sampling frequency</span> (or rate): Number of times the tracker measures gaze position per second. Measured in hertz (Hz).</p>
 <ul>
 <li>300 Hz: 1 data point every ~3 ms, 300 samples per second.
@@ -1452,7 +1388,7 @@ Badaya &amp; Baltais
 </ul>
 </section>
 <section id="how-do-eye-trackers-work-sampling-frequency-1" class="slide level2">
-<h2>How do eye-trackers work?: Sampling frequency</h2>
+<h2>How do eye-trackers work? Sampling frequency</h2>
 <p><strong>Question</strong></p>
 <div>
 <ul>
@@ -1472,7 +1408,7 @@ Badaya &amp; Baltais
 </div>
 </section>
 <section id="how-do-eye-trackers-work-sampling-frequency-2" class="slide level2">
-<h2>How do eye-trackers work?: Sampling frequency</h2>
+<h2>How do eye-trackers work? Sampling frequency</h2>
 <p>Relationship between sampling frequency and measure of interest.</p>
 <ul>
 <li>The <span class="fg" style="--col: #e64173">faster</span> it is, the <span class="fg" style="--col: #e64173">higher</span> the sampling frequency needed to detect it.
@@ -1490,12 +1426,12 @@ Badaya &amp; Baltais
 </ul>
 </section>
 <section id="how-do-eye-trackers-work-sampling-frequency-3" class="slide level2">
-<h2>How do eye-trackers work?: Sampling frequency</h2>
+<h2>How do eye-trackers work? Sampling frequency</h2>
 <p><br> <br></p>
 
 <img data-src="_images/_session1/sample_rate.jpg" class="quarto-figure quarto-figure-center r-stretch"><p class="caption">Measurement error represented by dashed line; picture taken when the vertical lines cross the horizontal lines.</p></section>
 <section id="how-do-eye-trackers-work-sampling-frequency-4" class="slide level2">
-<h2>How do eye-trackers work?: Sampling frequency</h2>
+<h2>How do eye-trackers work? Sampling frequency</h2>
 <p><span class="fg" style="--col: #e64173">This is why sampling frequency matters</span>.</p>
 <ul>
 <li>Depends on your measure of interest, e.g., reading versus observing a scene.</li>
@@ -1503,7 +1439,7 @@ Badaya &amp; Baltais
 </ul>
 </section>
 <section id="how-do-eye-trackers-work-sampling-frequency-5" class="slide level2">
-<h2>How do eye-trackers work?: Sampling frequency</h2>
+<h2>How do eye-trackers work? Sampling frequency</h2>
 <p>How small (or slow) can you go with the sampling frequency?</p>
 <ul>
 <li>Nyquist-Shannon sampling theorem
@@ -1514,7 +1450,7 @@ Badaya &amp; Baltais
 <p>In reality, more like ‘rule-of-thumb’.</p>
 </section>
 <section id="how-do-eye-trackers-work-sampling-frequency-6" class="slide level2">
-<h2>How do eye-trackers work?: Sampling frequency</h2>
+<h2>How do eye-trackers work? Sampling frequency</h2>
 <p>How small (or slow) can you go with the sampling frequency?</p>
 <p>Relationship between sampling error, sampling frequency, and <span class="fg" style="--col: #e64173">data points</span>.</p>
 <ul>
@@ -1585,8 +1521,13 @@ Badaya &amp; Baltais
 <h2>How do eye-trackers work? Accuracy</h2>
 <p><span class="fg" style="--col: #e64173">Accuracy</span>: Difference between the measurement and its true value.</p>
 <ul>
-<li>Measured in visual angles <img data-src="_images/_session1/accuracy.JPG"></li>
+<li>Measured in visual angles</li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="_images/_session1/accuracy.JPG" class="quarto-figure quarto-figure-center" height="300"></p>
+</figure>
+</div>
 </section>
 <section id="how-do-eye-trackers-work-accuracy-1" class="slide level2">
 <h2>How do eye-trackers work? Accuracy</h2>
@@ -1825,7 +1766,7 @@ Badaya &amp; Baltais
 <li>Participants’ criteria.</li>
 </ul>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn3"><p>Dual eye-tracking experiments are being done!</p></li></ol></aside></section></section>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>Dual eye-tracking experiments are being done!</p></li></ol></aside></section></section>
 <section>
 <section id="how-is-an-eye-tracking-experiment" class="title-slide slide level1 center">
 <h1>How is an eye-tracking experiment?</h1>
@@ -1915,10 +1856,6 @@ Badaya &amp; Baltais
 </section>
 <section id="the-eye-tracking-lab-4" class="slide level2">
 <h2>The eye-tracking lab</h2>
-<p>We will discuss how to set up a participant on Thursday. - And share a “manual” of tips.</p>
-</section>
-<section id="the-eye-tracking-lab-5" class="slide level2">
-<h2>The eye-tracking lab</h2>
 <p>What information do you think is sent between the two computers?</p>
 <ul>
 <li>Areas of Interest</li>
@@ -1927,7 +1864,7 @@ Badaya &amp; Baltais
 <li>Stimuli per trial</li>
 <li>…</li>
 </ul>
-<p>/!\ Keep this in mind when coding the experiment.</p>
+<p>/!\ Keep this in mind when coding an experiment.</p>
 </section>
 <section id="the-experiment" class="slide level2 smaller">
 <h2>The experiment</h2>
@@ -1964,18 +1901,6 @@ Badaya &amp; Baltais
 </section>
 <section id="the-experiment-1" class="slide level2">
 <h2>The experiment</h2>
-<p>Focus of this course: <strong>PsychoPy</strong></p>
-<ul>
-<li>Templates on Ufora &amp; GitHub</li>
-<li>Minimal knowledge required
-<ul>
-<li>Edit excel file (design &amp; stimuli)</li>
-<li>Minimal changes with functions</li>
-</ul></li>
-</ul>
-</section>
-<section id="the-experiment-2" class="slide level2">
-<h2>The experiment</h2>
 <p>Structure of an eye-tracking experiment</p>
 <ol type="1">
 <li><p>Set up</p></li>
@@ -1992,7 +1917,7 @@ Badaya &amp; Baltais
 <li><p>After it</p></li>
 </ol>
 </section>
-<section id="the-experiment-3" class="slide level2">
+<section id="the-experiment-2" class="slide level2">
 <h2>The experiment</h2>
 <p>Beyond the experiment itself, all eye-tracking experiments share these steps.</p>
 <ul>
@@ -2020,7 +1945,10 @@ Badaya &amp; Baltais
 <h2>Calibration</h2>
 <ul>
 <li>Beginning of the experiment (blocks?)</li>
-<li>Fixate on a series of points - 9HV standard</li>
+<li>Fixate on a series of points
+<ul>
+<li>9HV standard</li>
+</ul></li>
 <li>Interplay with kind of eye-tracker:
 <ul>
 <li>Portable versus fixed.</li>
@@ -2060,22 +1988,6 @@ Badaya &amp; Baltais
 </div>
 </div>
 </section>
-<section id="calibration-3" class="slide level2">
-<h2>Calibration</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="cf">if</span> not dummy_mode<span class="sc">:</span></span>
-<span id="cb1-2"><a href=""></a>    genv <span class="ot">=</span> <span class="fu">EyeLinkCoreGraphicsPsychoPy</span>(et_tracker, win) <span class="co"># we are using openGraphicsEx(), cf. manual openGraphics versus this.</span></span>
-<span id="cb1-3"><a href=""></a>    foreground_color <span class="ot">=</span> (<span class="sc">-</span><span class="dv">1</span>, <span class="sc">-</span><span class="dv">1</span>, <span class="sc">-</span><span class="dv">1</span>)</span>
-<span id="cb1-4"><a href=""></a>    background_color <span class="ot">=</span> win.color</span>
-<span id="cb1-5"><a href=""></a>    <span class="fu">genv.setCalibrationColors</span>(foreground_color, background_color)</span>
-<span id="cb1-6"><a href=""></a>    <span class="fu">pylink.openGraphicsEx</span>(genv)</span>
-<span id="cb1-7"><a href=""></a>    try<span class="sc">:</span></span>
-<span id="cb1-8"><a href=""></a>        <span class="fu">et_tracker.doTrackerSetup</span>()</span>
-<span id="cb1-9"><a href=""></a>    except RuntimeError as err<span class="sc">:</span></span>
-<span id="cb1-10"><a href=""></a>        <span class="fu">print</span>(<span class="st">'ERROR:'</span>, err)</span>
-<span id="cb1-11"><a href=""></a>        <span class="fu">et_tracker.exitCalibration</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
 <section id="validation" class="slide level2">
 <h2>Validation</h2>
 <p>Done after calibration to ensure accuracy. Same principle as calibration.</p>
@@ -2103,22 +2015,6 @@ Badaya &amp; Baltais
 </div>
 </div>
 </section>
-<section id="validation-2" class="slide level2">
-<h2>Validation</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="cf">if</span> not dummy_mode<span class="sc">:</span></span>
-<span id="cb2-2"><a href=""></a>    genv <span class="ot">=</span> <span class="fu">EyeLinkCoreGraphicsPsychoPy</span>(et_tracker, win) <span class="co"># we are using openGraphicsEx(), cf. manual openGraphics versus this.</span></span>
-<span id="cb2-3"><a href=""></a>    foreground_color <span class="ot">=</span> (<span class="sc">-</span><span class="dv">1</span>, <span class="sc">-</span><span class="dv">1</span>, <span class="sc">-</span><span class="dv">1</span>)</span>
-<span id="cb2-4"><a href=""></a>    background_color <span class="ot">=</span> win.color</span>
-<span id="cb2-5"><a href=""></a>    <span class="fu">genv.setCalibrationColors</span>(foreground_color, background_color)</span>
-<span id="cb2-6"><a href=""></a>    <span class="fu">pylink.openGraphicsEx</span>(genv)</span>
-<span id="cb2-7"><a href=""></a>    try<span class="sc">:</span></span>
-<span id="cb2-8"><a href=""></a>        <span class="fu">et_tracker.doTrackerSetup</span>()</span>
-<span id="cb2-9"><a href=""></a>    except RuntimeError as err<span class="sc">:</span></span>
-<span id="cb2-10"><a href=""></a>        <span class="fu">print</span>(<span class="st">'ERROR:'</span>, err)</span>
-<span id="cb2-11"><a href=""></a>        <span class="fu">et_tracker.exitCalibration</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
 <section class="slide level2">
 
 <p>Technically speaking, you could now start recording.</p>
@@ -2138,7 +2034,7 @@ Badaya &amp; Baltais
 <ul>
 <li>Commonly, each trial/every other trial/blocks</li>
 <li>Ensure accuracy</li>
-<li>But cf.&nbsp;what it actually does - move grid?</li>
+<li>But cf.&nbsp;what it actually does</li>
 <li>Where the fixation cross appears depends on your task.
 <ul>
 <li>At the position where you want high accuracy.</li>
@@ -2165,22 +2061,6 @@ Badaya &amp; Baltais
 </figure>
 </div>
 </div>
-</div>
-</section>
-<section id="drift-correction-2" class="slide level2">
-<h2>Drift correction</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="cf">while</span> not dummy_mode<span class="sc">:</span></span>
-<span id="cb3-2"><a href=""></a>        <span class="cf">if</span> (not <span class="fu">et_tracker.isConnected</span>()) or <span class="fu">et_tracker.breakPressed</span>()<span class="sc">:</span></span>
-<span id="cb3-3"><a href=""></a>            <span class="fu">abort_exp</span>()</span>
-<span id="cb3-4"><a href=""></a>        try<span class="sc">:</span></span>
-<span id="cb3-5"><a href=""></a>            error <span class="ot">=</span> <span class="fu">et_tracker.doDriftCorrect</span>(<span class="fu">int</span>(<span class="dv">1920</span><span class="sc">/</span><span class="fl">2.0</span>),</span>
-<span id="cb3-6"><a href=""></a>                                              <span class="fu">int</span>(<span class="dv">1080</span><span class="sc">/</span><span class="fl">2.0</span>), <span class="dv">1</span>, <span class="dv">1</span>)</span>
-<span id="cb3-7"><a href=""></a>            <span class="co"># break following a success drift-check</span></span>
-<span id="cb3-8"><a href=""></a>            <span class="cf">if</span> error is not pylink.ESC_KEY<span class="sc">:</span></span>
-<span id="cb3-9"><a href=""></a>                <span class="cf">break</span></span>
-<span id="cb3-10"><a href=""></a>        except<span class="sc">:</span></span>
-<span id="cb3-11"><a href=""></a>            pass</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="areas-of-interest" class="slide level2">
@@ -2225,26 +2105,6 @@ Badaya &amp; Baltais
 </section>
 <section id="areas-of-interest-2" class="slide level2">
 <h2>Areas of Interest</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Reading</p>
-<p>Careful definition of AIs.</p>
-<ul>
-<li>Manually versus automatic (individual words)</li>
-<li>Issues: Segmentation of pre-critical and spillover regions.</li>
-<li>Issue: Duplicate data.</li>
-<li>Issue: Classification of eye-movements (regressions)</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p>VWP</p>
-<ul>
-<li>Margins</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="areas-of-interest-3" class="slide level2">
-<h2>Areas of Interest</h2>
 <p>Size depends on accuracy and precision of the eye-tracker.</p>
 <ul>
 <li><p>Low accuracy/precision: Bigger areas of interest.</p></li>
@@ -2256,15 +2116,6 @@ Badaya &amp; Baltais
 <li><p>Overlapping areas of interest.</p></li>
 </ul>
 <p>Particularly relevant for gaze-contingent paradigms!</p>
-</section>
-<section id="areas-of-interest-4" class="slide level2">
-<h2>Areas of Interest</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="fu">et_tracker.sendMessage</span>(<span class="st">'!V IAREA RECTANGLE %d %d %d %d %d %s'</span> % <span class="fu">roi_points</span>(target, img_width, img_height, <span class="fl">960.</span>, <span class="fl">540.</span>, <span class="at">units =</span> <span class="st">'pix'</span>, <span class="at">monitor =</span> myMon), <span class="st">"target"</span>)<span class="er">)</span></span>
-<span id="cb4-2"><a href=""></a>            <span class="fu">et_tracker.sendMessage</span>(<span class="st">'!V IAREA RECTANGLE %d %d %d %d %d %s'</span> % <span class="fu">roi_points</span>(distractor_01, img_width, img_height, <span class="fl">960.</span>, <span class="fl">540.</span>, <span class="at">units =</span> <span class="st">'pix'</span>, <span class="at">monitor =</span> myMon), <span class="st">"distractor_01"</span>)<span class="er">)</span></span>
-<span id="cb4-3"><a href=""></a>            <span class="fu">et_tracker.sendMessage</span>(<span class="st">'!V IAREA RECTANGLE %d %d %d %d %d %s'</span> % <span class="fu">roi_points</span>(distractor_02, img_width, img_height, <span class="fl">960.</span>, <span class="fl">540.</span>, <span class="at">units =</span> <span class="st">'pix'</span>, <span class="at">monitor =</span> myMon), <span class="st">"distractor_02"</span>)<span class="er">)</span></span>
-<span id="cb4-4"><a href=""></a>            <span class="fu">et_tracker.sendMessage</span>(<span class="st">'!V IAREA RECTANGLE %d %d %d %d %d %s'</span> % <span class="fu">roi_points</span>(distractor_03, img_width, img_height, <span class="fl">960.</span>, <span class="fl">540.</span>, <span class="at">units =</span> <span class="st">'pix'</span>, <span class="at">monitor =</span> myMon), <span class="st">"distractor_03"</span>)<span class="er">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
 <section id="triggers" class="slide level2">
 <h2>Triggers</h2>
@@ -2279,14 +2130,7 @@ Badaya &amp; Baltais
 </ul>
 <p>Related to stimulus-synchrony!</p>
 </section>
-<section id="triggers-1" class="slide level2">
-<h2>Triggers</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="fu">et_tracker.sendMessage</span>(<span class="st">'audio_onset'</span>) <span class="co"># Trigger for a specific event</span></span>
-<span id="cb5-2"><a href=""></a><span class="fu">et_tracker.sendMessage</span>(<span class="st">'!V TRIAL_VAR set type %s'</span> % trial[<span class="st">"set_type"</span>]) <span class="co"># Information about the trial</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="the-experiment-4" class="slide level2">
+<section id="the-experiment-3" class="slide level2">
 <h2>The experiment</h2>
 <p>But what about stimuli? What to control for?</p>
 <ul>
@@ -2294,7 +2138,7 @@ Badaya &amp; Baltais
 <li>Each day we’ll discuss the specific confounds of each paradigm.</li>
 </ul>
 </section>
-<section id="side-note-reporting" class="slide level2">
+<section id="side-note-reporting" class="slide level2 smaller">
 <h2>Side note: Reporting</h2>
 <p>What to report? (At least):</p>
 <ul>
@@ -2319,7 +2163,7 @@ Badaya &amp; Baltais
 <h2>Eye-tracking in research</h2>
 <p>Research traditions: Visual search (serial versus parallel processing), reading research (processes involved in text comprehension), scene perception (forming a representation of a scene), usability.</p>
 <ul>
-<li><p>Flash-preview moving-window paradigm, visual world paradigm, anti-saccadic paradigm, saccadic mislocalization, social interaction paradigm, change blingness paradigm, gaze-contigent paradigms, preferential-looking paradigms, prosaccade paradigm…</p>
+<li><p>Flash-preview moving-window paradigm, visual world paradigm, anti-saccadic paradigm, saccadic mislocalization, social interaction paradigm, change blindness paradigm, gaze-contigent paradigms, preferential-looking paradigms, prosaccade paradigm…</p>
 <ul>
 <li>And combine other paradigms with eye-tracking</li>
 </ul></li>
@@ -2396,7 +2240,7 @@ Badaya &amp; Baltais
 <li>Can be a sentence, paragraphs etc.</li>
 <li>Huge datasets of eye movements data (e.g., GECO, Cop et al., 2017; MECO, Siegelman et al., 2022)</li>
 </ul>
-<iframe data-external="1" src="https://www.youtube.com/embed/TwNNij89qro" width="60%" height="60%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe data-external="1" src="https://www.youtube.com/embed/TwNNij89qro" width="40%" height="40%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
 <section id="eye-tracking-in-language-research-4" class="slide level2">
 <h2>Eye-tracking in language research</h2>
@@ -2424,243 +2268,40 @@ Badaya &amp; Baltais
 <li>Pre-processing</li>
 </ul>
 </section>
-<section id="references" class="slide level2">
+<section id="references" class="slide level2 smaller">
 <h2>References</h2>
+<p>Alexander, R. G., &amp; Martinez-Conde, S. (2019). Fixational eye movements. <em>Eye movement research: An introduction to its scientific foundations and applications</em>, 73-115.</p>
+<p>Carroll, T. (2017). Eye Behavior While Reading Words of Sanskrit and Urdu Origin in Hindi. Brigham Young University.</p>
+<p>Chiew, K. S., &amp; Braver, T. S. (2013). Temporal dynamics of motivation-cognitive control interactions revealed by high-resolution pupillometry. <em>Frontiers in psychology, 4</em>, 15.</p>
+<p>Conklin, K., Pellicer-Sánchez, A., &amp; Carrol, G. (2018). <em>Eye-tracking: A guide for applied linguistics research</em>. Cambridge University Press.</p>
+<p>Cooper, R. M. (1974). The control of eye fixation by the meaning of spoken language: a new methodology for the real-time investigation of speech perception, memory, and language processing. Cognitive psychology.</p>
+<p>Cop, U., Dirix, N., Drieghe, D., &amp; Duyck, W. (2017). Presenting GECO: An eyetracking corpus of monolingual and bilingual sentence reading. <em>Behavior Research Methods, 49</em>(2), 602–615. https://doi.org/10.3758/s13428-016-0734-0</p>
 </section>
-<section id="extra-slides" class="slide level2">
-<h2>Extra slides</h2>
+<section id="references-1" class="slide level2 smaller">
+<h2>References</h2>
+<p>Cornelis, X., Dirix, N., &amp; Bogaerts, L. (2025). The timing of spontaneous eye blinks in text reading suggests cognitive role. Scientific Reports, 15(1), 1-10.</p>
+<p>Dunn, M. J., Alexander, R. G., Amiebenomo, O. M., Arblaster, G., Atan, D., Erichsen, J. T., … &amp; Sprenger, A. (2024). Minimal reporting guideline for research involving eye tracking (2023 edition). <em>Behavior research methods, 56</em>(5), 4351-4357.</p>
+<p>Fink, L., Simola, J., Tavano, A., Lange, E., Wallot, S., &amp; Laeng, B. (2024). From pre-processing to advanced dynamic modeling of pupil data. <em>Behavior Research Methods, 56</em>(3), 1376-1412.</p>
+<p>Holmqvist, K., Nyström, M., Andersson, R., Dewhurst, R., Jarodzka, H., &amp; Van de Weijer, J. (2011). <em>Eye tracking: A comprehensive guide to methods and measures</em>. oup Oxford.</p>
+<p>Hutton, S. B. (2019). <em>Eye tracking methodology. Eye movement research: An introduction to its scientific foundations and applications</em>, 277-308.</p>
+<p>King, J. P., Loy, J. E., &amp; Corley, M. (2018). Contextual effects on online pragmatic inferences of deception. <em>Discourse Processes, 55</em>(2), 123-135.</p>
+<p>Mathôt, S., Grainger, J., &amp; Strijkers, K. (2017). Pupillary responses to words that convey a sense of brightness or darkness. <em>Psychological science, 28</em>(8), 1116-1124.</p>
 </section>
-<section id="structure-of-an-eye-tracking-experiment" class="slide level2">
-<h2>Structure of an eye-tracking experiment</h2>
-<ol type="1">
-<li><p>Set up</p>
-<ul>
-<li>Welcome participant, instructions
-<ul>
-<li>Including introduction to the eye-tracker</li>
-</ul></li>
-<li>Check make up</li>
-<li>Camera set up
-<ul>
-<li>Checks prior to experiment
-<ul>
-<li>Comfortable seating</li>
-<li>Focus</li>
-<li>Corners &amp; areas of interest</li>
-<li>Automatic &amp; adjust thresholding</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><p>Experiment</p></li>
-<li><p>After it</p></li>
-</ol>
+<section id="references-2" class="slide level2 smaller">
+<h2>References</h2>
+<p>Nolte, C. (2023). <em>What you see is what you get: a closer look at bias in the visual world paradigm</em> (Doctoral dissertation, The University of Iowa).</p>
+<p>Nyström, M., Hooge, I. T., Hessels, R. S., Andersson, R., Hansen, D. W., Johansson, R., &amp; Niehorster, D. C. (2025). The fundamentals of eye tracking part 3: How to choose an eye tracker. <em>Behavior Research Methods, 57</em>(2), 67.</p>
+<p>Papoutsaki, A., Sangkloy, P., Laskey, J., Daskalova, N., Huang, J., &amp; Hays, J. (2016). WebGazer : Scalable webcam eye tracking using user interactions. <em>International Joint Conference on Artificial Intelligence.</em></p>
+<p>Siegelman, N., Schroeder, S., Acartürk, C., Ahn, H. D., Alexeeva, S., Amenta, S., … &amp; Kuperman, V. (2022). Expanding horizons of cross-linguistic research on reading: The Multilingual Eye-movement Corpus (MECO). <em>Behavior research methods, 54</em>(6), 2843-2863.</p>
+<p>Spivey, M. J. (2025). A linking hypothesis for eyetracking and mousetracking in the visual world paradigm. <em>Brain Research</em>, 149477.</p>
+<p>Strauch, C., Wang, C. A., Einhäuser, W., Van der Stigchel, S., &amp; Naber, M. (2022). Pupillometry as an integrated readout of distinct attentional networks. <em>Trends in Neurosciences, 45</em>(8), 635-647.</p>
 </section>
-<section id="structure-of-an-eye-tracking-experiment-1" class="slide level2">
-<h2>Structure of an eye-tracking experiment</h2>
-<ol type="1">
-<li><p>Set up</p></li>
-<li><p>Experiment</p>
-<ul>
-<li>Calibration &amp; validation</li>
-<li>Practice trials &amp; familiarisation (optional)</li>
-<li>Experimental phase (recording sequence, block division - optional)
-<ul>
-<li>(Drift correction) Stimulus –&gt; Trigger –&gt; Follow-up</li>
-<li>Goodbye screen</li>
-</ul></li>
-</ul></li>
-<li><p>After it</p></li>
-</ol>
-</section>
-<section id="structure-of-an-eye-tracking-experiment-2" class="slide level2">
-<h2>Structure of an eye-tracking experiment</h2>
-<ol type="1">
-<li><p>Set up</p></li>
-<li><p>Experiment</p></li>
-<li><p>After it</p>
-<ul>
-<li>Post-experimental questionnaires &amp; debriefing.</li>
-</ul></li>
-</ol>
-</section>
-<section id="participant-set-up" class="slide level2">
-<h2>Participant set up</h2>
-<p>Briefing</p>
-<ul>
-<li>Explain the experiment and allow them to ask questions.
-<ul>
-<li>Add instructions to the experiment &amp; practice sessions.</li>
-</ul></li>
-<li>Let them know in advance the experiment structure (e.g., calibration &gt; validation &gt; experiment (practice if there is)).</li>
-<li>Explain (briefly) how the eye-tracker works.</li>
-</ul>
-<div class="fragment">
-<p>Tempted to ask to not blink?</p>
-<ul>
-<li>Not blinking leads to dry eyes, and ultimately more blinking.</li>
-<li>Instead: Tell them when it is preferred for them to blink (if you decide to mention anything).</li>
-</ul>
-</div>
-</section>
-<section id="participant-set-up-1" class="slide level2">
-<h2>Participant set up</h2>
-<p>Adjust seating</p>
-<ul>
-<li>Chinrest</li>
-<li>Chair height</li>
-<li>Sitting straight</li>
-<li>Head against foreheadrest, chin over chinrest.</li>
-</ul>
-</section>
-<section id="camera-set-up" class="slide level2">
-<h2>Camera set up</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Access to eye image</p>
-<ul>
-<li>Hidden image: set-up is automatic.
-<ul>
-<li>Easier to handle but potential for poorer data quality, e.g., data recording issues may go unnoticed.</li>
-</ul></li>
-<li><span class="fg" style="--col: #e64173">Access</span> to image.
-<ul>
-<li>Need for technical knowledge.</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/host_pc_setup.JPG"></p>
-</div>
-</div>
-</section>
-<section id="camera-set-up-1" class="slide level2">
-<h2>Camera set up</h2>
-<p>Which eye to track? - Dominant eye (by default, right eye)</p>
-<p>Detect the eye</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/eye_undetected.JPG" height="300"></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/eye_detected.JPG" height="300"></p>
-</div>
-</div>
-</section>
-<section id="camera-set-up-2" class="slide level2">
-<h2>Camera set up</h2>
-<p>Focus</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/unfocused_camera.JPG" height="300"></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/eye_detected.JPG" height="300"></p>
-</div>
-</div>
-</section>
-<section id="camera-set-up-3" class="slide level2">
-<h2>Camera set up</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><br> <br> <br></p>
-<ul>
-<li>P-CR tracking:
-<ul>
-<li>Dark blue pupil</li>
-<li>Light blue CR</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/good_captureeye1.png"> <img data-src="_images/_session1/good_pupil.png"></p>
-</div>
-</div>
-</section>
-<section id="camera-set-up-4" class="slide level2">
-<h2>Camera set up</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><br></p>
-<p>Automatic thresholding + adjustments</p>
-<ul>
-<li>Reflections = impossible eye movements</li>
-</ul>
-<p>Pupil tracking</p>
-<ul>
-<li>Centroid versus Ellipse</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/options.jpg" height="550"></p>
-</div>
-</div>
-</section>
-<section id="camera-set-up-5" class="slide level2">
-<h2>Camera set up</h2>
-<ul>
-<li>Ask them to move their eyes around the corners of the screen
-<ul>
-<li>Notice whether we lose track at any place</li>
-<li>Especially near your AIs</li>
-<li>Ensure pupil is not covered
-<ul>
-<li>E.g., hair, glasses frame</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="camera-set-up-issues" class="slide level2">
-<h2>Camera set up: Issues</h2>
-<ul>
-<li>No mascara
-<ul>
-<li>Dark lashes lead to issues -&gt; confounded with the pupil.</li>
-</ul></li>
-<li>Eyelids
-<ul>
-<li>Cover the pupil in lower gaze directions</li>
-<li>An issue in some cases (e.g., tired participants)</li>
-<li>Recording from lower then useful.</li>
-</ul></li>
-</ul>
-</section>
-<section id="camera-set-up-issues-1" class="slide level2">
-<h2>Camera set up: Issues</h2>
-<ul>
-<li>Glasses
-<ul>
-<li>Darker image -&gt; issues in thresholding</li>
-<li>Clean glasses</li>
-<li>Adjust contrast/brightness</li>
-</ul></li>
-<li>Glasses
-<ul>
-<li>Reflect infrared light</li>
-<li>Clean glasses</li>
-<li>Move camera (angle rather than distance)
-<ul>
-<li>Place reflections far away from pupil and CR</li>
-</ul></li>
-<li>Move mirror (only possible in tower-mounted eye-trackers)</li>
-</ul></li>
-</ul>
-</section>
-<section id="camera-set-up-issues-2" class="slide level2">
-<h2>Camera set up: Issues</h2>
-<ul>
-<li>Contact lenses
-<ul>
-<li>Air bubbles between eye and contact lense interact with CR
-<ul>
-<li>Camera focus</li>
-</ul></li>
-</ul></li>
-<li>Wet eyes
-<ul>
-<li>Split up the CR
-<ul>
-<li>Breaks</li>
-<li>Stop the experiment</li>
-<li>Dim the light in the lab</li>
-<li>Tell the participant to go home</li>
-</ul></li>
-</ul></li>
-</ul>
+<section id="references-3" class="slide level2 smaller">
+<h2>References</h2>
+<p>Tanenhaus, M. K., Spivey-Knowlton, M. J., Eberhard, K. M., &amp; Sedivy, J. C. (1995). Integration of visual and linguistic information in spoken language comprehension. <em>Science, 268</em>(5217), 1632-1634.</p>
+<p>Trueswell, J. C. (2008). Using eye movements as a developmental measure within psycholinguistics. <em>Language acquisition and language disorders, 44</em>, 73.</p>
+<p>Wilcox, E. G., Ding, C., Sachan, M., &amp; Jäger, L. A. (2024). Mouse Tracking for Reading (MoTR): A new naturalistic incremental processing measurement tool. <em>Journal of Memory and Language, 138</em>, 104534.</p>
+<p>Yarbus, A. L. (1967). Eye movements and vision. New York: Plenum</p>
 <div class="quarto-auto-generated-content">
 <p><img src="/_images/logo_mils.png" class="slide-logo"></p>
 <div class="footer footer-default">
@@ -2879,44 +2520,6 @@ Badaya &amp; Baltais
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
