@@ -728,9 +728,8 @@ Second, both the prenaming and feedback-based closed-set arguments make empirica
 
 ## Confounds
 
-<br> <br> <br>
 
-::: r-stack
+::: {style="text-align: center"}
 Given your knowledge in linguistics & what we've discussed, what should we keep in mind when creating a VWP experiment?
 :::
 
@@ -893,7 +892,7 @@ Language production.
 ## Variations
 
 -   The link between planning and eye movements is less direct.
--   Eye movements \~ labour division of speech production (e.g., Levelt's model)
+-   Division of labour in speech production (e.g., Levelt's model)
     -   Conceptual
     -   Formulation
     -   Articulation
@@ -906,7 +905,7 @@ Language production.
 Language production.
 
 -   A direct fixation is not necessary to identify an object or when producing a label.
-    -   Speakers tend to look at the next object they will name (about 1 s before articulation).
+    -   Speakers tend to look at the next object they will name before they name it.
 
 
 ## Variations
@@ -925,7 +924,7 @@ Language production.
 ::: {.column width="50%"}
 <br>
 
-![Pistono & Hartsuiker, 2023](images/_session2/example_pistono.JPG)
+![Pistono & Hartsuiker, 2023](_images/_session2/example_pistono.JPG)
 :::
 :::
 
@@ -950,7 +949,9 @@ Mouse-tracking e.g., King et al., 2019
     -   ROIs size
     -   Display size
 
-## Pre-processing
+![Slim & Hartsuiker, 2023](_images/_session2/slim.JPG)
+
+# Raw data & pre-processing
 
 ## Raw data
 
