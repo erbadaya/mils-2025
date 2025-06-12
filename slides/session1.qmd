@@ -41,6 +41,10 @@ Teaching team
 
 ## Welcome to the course
 
+![](_images/_session1/wooclap_D1.JPG)
+
+## Welcome to the course
+
 What about yourselves?
 
 -   Name & uni/department
@@ -1043,10 +1047,10 @@ Online tracking: Slim & Hartsuiker (2022) on WebGazer.js
 
 Could replicate previous findings but:
 
-- Lags (processing speed of browser)
-- Areas of Interest (four quadrants)
-- Highly sensitive to linguistic conditions & participants' movements
-- Data loss
+-   Lags (processing speed of browser)
+-   Areas of Interest (four quadrants)
+-   Highly sensitive to linguistic conditions & participants' movements
+-   Data loss
 
 See also Prystauka et al. (2024)
 
@@ -1132,6 +1136,8 @@ Two components:
 -   Gaze position is capture every X ms (depends on sample rate).
 
 Question is: How does an eye-tracking lab look like? What elements do you think the lab has?
+
+. . .
 
 A camera, a screen, etc.
 

@@ -66,7 +66,7 @@ We have a wealth of **paradigms** to explore how individuals comprehend a piece 
 ::: notes
 In 1879, the French ophthalmologist Louis Émile Javal used a mirror on one side of a page to observe eye movement in silent reading, and found that it involves a succession of discontinuous individual movements for which he coined the term saccades.
 
-Keith Rayner (June 20, 1943 – January 21, 2015) was a cognitive psychologist best known for pioneering modern eye-tracking methodology in reading and visual perception.
+Keith Rayner (June 20, 1943 -- January 21, 2015) was a cognitive psychologist best known for pioneering modern eye-tracking methodology in reading and visual perception.
 :::
 
 ## Some general facts
@@ -193,7 +193,7 @@ Moving window paradigm (e.g., McConkie & Rayner, 1975)
 -   Shows: Parafoveal processing and perceptual span (extraction and use of information).
 -   IV: Size of the window.
 
-[^3]: IA = Interest Area, IV = independent variable
+[^3]: This paper was retracted due to some legal issues.
 
 ::: notes
 By varying the size of the window and the type of mask (e.g., X's, visually similar or dissimilar characters) and comparing the reading times in the window and normal reading conditions, it is possible to define the size of the area from which a reader can efficiently extract and utilize information.
@@ -678,7 +678,7 @@ Size depends on the research question:
 -   Move to the next trial (button press)
 
     -   Consider handedness (e.g, turn the button box over)
-    
+
     -   Useful trick: before pressing, look at the right lower corner of the monitor (e.g., a sticker)
 
 -   Comprehension questions
@@ -700,7 +700,6 @@ Text layout:
     -   B&W is not recommended for dyslexic participants
     -   Monospace font (e.g., Courier)
     -   14-18 pt[^4] (3 letters = 1 degree)
-    
 -   Margins
     -   Tracking less accurate at screen borders
 
@@ -712,7 +711,7 @@ Conklin et al., 2018: a study with dyslexic participants might use pastel colour
 
 ## Non-linguistic confounds
 
-Target (& spillover) IA: 
+Target (& spillover) IA:
 
 -   Never beginning/end of the line
     -   1$^{st}$ word likely to be under-/overshoot or skipped
@@ -727,7 +726,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ## Non-linguistic confounds
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   Line spacing[^5]
     -   Tracking less accurate for vertical movements (vertical drift)
@@ -739,7 +738,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ![From Conklin et al., 2018](images/session_3/example_spacing.JPG)
 :::
-:::::
+:::
 
 [^5]: Less important for global measures (sentence-level processing).
 
@@ -771,15 +770,12 @@ Match contexts!
 -   Serial vs. parallel processing:
     -   Preview benefit, parafoveal-on-foveal effects (see Drieghe, 2011; Hyönä, 2011)
     -   Spillover effect
-    
+
 ## Example: Juhasz & Sheridan (2019)
 
 "The time course of age-of-acquisition effects on eye movements during reading: Evidence from survival analyses"
 
-Background:
--   AoA effect: faster processing for words that are learned earlier in life.
--   Network plasticity hypothesis: early learned items are encoded more effectively -\> AoA influences multiple aspects of lexical processing, including orthography, phonology, and semantics.
--   Alternatively, AoA effect is limited to semantic processing.
+Background: - AoA effect: faster processing for words that are learned earlier in life. - Network plasticity hypothesis: early learned items are encoded more effectively -\> AoA influences multiple aspects of lexical processing, including orthography, phonology, and semantics. - Alternatively, AoA effect is limited to semantic processing.
 
 RQ: Does AoA influence the earliest stages of word recognition during reading?
 
@@ -787,10 +783,7 @@ RQ: Does AoA influence the earliest stages of word recognition during reading?
 
 RQ: Does AoA influence the earliest stages of word recognition during reading?
 
-Linking hypothesis: E-Z Reader model
--   Lexical processing is serial
--   Direct lexical control over eye movements
--   Two stages: 1) orthography, phonology, familiarity (-\> saccade planning), 2) semantics (-\> shift in attention)
+Linking hypothesis: E-Z Reader model - Lexical processing is serial - Direct lexical control over eye movements - Two stages: 1) orthography, phonology, familiarity (-\> saccade planning), 2) semantics (-\> shift in attention)
 
 Which reading measures are of most interest?
 
@@ -798,17 +791,13 @@ Which reading measures are of most interest?
 
 Which reading measures are of most interest?
 
-Lexical access -\> early measures.
--   First fixation duration (!), single fixation duration, gaze duration
--   Skipping rate
--   Total reading time
+Lexical access -\> early measures. - First fixation duration (!), single fixation duration, gaze duration - Skipping rate - Total reading time
 
 Plus a time-course analysis to estimate the earliest divergence point.
 
 ## Example: Juhasz & Sheridan (2019)
 
-Early AoA:  Julia will go to the mall to buy a new **skirt** when she gets out of work.
-Late AoA:   Julia will go to the mall to buy a new **shawl** when she gets out of work.
+Early AoA: Julia will go to the mall to buy a new **skirt** when she gets out of work. Late AoA: Julia will go to the mall to buy a new **shawl** when she gets out of work.
 
 Which potential confounds can you think of?
 
@@ -824,8 +813,7 @@ Which potential confounds can you think of?
 
 ## Example: Juhasz & Sheridan (2019)
 
-Finding:
--   AoA effects were observed in both early (at 158 ms) and late fixation duration measures.
+Finding: - AoA effects were observed in both early (at 158 ms) and late fixation duration measures.
 
 What did we learn about lexical processing in reading? What to consider when building your own experiment?
 
@@ -842,9 +830,7 @@ What did we learn about lexical processing in reading? What to consider when bui
 
 "Processing of Co-Reference in Autism Spectrum Disorder"
 
-Background:
--   Typicality effect: longer reading times for a category noun ("bird") when preceded by an atypical exemplar ("penguin")
--   ASD: reduced accuracy for reading comprehension and inferencing tasks (e.g., anaphor -\> antecedent)
+Background: - Typicality effect: longer reading times for a category noun ("bird") when preceded by an atypical exemplar ("penguin") - ASD: reduced accuracy for reading comprehension and inferencing tasks (e.g., anaphor -\> antecedent)
 
 RQ: Are individuals with ASD less efficient when computing co-referential links during reading?
 
@@ -854,15 +840,7 @@ Which reading measures are of most interest?
 
 Which reading measures are of most interest?
 
-Comprehension -\> global measures:
--   Mean fixation duration
--   Fixation count
--   Total reading time
-Inferencing -\> target word ("bird"):
--   First fixation duration
--   Single fixation duration
--   Gaze duration
--   Total reading time
+Comprehension -\> global measures: - Mean fixation duration - Fixation count - Total reading time Inferencing -\> target word ("bird"): - First fixation duration - Single fixation duration - Gaze duration - Total reading time
 
 ## Example: Howard et al. (2017)
 
@@ -895,10 +873,7 @@ Plunger: to unclog the WC.
 
 ## Example: Howard et al. (2017)
 
-Finding:
--   No group differences (except for more re-reading in ASD)
--   ASD difficulties in reading comprehension are unlikely to be accounted for by differences in co-reference processing
--   Effects of verbal proficiency (expressive language score) across groups
+Finding: - No group differences (except for more re-reading in ASD) - ASD difficulties in reading comprehension are unlikely to be accounted for by differences in co-reference processing - Effects of verbal proficiency (expressive language score) across groups
 
 What to consider when building your own experiment?
 
@@ -957,7 +932,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 
 ## Pros & cons
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 **Pros**
 
@@ -975,7 +950,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 -   Many potential confounds.
 -   Resource-costly.
 :::
-:::::
+:::
 
 # Data pre-processing
 
@@ -1003,7 +978,7 @@ Today:
 
 ## Interest period
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1013,13 +988,13 @@ First make sure your IAs are displayed.
 :::
 
 ::: {.column width="50%"}
-![](images/session_4/showIAs.png){fig-align="center"}
+![](_images/_session3/showIAs.png){fig-align="center"}
 :::
-:::::
+:::
 
 ## Interest period
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1027,9 +1002,9 @@ From stimulus presentation to button press (trial end)
 :::
 
 ::: {.column width="50%"}
-![](images/session_4/interest_period.png){fig-align="center"}
+![](_images/_session3/interest_period.png){fig-align="center"}
 :::
-:::::
+:::
 
 ## Check data
 
@@ -1049,7 +1024,7 @@ Horizontal drift
 -   Especially when you are unsure which IAs certain fixations belong to.
 -   **Never** move fixations to the left or right.
 
-![](images/session_4/mariia_horizdrift.png){fig-align="center"}
+![](_images/_session3/mariia_horizdrift.png){fig-align="center"}
 
 ## Check data
 
@@ -1059,7 +1034,7 @@ Vertical drift
     -   Less work if top and bottom margins were big enough
 -   To move certain fixations up/down: Windows Alt+*arrow*, Mac Option+*arrow*
 
-![](images/session_4/mariia_verticaldrift.png){fig-align="center"}
+![](_images/_session3/mariia_verticaldrift.png){fig-align="center"}
 
 ## Check data
 
@@ -1069,7 +1044,7 @@ Blinks in critical IA
     -   Individual participants' behaviour -\> exclude participant?
     -   Happens randomly across conditions, and excluding those trials leads to overall large data loss -\> ignore?
 
-![](images/session_4/mariia_blink_target.png){fig-align="center"}
+![](_images/_session3/mariia_blink_target.png){fig-align="center"}
 
 ## Check data
 
@@ -1078,7 +1053,7 @@ Other
 -   Participants were instructed to look at the corner when finished reading but went back to re-read
 -   Remove those extra fixations
 
-![](images/session_4/sticker.png){fig-align="center"}
+![](_images/_session3/sticker.png){fig-align="center"}
 
 ## Check data
 
@@ -1087,13 +1062,13 @@ Other
 -   Started reading from the middle (critical IA)
 -   Exclude trial
 
-![](images/session_4/middle.png){fig-align="center"}
+![](_images/_session3/middle.png){fig-align="center"}
 
 ## Check data
 
 Keep a detailed **log** of all changes!
 
-![](images/session_4/reading_cleaning_logbook.png){fig-align="center"}
+![](_images/_session3/reading_cleaning_logbook.png){fig-align="center"}
 
 ## Automatized cleaning
 
@@ -1120,7 +1095,7 @@ Different thresholds -\> report *exactly* what you did.
 
 ## Automatized cleaning
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br> <br> <br>
 
@@ -1130,15 +1105,15 @@ Right-click on the whole folder.
 :::
 
 ::: {.column width="50%"}
-![](images/session_4/4stage_a.png) ![](images/session_4/4stage_b.png)
+![](_images/_session3/4stage_a.png) ![](_images/_session3/4stage_b.png)
 :::
-:::::
+:::
 
 ## Automatized cleaning
 
 These are settings from D. Drieghe's lab (non-standard)!
 
-![](images/session_4/4stage_b.png){fig-align="center"}
+![](_images/_session3/4stage_b.png){fig-align="center"}
 
 <sup>Stage 1: merge fix shorter than 80 ms and less than 0.5 degrees away from each other. Stage 2: merge remaining fix shorter than 40 ms and less than 1.25 degrees away from each other. Finally (Stage 4), remove all remaining fixations that are shorter than 80 ms or longer than 800 ms. Also, remove all fixations that fall outside the IAs.</sup>
 
@@ -1148,7 +1123,7 @@ Recap: Fixations and saccades **in several IAs** (*n-1, n, n+1*)
 
 -   Interest Area report
 
-![](images/session_4/IAreport.png){fig-align="center"}
+![](_images/_session3/IAreport.png){fig-align="center"}
 
 ## Exporting data
 
@@ -1156,7 +1131,7 @@ Interest Area report
 
 -   Choose variables (or just export all)
 
-![](images/session_4/variables_report.png){fig-align="center"}
+![](_images/_session3/variables_report.png){fig-align="center"}
 
 ## Exporting data
 
@@ -1166,7 +1141,7 @@ For analysis, we surely need participant ID (Session_Name\_), condition, item ID
 
 Let's choose some common measures:
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   Skipping
 -   First fixation duration
@@ -1178,9 +1153,9 @@ Let's choose some common measures:
 :::
 
 ::: {.column width="50%"}
-![](images/session_4/var_choose.png)
+![](_images/_session3/var_choose.png)
 :::
-:::::
+:::
 
 ## Output
 
@@ -1188,7 +1163,7 @@ Interest Area report
 
 .txt → import in Excel and save as .xlsx or .csv
 
-![](images/session_4/IAreport_view.png){fig-align="center"}
+![](_images/_session3/IAreport_view.png){fig-align="center"}
 
 -   Here all IAs are listed; for analysis, we look at each IA separately!
 
@@ -1226,7 +1201,7 @@ If IA_SKIP = 1, but we don't want to just assign *NA* to all measures indiscrimi
 
 Puebla & Felser (2022)
 
-![](images/session_4/puebla.png){fig-align="center"}
+![](_images/_session3/puebla.png){fig-align="center"}
 
 ## What to report?
 
@@ -1240,9 +1215,9 @@ Data preparation:
 
 ## What to report?
 
-Holmqvist et al. (2022). Eye tracking: Empirical foundations for a minimal reporting guideline.[^3]
+Holmqvist et al. (2022). Eye tracking: Empirical foundations for a minimal reporting guideline.[^6]
 
-[^3]: This paper was retracted due to some legal issues.
+[^6]: This paper was retracted due to some legal issues.
 
 Jakobi et al. (2024). Reporting eye-tracking data quality: Towards a new standard.
 
@@ -1289,7 +1264,7 @@ Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence c
 
 Frisson, S., Harvey, D. R., & Staub, A. (2017). No prediction error cost in reading: Evidence from eye movements. *Journal of Memory and Language, 95*, 200--214. https://doi.org/10.1016/j.jml.2017.04.007
 
-Holmqvist, K., Örbom, S. L., Hooge, I. T. C., Niehorster, D. C., Alexander, R. G., Andersson, R., Benjamins, J. S., Blignaut, P., Brouwer, A.-M., Chuang, L. L., Dalrymple, K. A., Drieghe, D., Dunn, M. J., Ettinger, U., Fiedler, S., Foulsham, T., van der Geest, J. N., Hansen, D. W., Hutton, S. B., … Hessels, R. S. (2023). Eye tracking: Empirical foundations for a minimal reporting guideline. *Behavior Research Methods, 55*(1), 364--416. https://doi.org/10.3758/s13428-021-01762-8
+Holmqvist, K., Örbom, S. L., Hooge, I. T. C., Niehorster, D. C., Alexander, R. G., Andersson, R., Benjamins, J. S., Blignaut, P., Brouwer, A.-M., Chuang, L. L., Dalrymple, K. A., Drieghe, D., Dunn, M. J., Ettinger, U., Fiedler, S., Foulsham, T., van der Geest, J. N., Hansen, D. W., Hutton, S. B., ... Hessels, R. S. (2023). Eye tracking: Empirical foundations for a minimal reporting guideline. *Behavior Research Methods, 55*(1), 364--416. https://doi.org/10.3758/s13428-021-01762-8
 
 Howard, P. L., Liversedge, S. P., & Benson, V. (2017). Processing of co-reference in autism spectrum disorder. *Autism Research, 10*(12), 1968--1980. https://doi.org/10.1002/aur.1845
 
@@ -1299,7 +1274,7 @@ Hyönä, J. (2011). Foveal and parafoveal processing during reading. In S. P. Li
 
 Hyönä, J., Olson, R., Defries, J., Fulker, D., Pennington, B., & Smith, S. (1995). Eye Fixation Patterns Among Dyslexic and Normal Readers: Effects of Word Length and Word Frequency. *Journal of Experimental Psychology: Learning, Memory, and Cognition, 21*, 1430--1440. https://doi.org/10.1037/0278-7393.21.6.1430
 
-Jakobi, D. N., Krakowczyk, D. G., & Jäger, L. A. (2024). Reporting Eye-Tracking Data Quality: Towards a New Standard. *ETRA ’24: Proceedings of the 2024 Symposium on Eye Tracking Research and Applications.* https://doi.org/10.1145/3649902.3655658
+Jakobi, D. N., Krakowczyk, D. G., & Jäger, L. A. (2024). Reporting Eye-Tracking Data Quality: Towards a New Standard. *ETRA '24: Proceedings of the 2024 Symposium on Eye Tracking Research and Applications.* https://doi.org/10.1145/3649902.3655658
 
 Jayes, L. T., Fitzsimmons, G., Weal, M. J., Kaakinen, J. K., & Drieghe, D. (2022). The impact of hyperlinks, skim reading and perceived importance when reading on the Web. PLOS ONE, 17(2), e0263669. https://doi.org/10.1371/journal.pone.0263669
 
@@ -1345,4 +1320,4 @@ Solan, H. A., Feldman, J., & Tujak, L. (1995). Developing Visual and Reading Eff
 
 Staub, A., Rayner, K., Pollatsek, A., Hyönä, J., & Majewski, H. (2007). The time course of plausibility effects on eye movements in reading: Evidence from noun-noun compounds. *Journal of Experimental Psychology. Learning, Memory, and Cognition, 33*(6), 1162--1169. https://doi.org/10.1037/0278-7393.33.6.1162
 
-von der Malsburg, T., & Angele, B. (2017). False positives and other statistical errors in standard analyses of eye movements in reading. Journal of Memory and Language, 94, 119–133. https://doi.org/10.1016/j.jml.2016.10.003
+von der Malsburg, T., & Angele, B. (2017). False positives and other statistical errors in standard analyses of eye movements in reading. Journal of Memory and Language, 94, 119--133. https://doi.org/10.1016/j.jml.2016.10.003
