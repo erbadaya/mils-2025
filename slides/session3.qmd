@@ -97,7 +97,7 @@ How does this work in reading?
 
 ## Eye movements in reading
 
-![From Conklin et al., 2018](images/session_3/perceptual_span_reading.JPG){fig-align="center" width="590"}
+![From Conklin et al., 2018](_images/_session3/perceptual_span_reading.JPG){fig-align="center" width="590"}
 
 ## Eye movements in reading
 
@@ -118,7 +118,7 @@ Fixations
 -   Most reading measures are based on fixation durations
 -   Affected by word length, frequency, predictability, etc.
 
-![Data from Mariia Baltais](images/session_3/mariia_fix.JPG){fig-align="center" width="500"}
+![Data from Mariia Baltais](_images/_session3/mariia_fix.JPG){fig-align="center" width="500"}
 
 ::: notes
 The Optimal Viewing Position (OVP) effect shows that word identification is best when the eyes first fixate near the center of words. When words are presented for short durations, recognition performance is maximal when the viewing position is slightly left of the word center.
@@ -134,7 +134,7 @@ Saccades
     -   Size = distance travelled (amplitude)
 -   Not analyzed except for backward saccades (regressions)
 
-![Data from Mariia Baltais](images/session_3/mariia_sac.JPG){fig-align="center" width="500"}
+![Data from Mariia Baltais](_images/_session3/mariia_sac.JPG){fig-align="center" width="500"}
 
 ::: notes
 Saccadic suppression is a visual phenomenon where the brain temporarily reduces sensitivity to visual input during rapid eye movements (saccades). This suppression helps prevent a blurred, unstable visual experience when the eyes rapidly move across a scene.
@@ -150,11 +150,11 @@ Regressions
     -   To correct 'overshooting'
     -   Processing difficulty
 
-![Data from Mariia Baltais](images/session_3/mariia_sac.JPG){fig-align="center" width="500"}
+![Data from Mariia Baltais](_images/_session3/mariia_sac.JPG){fig-align="center" width="500"}
 
 ## Eye movements in reading
 
-![](images/session_3/skipping.JPG){fig-align="center"}
+![](_images/_session3/skipping.JPG){fig-align="center"}
 
 ## Eye movements in reading
 
@@ -173,7 +173,7 @@ Blinking
 -   Noise
     -   Cf. data pre-processing
 
-![Data from Mariia Baltais](images/session_3/mariia_blink.JPG){fig-align="center" width="500"}
+![Data from Mariia Baltais](_images/_session3/mariia_blink.JPG){fig-align="center" width="500"}
 
 # Reading paradigms
 
@@ -205,7 +205,7 @@ Moving window paradigm (e.g., McConkie & Rayner, 1975)
 
 <br>
 
-{{< video images/session_3/moving_window.mp4>}}
+{{< video _images/_session3/moving_window.mp4>}}
 
 ## Gaze-contigent paradigms
 
@@ -231,7 +231,7 @@ Foveal mask paradigm (e.g., Rayner & Bertera, 1979)
 
 <br>
 
-{{< video images/session_3/foveal_mask.mp4>}}
+{{< video _images/_session3/foveal_mask.mp4>}}
 
 ## Gaze-contigent paradigms
 
@@ -248,7 +248,7 @@ Disappearing text paradigm (e.g., Liversedge et al., 2004)
 
 <br>
 
-{{< video images/session_3/disappearing_text_animation.mp4>}}
+{{< video _images/_session3/disappearing_text_animation.mp4>}}
 
 ## Gaze-contigent paradigms
 
@@ -264,7 +264,7 @@ Fast priming paradigm (e.g., Sereno & Rayner, 1992)
 
 <br>
 
-{{< video images/session_3/fast_priming_paradigm.mp4>}}
+{{< video _images/_session3/fast_priming_paradigm.mp4>}}
 
 ## Gaze-contigent paradigms
 
@@ -294,7 +294,7 @@ Boundary paradigm (e.g., Rayner, 1975)
 
 <br>
 
-{{< video images/session_3/boundary.mp4>}}
+{{< video _images/_session3/boundary.mp4>}}
 
 ## Reading of experimental stimuli
 
@@ -308,7 +308,7 @@ Frazier & Rayner, 1982
 
 -   Garden-path sentences: early closure vs. late closure.
 
-![](images/session_3/fraz.JPG){fig-align="center"}
+![](_images/_session3/fraz.JPG){fig-align="center"}
 
 ::: notes
 :::
@@ -319,13 +319,13 @@ Pellicer-Sánchez, 2016
 
 -   Incidental L2 vocabulary acquisition over repetitive exposure
 
-![From Conklin et al., 2018](images/session_3/texts_example.JPG){fig-align="center"}
+![From Conklin et al., 2018](_images/_session3/texts_example.JPG){fig-align="center"}
 
 ## Reading of natural text
 
 GECO corpus (Cop et al., 2017)
 
-![](images/session_3/geco.JPG)
+![](_images/_session3/geco.JPG)
 
 -   The Mysterious Affair At Styles by Agatha Christie (1920)
 
@@ -485,7 +485,7 @@ Different types of linguistic manipulations (e.g., lexical vs. syntactic) can pr
 First-pass measures (before moving to *n+1*).
 
 ::: {r-stack}
-![](images/session_3/earlymeasures.jpg){fig-align="center" width="900"}
+![](_images/_session3/earlymeasures.jpg){fig-align="center" width="900"}
 :::
 
 -   **First fixation duration** (ms)
@@ -503,7 +503,7 @@ From Clifton et al., 2007. Skipping: length, predictability. FFD: earliest point
 First-pass measures (before moving to *n+1*).
 
 ::: {r-stack}
-![](images/session_3/earlymeasures.jpg){fig-align="center" width="900"}
+![](_images/_session3/earlymeasures.jpg){fig-align="center" width="900"}
 :::
 
 -   First fixation duration: 3
@@ -514,7 +514,7 @@ First-pass measures (before moving to *n+1*).
 ## Intermediate measures
 
 ::: {r-stack}
-![](images/session_3/earlymeasures.jpg){fig-align="center" width="900"}
+![](_images/_session3/earlymeasures.jpg){fig-align="center" width="900"}
 :::
 
 -   **Regression-path duration** (= go-past time): time on *n*, *n-1*, etc., before moving to *n+1*
@@ -528,7 +528,7 @@ From Clifton et al., 2007. RPD: lexical and integration difficulties. Regr-out: 
 ## Intermediate measures
 
 ::: {r-stack}
-![](images/session_3/earlymeasures.jpg){fig-align="center" width="900"}
+![](_images/_session3/earlymeasures.jpg){fig-align="center" width="900"}
 :::
 
 -   Regression-path duration: 3+4+5+6
@@ -537,7 +537,7 @@ From Clifton et al., 2007. RPD: lexical and integration difficulties. Regr-out: 
 ## Late measures
 
 ::: {r-stack}
-![](images/session_3/earlymeasures.jpg){fig-align="center" width="900"}
+![](_images/_session3/earlymeasures.jpg){fig-align="center" width="900"}
 :::
 
 -   **Re-reading time, second-pass reading time**: different definitions across literature
@@ -556,7 +556,7 @@ From Clifton et al., 2007. Re-reading time (RPD-GD): indication of the time spen
 ## Late measures
 
 ::: {r-stack}
-![](images/session_3/earlymeasures.jpg){fig-align="center" width="900"}
+![](_images/_session3/earlymeasures.jpg){fig-align="center" width="900"}
 :::
 
 -   Re-reading time (= regression-path duration - gaze duration): 5+6
@@ -583,12 +583,12 @@ Therefore,
 
 Recap:
 
-![From Carroll, 2017](images/session_3/reiterate.JPG)
+![From Carroll, 2017](_images/_session3/reiterate.JPG)
 
 ## Reading measures: exercise {.smaller}
 
 ::: {r-stack}
-![](images/session_3/exercise.jpg){fig-align="center" width="900"}
+![](_images/_session3/exercise.jpg){fig-align="center" width="900"}
 :::
 
 -   First fixation duration:
@@ -605,7 +605,7 @@ Recap:
 ## Reading measures: exercise {.smaller}
 
 ::: {r-stack}
-![](images/session_3/exercise.jpg){fig-align="center" width="900"}
+![](_images/_session3/exercise.jpg){fig-align="center" width="900"}
 :::
 
 -   First fixation duration: 3
@@ -671,7 +671,7 @@ Size depends on the research question:
 -   Vertically large enough
     -   Pre-processing: vertical drift correction
 
-![Data from Mariia Baltais](images/session_3/mariia_verticaldrift.png){fig-align="center" width="500"}
+![Data from Mariia Baltais](_images/_session3/mariia_verticaldrift.png){fig-align="center" width="500"}
 
 ## Task
 
@@ -736,7 +736,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 ::: {.column width="50%"}
 <br>
 
-![From Conklin et al., 2018](images/session_3/example_spacing.JPG)
+![From Conklin et al., 2018](_images/_session3/example_spacing.JPG)
 :::
 :::
 
@@ -805,7 +805,7 @@ Which potential confounds can you think of?
 
 Which potential confounds can you think of?
 
-![](images/session_3/juhasz.png){fig-align="center"}
+![](_images/_session3/juhasz.png){fig-align="center"}
 
 -   Same context through at least the post-target word
 -   Target word never the first or last two words
@@ -852,7 +852,7 @@ How would you define the IAs?
 
 How would you define the IAs?
 
-![](images/session_3/ias_howard.png){fig-align="center"}
+![](_images/_session3/ias_howard.png){fig-align="center"}
 
 Which potential confounds can you think of?
 
@@ -865,7 +865,7 @@ Which potential confounds can you think of?
 -   Norming study for typicality
 -   Individual differences!
 
-![](images/session_3/indvar_howard.png){fig-align="center"}
+![](_images/_session3/indvar_howard.png){fig-align="center"}
 
 ::: notes
 Plunger: to unclog the WC.

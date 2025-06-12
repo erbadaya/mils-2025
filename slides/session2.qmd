@@ -547,14 +547,24 @@ Why do you think it is a critique?
 
 :::
 
-## Preview window
+## Preview window{.smaller}
 
 [Pros and cons]{.fg style="--col: #e64173"} of preview window: Huettig & McQueen, 2007
 
-Exp 1: Images at sentence onset - Exp 2: Images at 200 ms prior to target onset
--   Pre-activation of labels?
+Exp 1: Images at sentence onset v Exp 2: Images at 200 ms prior to target onset
 
-![Increase in phonological competitors](_images/_session2/HuettigMcQueen_Exp1.JPG) ![No phonological effect](_images/_session2/HuettigMcQueen_Exp2.JPG)
+:::columns
+:::{.column width="50%"}
+
+![Exp 1: Increase in phonological competitors](_images/_session2/HuettigMcQueen_Exp1.JPG){width=500}  
+
+:::
+:::{.column width="50%"}
+
+![Exp 2: No phonological effect](_images/_session2/HuettigMcQueen_Exp2.JPG){width=500}   
+
+:::
+:::
 
 ## Preview window
 
@@ -578,13 +588,13 @@ neighbors.
 
 [Pros and cons]{.fg style="--col: #e64173"} of preview window: Apfelbaum et al. (2021)
 
-![](_images/_session2/apfelbaum.JPG)
+![](_images/_session2/apfelbaum.JPG){fig-align="center"}
 
 ## Preview window
 
 [Pros and cons]{.fg style="--col: #e64173"} of preview window: Apfelbaum et al. (2021)
 
-![](_images/_session2/apfelbaum_results.JPG)
+![](_images/_session2/apfelbaum_results.JPG){fig-align="center"}
 
 ::: notes
 The preview of the visual display is designed to take care of some of the non-linguistic tasks before the word is heard. Preview lets participants activate visuo-semantic features and bind them to spatial locations. As a result, when they hear the word, fixations should be primarily driven by lexical processes.
@@ -613,14 +623,6 @@ Length? Form?
 -   Send triggers for audio.
     -   Give enough time for a measure to occur.
     -   Altmann and Kamide: Trigger -\> verb onset.
-
-## Measures: Exercise
-
-::: {style="text-align: center"}
-
-Let's brainstorm! What would you look at for your RQ?
-
-:::
 
 ## Measures
 
@@ -669,6 +671,10 @@ Visual World Parading = [Linguistic + non-linguistic information.]{.fg style="--
 Do you think there is a caveat to this assumption? Why yes/no? Why do we care?
 
 ## Measures: Linking hypothesis
+
+In fact, a still ongoing discussion...
+
+. . .
 
 Caveats (see Magnuson, 2019):
 
