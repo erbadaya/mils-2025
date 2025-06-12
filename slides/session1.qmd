@@ -47,7 +47,6 @@ What about yourselves?
 -   Research interest
 -   Goal for this course?
 
-
 ## Overview of the course
 
 Learning objectives
@@ -86,13 +85,13 @@ Optional:
 
 ## Overview of the course
 
-| Date  |            Content            |                 Materials                  |
-|:----------------:|:----------------------:|:-----------------------------:|
-| Day 1 | Introduction to eye-tracking  |                    None                    |
+| Date  |            Content            |            Materials             |
+|:-----:|:-----------------------------:|:--------------------------------:|
+| Day 1 | Introduction to eye-tracking  |               None               |
 | Day 2 |     Visual World Paradigm     | DataViewer, 2 readings, datasets |
-| Day 3 |            Reading            |      DataViewer, 2 readings, datasets      |
-| Day 4 |          Lab session          |            None                            |
-| Day 5 | Practice with data & analysis |               DataViewer, R                |
+| Day 3 |            Reading            | DataViewer, 2 readings, datasets |
+| Day 4 |          Lab session          |               None               |
+| Day 5 | Practice with data & analysis |          DataViewer, R           |
 
 # Introduction to eye-tracking
 
@@ -318,9 +317,9 @@ We only have access to overt attention.
 Description v [cognitive processes]{.fg style="--col: #e64173"}
 
 -   Linking hypotheses & assumptions
-    - Operational link between a response and a hypothesized process.
-      -   Often times, lack of an explicit link.
-      -   Underlying assumptions not explicit.
+    -   Operational link between a response and a hypothesized process.
+        -   Often times, lack of an explicit link.
+        -   Underlying assumptions not explicit.
 
 . . .
 
@@ -415,8 +414,10 @@ When our eye 'stops' i.e., multiple gaze points close in time and/or space.
 -   Average duration: 200 - 300 ms.
 
 -   Minimal duration: 20 - 50 ms (not standard).
-- Refraction period + Voluntary period
-- Oculomotor delay
+
+-   Refraction period + Voluntary period
+
+-   Oculomotor delay
 
 <br>
 
@@ -455,7 +456,6 @@ When our eye 'stops'.
 :::
 :::
 
-
 ## Eye movements: Blinks
 
 By necessity, people blink.
@@ -464,7 +464,7 @@ By necessity, people blink.
 -   Pupil changes when eyelids open/close.
 -   Lab conditions.
 -   Cognitive effort.
-  - See Cornelis et al. (2025) for an analysis of blinking behaviour while reading.
+-   See Cornelis et al. (2025) for an analysis of blinking behaviour while reading.
 
 ## Eye movements: Smooth pursuit
 
@@ -567,7 +567,7 @@ We talk about [Areas of Interest (AOI)]{.fg style="--col: #e64173"}.
 -   Use to explore eye movements around them.
 -   /!\\ Consequences for experimental design and coding.
 
-![](_images/_session1/example_IA.jpg){fig-align="center"} 
+![](_images/_session1/example_IA.jpg){fig-align="center"}
 
 ## Eye movements: Space x Time
 
@@ -895,8 +895,7 @@ Precision
 
 [Accuracy]{.fg style="--col: #e64173"}: Difference between the measurement and its true value.
 
--   Measured in visual angles 
-
+-   Measured in visual angles
 
 ![](_images/_session1/accuracy.JPG){fig-align="center" height="300px"}
 
@@ -1040,6 +1039,19 @@ Eye-tracking without an eye-tracker.
 
 ## How do eye-trackers work? Types
 
+Online tracking: Slim & Hartsuiker (2022) on WebGazer.js
+
+Could replicate previous findings but:
+
+- Lags (processing speed of browser)
+- Areas of Interest (four quadrants)
+- Highly sensitive to linguistic conditions & participants' movements
+- Data loss
+
+See also Prystauka et al. (2024)
+
+## How do eye-trackers work? Types
+
 Eye-tracking without an eye-tracker.
 
 ::: {layout-ncol="2"}
@@ -1065,6 +1077,14 @@ Combination with other techniques.
 
 ![](_images/_session1/combining_tracking.png){fig-align="center" height="300px"}
 
+## How do eye-trackers work? Converging measures
+
+Example in psycholinguistics: ZuCo (Hollenstein et al., 2018)
+
+![](_images/_session1/hollesteinetal.JPG)
+
+For more on co-registration:Pokhoday et al. (2023); for another example, Chen et al. (2024)
+
 ## How do eye-trackers work?
 
 -   We track the x and y coordinates of gaze on a screen by figuring out the position of either the pupil or the pupil and the corneal reflection.
@@ -1088,11 +1108,11 @@ Combination with other techniques.
 
 -   Relatively expensive.
     -   In terms of money: up to 30,000 e (but in comparison to EEG?).
-    -   In terms of time: one participant at a time[^3].
+    -   In terms of time: one participant at a time[^2].
 -   Trade-off between accuracy and ecological validity.
 -   Participants' criteria.
 
-[^3]: Dual eye-tracking experiments are being done!
+[^2]: Dual eye-tracking experiments are being done!
 
 # How is an eye-tracking experiment?
 
@@ -1263,8 +1283,8 @@ x,y coordinates of gaze position are estimated from measuring the pupil and the 
 ## Calibration
 
 -   Beginning of the experiment (blocks?)
--   Fixate on a series of points 
-    - 9HV standard
+-   Fixate on a series of points
+    -   9HV standard
 -   Interplay with kind of eye-tracker:
     -   Portable versus fixed.
 
@@ -1283,7 +1303,6 @@ more points for small areas of interest,
 ![Good calibration](_images/_session1/good_calibration.jpg){height="500px"}
 :::
 :::
-
 
 ## Validation
 
@@ -1322,7 +1341,7 @@ Every so often, re-check our measurement (accuracy): Drift correction/check.
 
 -   Commonly, each trial/every other trial/blocks
 -   Ensure accuracy
--   But cf. what it actually does 
+-   But cf. what it actually does
 -   Where the fixation cross appears depends on your task.
     -   At the position where you want high accuracy.
     -   Reading: e.g., beginning of the sentence/paragraph.
@@ -1339,7 +1358,6 @@ Every so often, re-check our measurement (accuracy): Drift correction/check.
 ![Drift correction VWP](_images/_session1/drift_vwp.jpg){height="500px"}
 :::
 :::
-
 
 ## Areas of Interest
 
@@ -1374,8 +1392,6 @@ VWP
 :::
 :::
 
-
-
 ## Areas of Interest
 
 Size depends on accuracy and precision of the eye-tracker.
@@ -1405,7 +1421,6 @@ But when you also have audio:
 
 Related to stimulus-synchrony!
 
-
 ## The experiment
 
 But what about stimuli? What to control for?
@@ -1413,7 +1428,7 @@ But what about stimuli? What to control for?
 -   Link on Ufora for databases.
 -   Each day we'll discuss the specific confounds of each paradigm.
 
-## Side note: Reporting{.smaller}
+## Side note: Reporting {.smaller}
 
 What to report? (At least):
 
@@ -1512,11 +1527,13 @@ Tomorrow we'll cover:
 -   Confounds
 -   Pre-processing
 
-## References{.smaller}
+## References {.smaller}
 
 Alexander, R. G., & Martinez-Conde, S. (2019). Fixational eye movements. *Eye movement research: An introduction to its scientific foundations and applications*, 73-115.
 
 Carroll, T. (2017). Eye Behavior While Reading Words of Sanskrit and Urdu Origin in Hindi. Brigham Young University.
+
+Chen, S., Reichle, E. D., & Liu, Y. (2024). Direct lexical control of eye movements in Chinese reading: Evidence from the co-registration of EEG and eye tracking. *Cognitive Psychology, 153*, 101683.
 
 Chiew, K. S., & Braver, T. S. (2013). Temporal dynamics of motivation-cognitive control interactions revealed by high-resolution pupillometry. *Frontiers in psychology, 4*, 15.
 
@@ -1524,9 +1541,9 @@ Conklin, K., Pellicer-Sánchez, A., & Carrol, G. (2018). *Eye-tracking: A guide 
 
 Cooper, R. M. (1974). The control of eye fixation by the meaning of spoken language: a new methodology for the real-time investigation of speech perception, memory, and language processing. Cognitive psychology.
 
-Cop, U., Dirix, N., Drieghe, D., & Duyck, W. (2017). Presenting GECO: An eyetracking corpus of monolingual and bilingual sentence reading. *Behavior Research Methods, 49*(2), 602--615. https://doi.org/10.3758/s13428-016-0734-0
+## References {.smaller}
 
-## References{.smaller}
+Cop, U., Dirix, N., Drieghe, D., & Duyck, W. (2017). Presenting GECO: An eyetracking corpus of monolingual and bilingual sentence reading. *Behavior Research Methods, 49*(2), 602--615. https://doi.org/10.3758/s13428-016-0734-0
 
 Cornelis, X., Dirix, N., & Bogaerts, L. (2025). The timing of spontaneous eye blinks in text reading suggests cognitive role. Scientific Reports, 15(1), 1-10.
 
@@ -1534,16 +1551,17 @@ Dunn, M. J., Alexander, R. G., Amiebenomo, O. M., Arblaster, G., Atan, D., Erich
 
 Fink, L., Simola, J., Tavano, A., Lange, E., Wallot, S., & Laeng, B. (2024). From pre-processing to advanced dynamic modeling of pupil data. *Behavior Research Methods, 56*(3), 1376-1412.
 
+Hollenstein, N., Rotsztejn, J., Troendle, M., Pedroni, A., Zhang, C., & Langer, N. (2018). ZuCo, a simultaneous EEG and eye-tracking resource for natural sentence reading. *Scientific data, 5*(1), 1-13.
+
 Holmqvist, K., Nyström, M., Andersson, R., Dewhurst, R., Jarodzka, H., & Van de Weijer, J. (2011). *Eye tracking: A comprehensive guide to methods and measures*. oup Oxford.
 
 Hutton, S. B. (2019). *Eye tracking methodology. Eye movement research: An introduction to its scientific foundations and applications*, 277-308.
 
+## References {.smaller}
+
 King, J. P., Loy, J. E., & Corley, M. (2018). Contextual effects on online pragmatic inferences of deception. *Discourse Processes, 55*(2), 123-135.
 
 Mathôt, S., Grainger, J., & Strijkers, K. (2017). Pupillary responses to words that convey a sense of brightness or darkness. *Psychological science, 28*(8), 1116-1124.
-
-
-## References{.smaller}
 
 Nolte, C. (2023). *What you see is what you get: a closer look at bias in the visual world paradigm* (Doctoral dissertation, The University of Iowa).
 
@@ -1551,19 +1569,26 @@ Nyström, M., Hooge, I. T., Hessels, R. S., Andersson, R., Hansen, D. W., Johans
 
 Papoutsaki, A., Sangkloy, P., Laskey, J., Daskalova, N., Huang, J., & Hays, J. (2016). WebGazer : Scalable webcam eye tracking using user interactions. *International Joint Conference on Artificial Intelligence.*
 
+Pokhoday, M., Bermúdez-Margaretto, B., Malyshevskaya, A., Kotrelev, P., Shtyrov, Y., & Myachykov, A. (2023). Eye-tracking methods in psycholinguistics. In *Language Electrified: Principles, Methods, and Future Perspectives of Investigation* (pp. 731-752). New York, NY: Springer US.
+
+## References {.smaller}
+
+Prystauka, Y., Altmann, G. T., & Rothman, J. (2024). Online eye tracking and real-time sentence processing: On opportunities and efficacy for capturing psycholinguistic effects of different magnitudes and diversity. *Behavior Research Methods, 56*(4), 3504-3522.
+
 Siegelman, N., Schroeder, S., Acartürk, C., Ahn, H. D., Alexeeva, S., Amenta, S., ... & Kuperman, V. (2022). Expanding horizons of cross-linguistic research on reading: The Multilingual Eye-movement Corpus (MECO). *Behavior research methods, 54*(6), 2843-2863.
+
+Slim, M. S., & Hartsuiker, R. J. (2023). Moving visual world experiments online? A web-based replication of Dijkgraaf, Hartsuiker, and Duyck (2017) using PCIbex and WebGazer. js. *Behavior Research Methods, 55*(7), 3786-3804.
 
 Spivey, M. J. (2025). A linking hypothesis for eyetracking and mousetracking in the visual world paradigm. *Brain Research*, 149477.
 
 Strauch, C., Wang, C. A., Einhäuser, W., Van der Stigchel, S., & Naber, M. (2022). Pupillometry as an integrated readout of distinct attentional networks. *Trends in Neurosciences, 45*(8), 635-647.
 
-## References{.smaller}
-
 Tanenhaus, M. K., Spivey-Knowlton, M. J., Eberhard, K. M., & Sedivy, J. C. (1995). Integration of visual and linguistic information in spoken language comprehension. *Science, 268*(5217), 1632-1634.
+
+## References {.smaller}
 
 Trueswell, J. C. (2008). Using eye movements as a developmental measure within psycholinguistics. *Language acquisition and language disorders, 44*, 73.
 
 Wilcox, E. G., Ding, C., Sachan, M., & Jäger, L. A. (2024). Mouse Tracking for Reading (MoTR): A new naturalistic incremental processing measurement tool. *Journal of Memory and Language, 138*, 104534.
 
 Yarbus, A. L. (1967). Eye movements and vision. New York: Plenum
-
