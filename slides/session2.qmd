@@ -1,6 +1,6 @@
 ---
 title: "Visual World Paradigm"
-author: "Badaya"
+author: "Badaya & Baltais"
 format: 
    clean-revealjs:
     logo: /_images/logo_mils.png
@@ -1012,6 +1012,12 @@ EDF files
 :::
 :::
 
+## Data Viewer
+
+Please open the two datasets.
+
+Note that because you are using the demo version, you can only open up to 5 trials per participant, and up to 50 events. Mariia and I have created datasets bearing these issues in mind, but data will look bigger when we show it in class because we have a licensed version.
+
 # Pre-processing
 
 ## Software
@@ -1457,6 +1463,8 @@ Arnold, J. E., Kam, C. L. H., & Tanenhaus, M. K. (2007). If you say thee uh you 
 
 Brothers, T., Swaab, T. Y., & Traxler, M. J. (2017). Goals and strategies influence lexical prediction during sentence comprehension. *Journal of memory and language, 93*, 203-216.
 
+## References {.smaller}
+
 Brown‐Schmidt, S., & Tanenhaus, M. K. (2008). Real‐time investigation of referential domains in unscripted conversation: A targeted language game approach. *Cognitive science, 32*(4), 643-684.
 
 Chambers, C. G., Tanenhaus, M. K., & Magnuson, J. S. (2004). Actions and affordances in syntactic ambiguity resolution. *Journal of experimental psychology: Learning, memory, and cognition, 30*(3), 687.
@@ -1468,6 +1476,8 @@ Cooper, R. M. (1974). The control of eye fixation by the meaning of spoken langu
 Grodner, D. J., Klein, N. M., Carbary, K. M., & Tanenhaus, M. K. (2010). "Some," and possibly all, scalar inferences are not delayed: Evidence for immediate pragmatic enrichment. *Cognition, 116*(1), 42-55.
 
 Ferreira, F., Foucart, A., & Engelhardt, P. E. (2013). Language processing in the visual world: Effects of preview, visual complexity, and prediction. *Journal of Memory and Language, 69*(3), 165-182.
+
+## References {.smaller}
 
 Helo, A., Pannasch, S., Sirri, L., & Rämä, P. (2014). The maturation of eye movement behavior: Scene viewing characteristics in children and adults. *Vision research, 103*, 83-91.
 
@@ -1481,6 +1491,8 @@ Huettig, F., Rommers, J., & Meyer, A. S. (2011). Using the visual world paradigm
 
 Keysar, B., Barr, D. J., Balin, J. A., & Brauner, J. S. (2000). Taking perspective in conversation: The role of mutual knowledge in comprehension. *Psychological science, 11*(1), 32-38.
 
+## References {.smaller}
+
 King, J. P., Loy, J. E., & Corley, M. (2018). Contextual effects on online pragmatic inferences of deception. *Discourse Processes, 55*(2), 123-135.
 
 Ito, A., Pickering, M. J., & Corley, M. (2018). Investigating the time-course of phonological prediction in native and non-native speakers of English: A visual world eye-tracking study. *Journal of Memory and Language*, 98, 1-11.
@@ -1490,6 +1502,8 @@ Knoeferle, P., Crocker, M. W., Scheepers, C., & Pickering, M. J. (2005). The inf
 Knoeferle, P., & Crocker, M. W. (2006). The Coordinated Interplay of Scene, Utterance, and World Knowledge: Evidence From Eye Tracking. *Cognitive Science, 30*(3), 481-529.
 
 Linka, M., Sensoy, Ö., Karimpur, H., Schwarzer, G., & de Haas, B. (2023). Free viewing biases for complex scenes in preschoolers and adults. *Scientific reports, 13*(1), 11803.
+
+## References {.smaller}
 
 McMurray, B. (2023). I'm not sure that curve means what you think it means: Toward a \[more\] realistic understanding of the role of eye-movement generation in the Visual World Paradigm. *Psychonomic bulletin & review, 30*(1), 102-146.
 
@@ -1501,6 +1515,8 @@ Mirman, D., Yee, E., Blumstein, S. E., & Magnuson, J. S. (2011). Theories of spo
 
 Meyer, A. S., Sleiderink, A. M., & Levelt, W. J. (1998). Viewing and naming objects: Eye movements during noun phrase production. *Cognition, 66*(2), B25-B33.
 
+## References {.smaller}
+
 Mishra, R. K., Olivers, C. N. L., & Huettig, F. (2013). Spoken language and the decision to move the eyes: To what extent are language-mediated eye movements automatic? In V. S. C. Pammi & N. Srinivasan (Eds.), *Progress in brain research: Decision making: Neural and behavioural approaches* (pp. 135–149). New York: Elsevier.
 
 Papafragou, A., Hulbert, J., & Trueswell, J. (2008). Does language guide event perception? Evidence from eye movements. *Cognition, 108*(1), 155-184.
@@ -1511,6 +1527,8 @@ Pistono, A., & Hartsuiker, R. J. (2023). Can object identification difficulty be
 
 Slim, M. S., & Hartsuiker, R. J. (2023). Moving visual world experiments online? A web-based replication of Dijkgraaf, Hartsuiker, and Duyck (2017) using PCIbex and WebGazer. js. *Behavior Research Methods, 55*(7), 3786-3804.
 
+## References {.smaller}
+
 Spivey, M. J., Richardson, D. C., & Fitneva, S. A. (2004). Thinking outside the brain: Spatial indices to visual and linguistic information. In J. M. Henderson & F. Ferreira (Eds.), *The interface of language, vision, and action: Eye movements and the visual world* (pp. 161--189). New York, NY, US: Psychology Press.
 
 Spivey, M. J. (2025). A linking hypothesis for eyetracking and mousetracking in the visual world paradigm. *Brain Research*, 149477.
@@ -1520,5 +1538,7 @@ Stone, A., & Bosworth, R. G. (2019). Exploring infant sensitivity to visual lang
 Tanenhaus, M. K., Spivey-Knowlton, M. J., Eberhard, K. M., & Sedivy, J. C. (1995). Integration of visual and linguistic information in spoken language comprehension. *Science, 268*(5217), 1632-1634.
 
 Tanenhaus, M. K., Magnuson, J. S., Dahan, D., & Chambers, C. (2000). Eye movements and lexical access in spoken-language comprehension: Evaluating a linking hypothesis between fixations and linguistic processing. *Journal of Psycholinguistic Research,29*, 557--580.
+
+## References {.smaller}
 
 van Bergen, G., & Bosker, H. R. (2018). Linguistic expectation management in online discourse processing: An investigation of Dutch inderdaad'indeed'and eigenlijk'actually'. *Journal of Memory and Language, 103*, 191-209.
