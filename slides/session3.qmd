@@ -645,7 +645,7 @@ Trial sequence: Drift correction -\> Visual presentation.
 
 Where the first character appears:
 
-![](images/lab_setup/drift_reading.jpg){fig-align="center"}
+![](_images/_session3/drift_reading.jpg){fig-align="center"}
 
 ## Visual presentation
 
@@ -654,7 +654,7 @@ Where the first character appears:
 
 Instead, Interest Areas:
 
-![Data from Mariia Baltais](images/session_2/ia_reading.png)
+![Data from Mariia Baltais](_images/_session3/ia_reading.png)
 
 ## Interest Areas
 
@@ -726,7 +726,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ## Non-linguistic confounds
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Line spacing[^5]
     -   Tracking less accurate for vertical movements (vertical drift)
@@ -738,7 +738,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ![From Conklin et al., 2018](_images/_session3/example_spacing.JPG)
 :::
-:::
+:::::
 
 [^5]: Less important for global measures (sentence-level processing).
 
@@ -775,7 +775,11 @@ Match contexts!
 
 "The time course of age-of-acquisition effects on eye movements during reading: Evidence from survival analyses"
 
-Background: - AoA effect: faster processing for words that are learned earlier in life. - Network plasticity hypothesis: early learned items are encoded more effectively -\> AoA influences multiple aspects of lexical processing, including orthography, phonology, and semantics. - Alternatively, AoA effect is limited to semantic processing.
+Background:
+
+-   AoA effect: faster processing for words that are learned earlier in life.
+-   Network plasticity hypothesis: early learned items are encoded more effectively -\> AoA influences multiple aspects of lexical processing, including orthography, phonology, and semantics.
+-   Alternatively, AoA effect is limited to semantic processing.
 
 RQ: Does AoA influence the earliest stages of word recognition during reading?
 
@@ -783,7 +787,11 @@ RQ: Does AoA influence the earliest stages of word recognition during reading?
 
 RQ: Does AoA influence the earliest stages of word recognition during reading?
 
-Linking hypothesis: E-Z Reader model - Lexical processing is serial - Direct lexical control over eye movements - Two stages: 1) orthography, phonology, familiarity (-\> saccade planning), 2) semantics (-\> shift in attention)
+Linking hypothesis: E-Z Reader model
+
+-   Lexical processing is serial
+-   Direct lexical control over eye movements
+-   Two stages: 1) orthography, phonology, familiarity (-\> saccade planning), 2) semantics (-\> shift in attention)
 
 Which reading measures are of most interest?
 
@@ -791,7 +799,11 @@ Which reading measures are of most interest?
 
 Which reading measures are of most interest?
 
-Lexical access -\> early measures. - First fixation duration (!), single fixation duration, gaze duration - Skipping rate - Total reading time
+Lexical access -\> early measures.
+
+-   First fixation duration (!), single fixation duration, gaze duration
+-   Skipping rate
+-   Total reading time
 
 Plus a time-course analysis to estimate the earliest divergence point.
 
@@ -813,7 +825,9 @@ Which potential confounds can you think of?
 
 ## Example: Juhasz & Sheridan (2019)
 
-Finding: - AoA effects were observed in both early (at 158 ms) and late fixation duration measures.
+Finding:
+
+-   AoA effects were observed in both early (at 158 ms) and late fixation duration measures.
 
 What did we learn about lexical processing in reading? What to consider when building your own experiment?
 
@@ -830,7 +844,10 @@ What did we learn about lexical processing in reading? What to consider when bui
 
 "Processing of Co-Reference in Autism Spectrum Disorder"
 
-Background: - Typicality effect: longer reading times for a category noun ("bird") when preceded by an atypical exemplar ("penguin") - ASD: reduced accuracy for reading comprehension and inferencing tasks (e.g., anaphor -\> antecedent)
+Background:
+
+-   Typicality effect: longer reading times for a category noun ("bird") when preceded by an atypical exemplar ("penguin")
+-   ASD: reduced accuracy for reading comprehension and inferencing tasks (e.g., anaphor -\> antecedent)
 
 RQ: Are individuals with ASD less efficient when computing co-referential links during reading?
 
@@ -840,7 +857,18 @@ Which reading measures are of most interest?
 
 Which reading measures are of most interest?
 
-Comprehension -\> global measures: - Mean fixation duration - Fixation count - Total reading time Inferencing -\> target word ("bird"): - First fixation duration - Single fixation duration - Gaze duration - Total reading time
+Comprehension -\> global measures:
+
+-   Mean fixation duration
+-   Fixation count
+-   Total reading time
+
+Inferencing -\> target word ("bird"):
+
+-   First fixation duration
+-   Single fixation duration
+-   Gaze duration
+-   Total reading time
 
 ## Example: Howard et al. (2017)
 
@@ -873,7 +901,11 @@ Plunger: to unclog the WC.
 
 ## Example: Howard et al. (2017)
 
-Finding: - No group differences (except for more re-reading in ASD) - ASD difficulties in reading comprehension are unlikely to be accounted for by differences in co-reference processing - Effects of verbal proficiency (expressive language score) across groups
+Finding:
+
+-   No group differences (except for more re-reading in ASD)
+-   ASD difficulties in reading comprehension are unlikely to be accounted for by differences in co-reference processing
+-   Effects of verbal proficiency (expressive language score) across groups
 
 What to consider when building your own experiment?
 
@@ -932,7 +964,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 
 ## Pros & cons
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 **Pros**
 
@@ -950,7 +982,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 -   Many potential confounds.
 -   Resource-costly.
 :::
-:::
+:::::
 
 # Data pre-processing
 
@@ -978,7 +1010,7 @@ Today:
 
 ## Interest period
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -990,11 +1022,11 @@ First make sure your IAs are displayed.
 ::: {.column width="50%"}
 ![](_images/_session3/showIAs.png){fig-align="center"}
 :::
-:::
+:::::
 
 ## Interest period
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1004,7 +1036,7 @@ From stimulus presentation to button press (trial end)
 ::: {.column width="50%"}
 ![](_images/_session3/interest_period.png){fig-align="center"}
 :::
-:::
+:::::
 
 ## Check data
 
@@ -1095,7 +1127,7 @@ Different thresholds -\> report *exactly* what you did.
 
 ## Automatized cleaning
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br> <br> <br>
 
@@ -1107,7 +1139,7 @@ Right-click on the whole folder.
 ::: {.column width="50%"}
 ![](_images/_session3/4stage_a.png) ![](_images/_session3/4stage_b.png)
 :::
-:::
+:::::
 
 ## Automatized cleaning
 
@@ -1141,7 +1173,7 @@ For analysis, we surely need participant ID (Session_Name\_), condition, item ID
 
 Let's choose some common measures:
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Skipping
 -   First fixation duration
@@ -1155,7 +1187,7 @@ Let's choose some common measures:
 ::: {.column width="50%"}
 ![](_images/_session3/var_choose.png)
 :::
-:::
+:::::
 
 ## Output
 
