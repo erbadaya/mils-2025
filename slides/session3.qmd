@@ -172,6 +172,10 @@ Blinking
 
 -   Noise
     -   Cf. data pre-processing
+    
+-   Cognitive role (attention)?
+    -   Cornelis et al. (2025): naturalistic reading
+    -   More blinks at punctuation marks; less blinks if high word frequency and predictability ("time-out"?)
 
 ![Data from Mariia Baltais](_images/_session3/mariia_blink.JPG){fig-align="center" width="500"}
 
@@ -436,7 +440,7 @@ Asymmetrical perceptual span:
 
 ## Linking hypothesis
 
-As well as
+As well as:
 
 -   **Spillover effects**: characteristics of *n* influence reading times for *n+1*
     -   Processing has not been completed
@@ -446,6 +450,8 @@ Therefore,
 -   Serial vs. parallel processing debate
 
     -   Different models of reading (E-Z Reader vs. SWIFT; OB1-Reader)
+    
+    -   Mlinarič et al. (2025): ± three words in parallel
 
 ::: notes
 Serial: words are processed one at a time in a linear sequence. E-Z: eee-zee (easy).
@@ -453,6 +459,8 @@ Serial: words are processed one at a time in a linear sequence. E-Z: eee-zee (ea
 Parallel: words are processed simultaneously. The cognitive system processes information from several words at once, allowing for faster and more efficient reading. Attention is distributed dynamically across several words, with a gradient of attention decreasing from the point of fixation outward. SWIFT: Saccade-Generation with Inhibition by Foveal Targets. The word currently fixated (the foveal target) inhibits the generation of saccades. This inhibition ensures that the word is sufficiently processed before the eyes move to the next word. Once a threshold of processing is reached, the inhibition decreases, allowing for the initiation of the next saccade. The SWIFT model emphasizes parallel processing and dynamic attention distribution, while the E-Z Reader model focuses on serial processing with some degree of parafoveal preview.
 
 The OB1-Reader model (upgrade of E-Z?) incorporates both serial and parallel processing components: Optimal Viewing Position-Based Reading.
+
+Mlinarič et al. (2025): ± three words in parallel, which is more than what some theories (e.g., E-Z Reader, Chinese Reading Model) suggest, but less than what some other theories (e.g., Glenmore, OB1-reader) suggest.
 :::
 
 # Reading measures
@@ -769,7 +777,7 @@ Match contexts!
 -   Predictability, length, etc.
 -   Serial vs. parallel processing:
     -   Preview benefit, parafoveal-on-foveal effects (see Drieghe, 2011; Hyönä, 2011)
-    -   Spillover effect
+    -   Spillover effects
 
 ## Example: Juhasz & Sheridan (2019)
 
@@ -1286,9 +1294,11 @@ Conklin, K., Pellicer-Sánchez, A., & Carrol, G. (2018). Eye-Tracking: A Guide f
 
 Cop, U., Dirix, N., Drieghe, D., & Duyck, W. (2017). Presenting GECO: An eyetracking corpus of monolingual and bilingual sentence reading. *Behavior Research Methods, 49*(2), 602--615. https://doi.org/10.3758/s13428-016-0734-0
 
-Dirix, N., Vander Beken, H., De Bruyne, E., Brysbaert, M., & Duyck, W. (2019). Reading Text When Studying in a Second Language: An Eye-Tracking Study. *Reading Research Quarterly, 55*(3), 371--397. https://doi.org/10.1002/rrq.277
+Cornelis, X., Dirix, N., & Bogaerts, L. (2025). The timing of spontaneous eye blinks in text reading suggests cognitive role. Scientific Reports, 15(1), 19849. https://doi.org/10.1038/s41598-025-04839-y
 
 ## References {.smaller}
+
+Dirix, N., Vander Beken, H., De Bruyne, E., Brysbaert, M., & Duyck, W. (2019). Reading Text When Studying in a Second Language: An Eye-Tracking Study. *Reading Research Quarterly, 55*(3), 371--397. https://doi.org/10.1002/rrq.277
 
 Drieghe, D. (2011). Parafoveal-on-foveal effects on eye movements during reading. In S. P. Liversedge, I. Gilchrist, & S. Everling (Eds.), *The Oxford handbook of eye movements* (pp. 840--855). Oxford: Oxford University Press.
 
@@ -1296,11 +1306,11 @@ Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence c
 
 Frisson, S., Harvey, D. R., & Staub, A. (2017). No prediction error cost in reading: Evidence from eye movements. *Journal of Memory and Language, 95*, 200--214. https://doi.org/10.1016/j.jml.2017.04.007
 
-Holmqvist, K., Örbom, S. L., Hooge, I. T. C., Niehorster, D. C., Alexander, R. G., Andersson, R., Benjamins, J. S., Blignaut, P., Brouwer, A.-M., Chuang, L. L., Dalrymple, K. A., Drieghe, D., Dunn, M. J., Ettinger, U., Fiedler, S., Foulsham, T., van der Geest, J. N., Hansen, D. W., Hutton, S. B., ... Hessels, R. S. (2023). Eye tracking: Empirical foundations for a minimal reporting guideline. *Behavior Research Methods, 55*(1), 364--416. https://doi.org/10.3758/s13428-021-01762-8
-
-Howard, P. L., Liversedge, S. P., & Benson, V. (2017). Processing of co-reference in autism spectrum disorder. *Autism Research, 10*(12), 1968--1980. https://doi.org/10.1002/aur.1845
+(RETRACTED) Holmqvist, K., Örbom, S. L., Hooge, I. T. C., Niehorster, D. C., Alexander, R. G., Andersson, R., Benjamins, J. S., Blignaut, P., Brouwer, A.-M., Chuang, L. L., Dalrymple, K. A., Drieghe, D., Dunn, M. J., Ettinger, U., Fiedler, S., Foulsham, T., van der Geest, J. N., Hansen, D. W., Hutton, S. B., … Hessels, R. S. (2023). Eye tracking: Empirical foundations for a minimal reporting guideline. Behavior Research Methods, 55(1), 364–416. https://doi.org/10.3758/s13428-021-01762-8
 
 ## References {.smaller}
+
+Howard, P. L., Liversedge, S. P., & Benson, V. (2017). Processing of co-reference in autism spectrum disorder. *Autism Research, 10*(12), 1968--1980. https://doi.org/10.1002/aur.1845
 
 Hyönä, J. (2011). Foveal and parafoveal processing during reading. In S. P. Liversedge, I. Gilchrist, & S. Everling (Eds.), *The Oxford handbook of eye movements* (pp. 820--838). Oxford: Oxford University Press.
 
@@ -1310,9 +1320,9 @@ Jakobi, D. N., Krakowczyk, D. G., & Jäger, L. A. (2024). Reporting Eye-Tracking
 
 Jayes, L. T., Fitzsimmons, G., Weal, M. J., Kaakinen, J. K., & Drieghe, D. (2022). The impact of hyperlinks, skim reading and perceived importance when reading on the Web. PLOS ONE, 17(2), e0263669. https://doi.org/10.1371/journal.pone.0263669
 
-Juhasz, B. J., Pollatsek, A., Hyönä, J., Drieghe, D., & Rayner, K. (2009). Parafoveal processing within and between words. *Quarterly Journal of Experimental Psychology, 62*(7), 1356--1376. https://doi.org/10.1080/17470210802400010
-
 ## References {.smaller}
+
+Juhasz, B. J., Pollatsek, A., Hyönä, J., Drieghe, D., & Rayner, K. (2009). Parafoveal processing within and between words. *Quarterly Journal of Experimental Psychology, 62*(7), 1356--1376. https://doi.org/10.1080/17470210802400010
 
 Just, M. A., & Carpenter, P. A. (1980). A theory of reading: from eye fixations to comprehension. *Psychological review, 87*(4), 329.
 
@@ -1322,9 +1332,11 @@ Liversedge, S. P., Rayner, K., White, S. J., Vergilino-Perez, D., Findlay, J. M.
 
 McConkie, G. W., & Rayner, K. (1975). The span of the effective stimulus during a fixation in reading. *Perception & Psychophysics, 17*, 578--586.
 
+## References {.smaller}
+
 Mitchell, D. C., Shen, X., Green, M. J., & Hodgson, T. L. (2008). Accounting for regressive eye-movements in models of sentence processing: A reappraisal of the Selective Reanalysis hypothesis. *Journal of Memory and Language, 59*(3), 266--293.
 
-## References {.smaller}
+Mlinarič, M., Los, S. A., & Snell, J. (2025). On the spatial limits of parallel word processing in reading. Attention, Perception & Psychophysics. https://doi.org/10.3758/s13414-025-03101-x
 
 Morrison, R. E. (1984). Manipulation of stimulus onset delay in reading: Evidence for parallel programming of saccades. *Journal of Experimental Psychology: Human Perception and Performance, 10*(5), 667--682. https://doi.org/10.1037/0096-1523.10.5.667
 
@@ -1332,11 +1344,11 @@ Pellicer-Sánchez, A. (2016). INCIDENTAL L2 VOCABULARY ACQUISITION FROM AND WHIL
 
 Pickering, M. J., Frisson, S., McElree, B., & Traxler, M. J. (2004). Eye Movements and Semantic Composition. In M. Carreiras & C. Clifton Jr. (Eds.), *The On-line Study of Sentence Comprehension*. Psychology Press.
 
+## References {.smaller}
+
 Puebla, C., & Felser, C. (2022). Discourse Prominence and Antecedent Mis-Retrieval during Native and Non-Native Pronoun Resolution. Discours. Revue de Linguistique, Psycholinguistique et Informatique. *A Journal of Linguistics, Psycholinguistics and Computational Linguistics, 29*, Article 29. https://doi.org/10.4000/discours.11720
 
 Rayner, K. (1975). The perceptual span and peripheral cues in reading. *Cognitive Psychology, 7*, 65--81.
-
-## References {.smaller}
 
 Rayner, K., & Bertera, J. H. (1979). Reading without a fovea. *Science, 206*, 468--469.
 
@@ -1344,11 +1356,11 @@ Rayner, K., & Duffy, S. A. (1986). Lexical complexity and fixation times in read
 
 Sereno, S. C., & Rayner, K. (1992). Fast priming during eye fixations in reading. *Journal of Experimental Psychology: Human Perception and Performance, 18*(1), 173.
 
+## References {.smaller}
+
 Sereno, S. C., & Rayner, K. (2003). Measuring word recognition in reading: Eye movements and event-related potentials. *Trends in Cognitive Sciences, 7*(11), 489--493. https://doi.org/10.1016/j.tics.2003.09.010
 
 Solan, H. A., Feldman, J., & Tujak, L. (1995). Developing Visual and Reading Efficiency in Older Adults. *Optometry and Vision Science, 72*(2), 139.
-
-## References {.smaller}
 
 Staub, A., Rayner, K., Pollatsek, A., Hyönä, J., & Majewski, H. (2007). The time course of plausibility effects on eye movements in reading: Evidence from noun-noun compounds. *Journal of Experimental Psychology. Learning, Memory, and Cognition, 33*(6), 1162--1169. https://doi.org/10.1037/0278-7393.33.6.1162
 
