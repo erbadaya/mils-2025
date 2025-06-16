@@ -1,0 +1,40 @@
+---
+title: "session5"
+author: "Badaya & Baltais"
+format: 
+   clean-revealjs:
+    logo: /_images/logo_mils.png
+    footer: "Introduction to eye-tracking"
+    include-in-header: 
+      text: |
+        <style>
+        .center-xy {
+          margin: 0;
+          position: absolute;
+          top: 40%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+        </style>
+editor: visual
+---
+
+# Welcome back!
+
+## Welcome
+
+::: {style="text-align: center"}
+Any questions from yesterday?
+How was the lab experience?
+:::
+
+## Wooclap
+
+![](_images/_session1/wooclap_D1.JPG)
+
+## Plan for today
+
+-   Pre-process data{.fg style="--col: #e64173"}
+-   Export data for analysis{.fg style="--col: #e64173"}
+-   [Visualization]
+-   Analysis

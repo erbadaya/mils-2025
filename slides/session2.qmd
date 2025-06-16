@@ -24,9 +24,7 @@ editor: visual
 ## Welcome
 
 ::: {style="text-align: center"}
-
 Any questions from yesterday?
-
 :::
 
 ## Wooclap
@@ -44,8 +42,8 @@ The Visual World Paradigm
 3.  Trial sequence
 4.  Linking hypothesis
 5.  Confounds
-6.  Raw data 
-7. Pipeline VWP data
+6.  Raw data
+7.  Pipeline VWP data
 
 ## Visual World Paradigm
 
@@ -139,10 +137,10 @@ Stimuli creation:
 
 -   Comparison between levels.
 
--> Need to have a *baseline* for comparison
+-\> Need to have a *baseline* for comparison
 
-  - Applies to design of auditory and/or visual stimuli
-  - Changes in one measure are only meaningful when compared!
+-   Applies to design of auditory and/or visual stimuli
+-   Changes in one measure are only meaningful when compared!
 
 ## Design: Auditory stimuli
 
@@ -172,7 +170,7 @@ What is the point of disambiguation in Altmann and Kamide (1999)?
 
 Verb onset.
 
-[](_images/_session2/POD_AK.JPG)
+[ ](_images/_session2/POD_AK.JPG)
 
 ## Design: Auditory stimuli
 
@@ -281,8 +279,8 @@ Unrelated 3
 They need to be coded for analysis!
 
 -   Slightly bigger than the edges of the images
--  Not too close to each other
-- Not too close to the margins of the monitor (lower accuracy)
+-   Not too close to each other
+-   Not too close to the margins of the monitor (lower accuracy)
 
 ![](_images/_session2/example_IA_VWP.JPG)
 
@@ -326,8 +324,7 @@ Properties of the display allow for exploration of different processes in speech
 -   Arrays: [Conceptual and lexical knowledge]{.fg style="--col: #e64173"} associated with individual words.
 -   Printed words: [Phonological information and orthographic]{.fg style="--col: #e64173"} processing, comprehension of abstract words.
 
-
-In turn, specific confounds to each. 
+In turn, specific confounds to each.
 
 ::: notes
 Mention the plausibility bit!!
@@ -422,7 +419,7 @@ We demonstrate here that such spontaneous fixation can be driven by partial sema
 
 3.  How can we manipulate the items?
 
-Target absent -> maximise competitor effects.
+Target absent -\> maximise competitor effects.
 
 ![Huettig & McQueen, 2007; Target: beaker](_images/_session2/array_example.jpg)
 
@@ -430,9 +427,9 @@ Target absent -> maximise competitor effects.
 
 3.  How can we manipulate the items?
 
-Object affordances: _pour_ the egg.
+Object affordances: *pour* the egg.
 
-- Comparisons within and between trials.
+-   Comparisons within and between trials.
 
 ![Chambers et al., 2014](_images/_session2/chambers_affordances.JPG)
 
@@ -465,7 +462,6 @@ Biases? Example: Anticipation of entities based on discourse markers
 
 ::: columns
 ::: {.column width="50%"}
-
 -   Eye-tracking versus EEG
     -   van Bergen & Bosker (2018): Prediction of upcoming items following indeed/actually
     -   EEG follow-up study by Rasenberg et al. (2020)
@@ -495,16 +491,14 @@ Remember: the active viewer (Yarbus).
 
 ## Task
 
-- Look and listen: Good subject effects?
-  - Mishra et al., 2013: language-mediated fixations are overlearnt, semi-automatic behaviour.
-  - Brothers et al., 2017: role of instructions, EEG.
+-   Look and listen: Good subject effects?
+    -   Mishra et al., 2013: language-mediated fixations are overlearnt, semi-automatic behaviour.
+    -   Brothers et al., 2017: role of instructions, EEG.
 
 ## Design: Exercise
 
 ::: {style="text-align: center"}
-
 Let's brainstorm! RQ, design?
-
 :::
 
 # Structure
@@ -542,27 +536,22 @@ Let's brainstorm! RQ, design?
 ## Preview window
 
 ::: {style="text-align: center"}
-
 Why do you think it is a critique?
-
 :::
 
-## Preview window{.smaller}
+## Preview window {.smaller}
 
 [Pros and cons]{.fg style="--col: #e64173"} of preview window: Huettig & McQueen, 2007
 
 Exp 1: Images at sentence onset v Exp 2: Images at 200 ms prior to target onset
 
-:::columns
-:::{.column width="50%"}
-
-![Exp 1: Increase in phonological competitors](_images/_session2/HuettigMcQueen_Exp1.JPG){width=500}  
-
+::: columns
+::: {.column width="50%"}
+![Exp 1: Increase in phonological competitors](_images/_session2/HuettigMcQueen_Exp1.JPG){width="500"}
 :::
-:::{.column width="50%"}
 
-![Exp 2: No phonological effect](_images/_session2/HuettigMcQueen_Exp2.JPG){width=500}   
-
+::: {.column width="50%"}
+![Exp 2: No phonological effect](_images/_session2/HuettigMcQueen_Exp2.JPG){width="500"}
 :::
 :::
 
@@ -572,16 +561,8 @@ Exp 1: Images at sentence onset v Exp 2: Images at 200 ms prior to target onset
 
 ![](_images/_session2/chenmirman2015.JPG)
 
-:::notes
-
-After a moderate preview (500 ms), moderate semantic processing
-constrains the lexical competition, allowing less activation of phonological neighbors, so
-their net effect should be facilitative (due to recurrent facilitation of shared phonemes)
-rather than inhibitory; thus, high-density words have an advantage because they have
-more neighbor facilitation. After a long preview (1,000 ms), semantic input dominates
-the lexical competition and there should be little effect of the number of phonological
-neighbors.
-
+::: notes
+After a moderate preview (500 ms), moderate semantic processing constrains the lexical competition, allowing less activation of phonological neighbors, so their net effect should be facilitative (due to recurrent facilitation of shared phonemes) rather than inhibitory; thus, high-density words have an advantage because they have more neighbor facilitation. After a long preview (1,000 ms), semantic input dominates the lexical competition and there should be little effect of the number of phonological neighbors.
 :::
 
 ## Preview window
@@ -615,7 +596,7 @@ Our results strongly reject this for several reasons. First, competitor effects 
 Length? Form?
 
 -   [Previous research]{.fg style="--col: #e64173"} e.g., 2000 ms, 1000 ms from target onset, etc.
-    - 750 - 1500 (Chen & Mirman, 2015)
+    -   750 - 1500 (Chen & Mirman, 2015)
     -   Level of interest e.g., phonological activation versus semantic activation.
 
 ## Audio presentation
@@ -633,7 +614,7 @@ Fixations and saccades.
     -   Fixation counts, proportion on ROIs, saccadic latency...
     -   NB PFE for pupillometry.
 -   100-200 ms to launch a saccade (Matin et al., 1993)
-- Time course v average (more on day 5).
+-   Time course v average (more on day 5).
 
 ::: notes
 The former much more common than the latter. Because we launch a saccade when we want to fixate on something, we take saccade latency as a measure too. When you consider fixations, you need to acount for the time it takes people to launch a saccade.
@@ -642,9 +623,7 @@ The former much more common than the latter. Because we launch a saccade when we
 ## Measures
 
 ::: {style="text-align: center"}
-
 Let's brainstorm! What would you look at for your RQ?
-
 :::
 
 ## Measures: Linking hypothesis
@@ -728,7 +707,6 @@ Second, both the prenaming and feedback-based closed-set arguments make empirica
 
 ## Confounds
 
-
 ::: {style="text-align: center"}
 Given your knowledge in linguistics & what we've discussed, what should we keep in mind when creating a VWP experiment?
 :::
@@ -802,11 +780,8 @@ Audio properties
 ## Confounds: Exercise
 
 ::: {style="text-align: center"}
-
 Let's brainstorm! What could be potential confounds in your study?
-
 :::
-
 
 ## Side note: Reporting {.smaller}
 
@@ -822,7 +797,6 @@ At least:
 -   In some cases, a spectrogram is reported
 -   Task
 -   Length of preview window
-
 
 ## Pros & cons
 
@@ -906,7 +880,6 @@ Language production.
 
 -   A direct fixation is not necessary to identify an object or when producing a label.
     -   Speakers tend to look at the next object they will name before they name it.
-
 
 ## Variations
 
@@ -1051,8 +1024,7 @@ Today:
 
 -   [Pre-process data]{.fg style="--col: #e64173"}
 -   [Export data for analysis]{.fg style="--col: #e64173"}
--   Visualization
--   Data wrangling
+-   Visualization & data wrangling
 -   Analysis
 
 ## Data pre-processing
@@ -1446,8 +1418,8 @@ Data preparation:
 
 DB1 & DB2
 
-- Explore the datasets & discuss if there is any anomaly
-- Export the dataset
+-   Explore the datasets & discuss if there is any anomaly
+-   Export the dataset
 
 # For tomorrow
 
@@ -1517,7 +1489,7 @@ Meyer, A. S., Sleiderink, A. M., & Levelt, W. J. (1998). Viewing and naming obje
 
 ## References {.smaller}
 
-Mishra, R. K., Olivers, C. N. L., & Huettig, F. (2013). Spoken language and the decision to move the eyes: To what extent are language-mediated eye movements automatic? In V. S. C. Pammi & N. Srinivasan (Eds.), *Progress in brain research: Decision making: Neural and behavioural approaches* (pp. 135–149). New York: Elsevier.
+Mishra, R. K., Olivers, C. N. L., & Huettig, F. (2013). Spoken language and the decision to move the eyes: To what extent are language-mediated eye movements automatic? In V. S. C. Pammi & N. Srinivasan (Eds.), *Progress in brain research: Decision making: Neural and behavioural approaches* (pp. 135--149). New York: Elsevier.
 
 Papafragou, A., Hulbert, J., & Trueswell, J. (2008). Does language guide event perception? Evidence from eye movements. *Cognition, 108*(1), 155-184.
 
