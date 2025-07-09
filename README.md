@@ -22,13 +22,13 @@ Day 5: Data analysis & wrap-up
 
 In contrast to Ufora, we have organised the materials here as a function of what they are (references/slides/scripts). Most of the materials are already available, but the slides for each day will be published the day before.
 
-### Articles
+### Readings
 
-In this folder, you can find an .md file with the references for each day (i.e., the slides' reference list). We also have included additional literature (on the eye-tracking technique, VWP, reading, software manual) as complementary readings.
+In this folder, we have included additional literature (on the eye-tracking technique, VWP, reading, software manual) as complementary readings.
 
 ### Resources
 
-In this folder, you can find a (non-comprensive) list of links of different labs/researchers that in turn have compiled great lists of resources for experiments (e.g., normed stimuli, images)
+In this folder, you can find a (non-comprehensive) list of links to different labs/researchers that in turn have compiled great lists of resources for experiments (e.g., normed stimuli, images)
 
 ### Slides
 
