@@ -32,7 +32,7 @@ In this folder, you can find a (non-comprehensive) list of links to different la
 
 ### Slides
 
-Here you can find the .qmd files used to create the slides. These slides are made on Quarto. We have used the clean template by Grant McDermott and Kyle Butts (see here) with a few edits. We recommend you download the .pdf files, unless you want to download all the dependencies (which are stored in the 'quarto-slides' folder).
+Here you can find the .qmd files used to create the slides. These slides are made on Quarto. We have used the clean template by Grant McDermott and Kyle Butts (see here) with a few edits. We recommend you download the .pdf files, unless you want to download all the dependencies (which are stored in the 'knitted-slides' folder).
 
 ## Pre-requisites
 
