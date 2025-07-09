@@ -78,7 +78,6 @@ Requirements
 -   Install DataViewer
     -   version 4.4.1
 -   Readings
-    -   Experimental design .pdf
     -   Recommended readings per day
 
 Optional:
@@ -1052,7 +1051,7 @@ Could replicate previous findings but:
 -   Highly sensitive to linguistic conditions & participants' movements
 -   Data loss
 
-See also Prystauka et al. (2024)
+See also Prystauka et al. (2024) and James et al. (2025)
 
 ## How do eye-trackers work? Types
 
@@ -1565,6 +1564,8 @@ Hutton, S. B. (2019). *Eye tracking methodology. Eye movement research: An intro
 
 ## References {.smaller}
 
+James, A. N., Ryskin, R., Hartshorne, J. K., Backs, H., Bala, N., Barcenas-Meade, L., \... & de Leeuw, J. R. (2025). What Paradigms Can Webcam Eye-Tracking Be Used For? Attempted Replications of Five Cognitive Science Experiments. *Collabra: Psychology*, *11*(1), 140755.
+
 King, J. P., Loy, J. E., & Corley, M. (2018). Contextual effects on online pragmatic inferences of deception. *Discourse Processes, 55*(2), 123-135.
 
 Mathôt, S., Grainger, J., & Strijkers, K. (2017). Pupillary responses to words that convey a sense of brightness or darkness. *Psychological science, 28*(8), 1116-1124.
@@ -1575,9 +1576,9 @@ Nyström, M., Hooge, I. T., Hessels, R. S., Andersson, R., Hansen, D. W., Johans
 
 Papoutsaki, A., Sangkloy, P., Laskey, J., Daskalova, N., Huang, J., & Hays, J. (2016). WebGazer : Scalable webcam eye tracking using user interactions. *International Joint Conference on Artificial Intelligence.*
 
-Pokhoday, M., Bermúdez-Margaretto, B., Malyshevskaya, A., Kotrelev, P., Shtyrov, Y., & Myachykov, A. (2023). Eye-tracking methods in psycholinguistics. In *Language Electrified: Principles, Methods, and Future Perspectives of Investigation* (pp. 731-752). New York, NY: Springer US.
-
 ## References {.smaller}
+
+Pokhoday, M., Bermúdez-Margaretto, B., Malyshevskaya, A., Kotrelev, P., Shtyrov, Y., & Myachykov, A. (2023). Eye-tracking methods in psycholinguistics. In *Language Electrified: Principles, Methods, and Future Perspectives of Investigation* (pp. 731-752). New York, NY: Springer US.
 
 Prystauka, Y., Altmann, G. T., & Rothman, J. (2024). Online eye tracking and real-time sentence processing: On opportunities and efficacy for capturing psycholinguistic effects of different magnitudes and diversity. *Behavior Research Methods, 56*(4), 3504-3522.
 
@@ -1589,9 +1590,9 @@ Spivey, M. J. (2025). A linking hypothesis for eyetracking and mousetracking in 
 
 Strauch, C., Wang, C. A., Einhäuser, W., Van der Stigchel, S., & Naber, M. (2022). Pupillometry as an integrated readout of distinct attentional networks. *Trends in Neurosciences, 45*(8), 635-647.
 
-Tanenhaus, M. K., Spivey-Knowlton, M. J., Eberhard, K. M., & Sedivy, J. C. (1995). Integration of visual and linguistic information in spoken language comprehension. *Science, 268*(5217), 1632-1634.
-
 ## References {.smaller}
+
+Tanenhaus, M. K., Spivey-Knowlton, M. J., Eberhard, K. M., & Sedivy, J. C. (1995). Integration of visual and linguistic information in spoken language comprehension. *Science, 268*(5217), 1632-1634.
 
 Trueswell, J. C. (2008). Using eye movements as a developmental measure within psycholinguistics. *Language acquisition and language disorders, 44*, 73.
 
