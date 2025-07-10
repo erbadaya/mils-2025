@@ -3,7 +3,7 @@ title: "Reading"
 author: "Baltais & Badaya"
 format: 
    clean-revealjs:
-    logo: images/logo_mils.png
+    logo: /_images/logo_mils.png
     footer: "Reading"
     include-in-header: 
       text: |
@@ -172,7 +172,6 @@ Blinking
 
 -   Noise
     -   Cf. data pre-processing
-    
 -   Cognitive role (attention)?
     -   Cornelis et al. (2025): naturalistic reading
     -   More blinks at punctuation marks; less blinks if high word frequency and predictability ("time-out"?)
@@ -219,7 +218,7 @@ Some other examples (see next slides for details).
 -   Disappearing text paradigm
 -   Fast priming paradigm
 -   Boundary paradigm
--   Etc.
+-   etc.
 
 ## Gaze-contigent paradigms
 
@@ -450,7 +449,7 @@ Therefore,
 -   Serial vs. parallel processing debate
 
     -   Different models of reading (E-Z Reader vs. SWIFT; OB1-Reader)
-    
+
     -   Mlinarič et al. (2025): ± three words in parallel
 
 ::: notes
@@ -653,7 +652,7 @@ Trial sequence: Drift correction -\> Visual presentation.
 
 Where the first character appears:
 
-![](_images/_session3/drift_reading.jpg){fig-align="center"}
+![](_images/_session3/drift_reading.jpg){fig-align="center" width="400"}
 
 ## Visual presentation
 
@@ -779,7 +778,7 @@ Match contexts!
     -   Preview benefit, parafoveal-on-foveal effects (see Drieghe, 2011; Hyönä, 2011)
     -   Spillover effects
 
-## Example: Juhasz & Sheridan (2019)
+## Example: Juhasz & Sheridan (2020)
 
 "The time course of age-of-acquisition effects on eye movements during reading: Evidence from survival analyses"
 
@@ -791,9 +790,7 @@ Background:
 
 RQ: Does AoA influence the earliest stages of word recognition during reading?
 
-## Example: Juhasz & Sheridan (2019)
-
-RQ: Does AoA influence the earliest stages of word recognition during reading?
+## Example: Juhasz & Sheridan (2020)
 
 Linking hypothesis: E-Z Reader model
 
@@ -801,11 +798,9 @@ Linking hypothesis: E-Z Reader model
 -   Direct lexical control over eye movements
 -   Two stages: 1) orthography, phonology, familiarity (-\> saccade planning), 2) semantics (-\> shift in attention)
 
-Which reading measures are of most interest?
+*Which reading measures are of most interest?*
 
-## Example: Juhasz & Sheridan (2019)
-
-Which reading measures are of most interest?
+## Example: Juhasz & Sheridan (2020)
 
 Lexical access -\> early measures.
 
@@ -815,33 +810,42 @@ Lexical access -\> early measures.
 
 Plus a time-course analysis to estimate the earliest divergence point.
 
-## Example: Juhasz & Sheridan (2019)
+## Example: Juhasz & Sheridan (2020)
 
-Early AoA: Julia will go to the mall to buy a new **skirt** when she gets out of work. Late AoA: Julia will go to the mall to buy a new **shawl** when she gets out of work.
+Early vs. late AoA:
 
-Which potential confounds can you think of?
+Julia will go to the mall to buy a new **skirt** when she gets out of work.
 
-## Example: Juhasz & Sheridan (2019)
+Julia will go to the mall to buy a new **shawl** when she gets out of work.
 
-Which potential confounds can you think of?
+*Which potential confounds can you think of?*
 
-![](_images/_session3/juhasz.png){fig-align="center"}
+## Example: Juhasz & Sheridan (2020)
+
+Julia will go to the mall to buy a new **skirt** when she gets out of work.
+
+Julia will go to the mall to buy a new **shawl** when she gets out of work.
 
 -   Same context through at least the post-target word
 -   Target word never the first or last two words
--   Existing databases + norming studies
 
-## Example: Juhasz & Sheridan (2019)
+## Example: Juhasz & Sheridan (2020)
+
+![](_images/_session3/juhasz.png){fig-align="center" width="400"}
+
+::: notes
+Existing databases and norming studies.
+:::
+
+## Example: Juhasz & Sheridan (2020)
 
 Finding:
 
 -   AoA effects were observed in both early (at 158 ms) and late fixation duration measures.
 
-What did we learn about lexical processing in reading? What to consider when building your own experiment?
+*What did we learn about lexical processing in reading?*
 
-## Example: Juhasz & Sheridan (2019)
-
-What did we learn about lexical processing in reading? What to consider when building your own experiment?
+## Example: Juhasz & Sheridan (2020)
 
 -   Word properties can directly influence fixation durations from early on
 -   AoA affects multiple measures (-\> multiple loci within the mental lexicon)
@@ -859,11 +863,9 @@ Background:
 
 RQ: Are individuals with ASD less efficient when computing co-referential links during reading?
 
-Which reading measures are of most interest?
+*Which reading measures are of most interest?*
 
 ## Example: Howard et al. (2017)
-
-Which reading measures are of most interest?
 
 Comprehension -\> global measures:
 
@@ -882,19 +884,15 @@ Inferencing -\> target word ("bird"):
 
 The instruction booklet said that Tom would need a *hammer/plunger* to fix the kitchen sink. He borrowed the **tool** from his next door neighbour.
 
-How would you define the IAs?
+*How would you define the IAs?*
 
 ## Example: Howard et al. (2017)
-
-How would you define the IAs?
 
 ![](_images/_session3/ias_howard.png){fig-align="center"}
 
-Which potential confounds can you think of?
+*Which potential confounds can you think of?*
 
 ## Example: Howard et al. (2017)
-
-Which potential confounds can you think of?
 
 -   Target words & contexts are identical across conditions
 -   Two lines, target in the middle of the second line
@@ -915,16 +913,20 @@ Finding:
 -   ASD difficulties in reading comprehension are unlikely to be accounted for by differences in co-reference processing
 -   Effects of verbal proficiency (expressive language score) across groups
 
-What to consider when building your own experiment?
+*What to consider when building your own experiment?*
 
-## Exercise
+## Exercise: Wooclap
 
-Think of a research question that could be answered using an eye-tracking during reading paradigm.
+Think of a research question that can be answered using an eye-tracking during reading paradigm.
 
 -   Which eye-tracking measures would you look at?
 -   Which potential confounds would you consider?
 
-Go to (link) and type your idea!
+Go to Wooclap and type your idea!
+
+## Exercise: Wooclap
+
+![](_images/_session3/wooclap_D3.png){fig-align="center"}
 
 ## More examples: research topics
 
@@ -1028,7 +1030,7 @@ First make sure your IAs are displayed.
 :::
 
 ::: {.column width="50%"}
-![](_images/_session3/showIAs.png){fig-align="center"}
+![](_images/_session3/showIAs.png){fig-align="center" width="400"}
 :::
 :::::
 
@@ -1042,7 +1044,7 @@ From stimulus presentation to button press (trial end)
 :::
 
 ::: {.column width="50%"}
-![](_images/_session3/interest_period.png){fig-align="center"}
+![](_images/_session3/interest_period.png){fig-align="center" width="600"}
 :::
 :::::
 
@@ -1137,7 +1139,7 @@ Different thresholds -\> report *exactly* what you did.
 
 ::::: columns
 ::: {.column width="50%"}
-<br> <br> <br>
+<br>
 
 In-built 4-stage fixation cleaning procedure.
 
@@ -1145,15 +1147,15 @@ Right-click on the whole folder.
 :::
 
 ::: {.column width="50%"}
-![](_images/_session3/4stage_a.png) ![](_images/_session3/4stage_b.png)
+![](_images/_session3/4stage_a.png)
 :::
 :::::
 
 ## Automatized cleaning
 
-These are settings from D. Drieghe's lab (non-standard)!
+Settings from Drieghe's lab (non-standard):
 
-![](_images/_session3/4stage_b.png){fig-align="center"}
+![](_images/_session3/4stage_b.png){fig-align="center" width="400"}
 
 <sup>Stage 1: merge fix shorter than 80 ms and less than 0.5 degrees away from each other. Stage 2: merge remaining fix shorter than 40 ms and less than 1.25 degrees away from each other. Finally (Stage 4), remove all remaining fixations that are shorter than 80 ms or longer than 800 ms. Also, remove all fixations that fall outside the IAs.</sup>
 
@@ -1167,17 +1169,13 @@ Recap: Fixations and saccades **in several IAs** (*n-1, n, n+1*)
 
 ## Exporting data
 
-Interest Area report
-
 -   Choose variables (or just export all)
 
 ![](_images/_session3/variables_report.png){fig-align="center"}
 
 ## Exporting data
 
-Interest Area report
-
-For analysis, we surely need participant ID (Session_Name\_), condition, item ID, and interest area ID (IA_ID). It could also be helpful to include IA_LABEL (text presented in the IA).
+We surely need participant ID (Session_Name\_), condition, item ID, and interest area ID (IA_ID). It could also be helpful to include IA_LABEL (text presented in the IA).
 
 Let's choose some common measures:
 
@@ -1231,13 +1229,11 @@ If IA_SKIP = 1, but we don't want to just assign *NA* to all measures indiscrimi
 
     -   For total reading time the default is 0. Why would we want *NA* instead of 0? It might be better for statistical analysis (certain models don't deal well with zero values).
 
-## Example
+## Exercise
 
--   What technical information do we expect to find?
+*What technical information do we expect to find?*
 
-## Example
-
--   What technical information do we expect to find?
+## Exercise
 
 Puebla & Felser (2022)
 
@@ -1271,6 +1267,10 @@ Jakobi et al. (2024). Reporting eye-tracking data quality: Towards a new standar
 ## Practice time
 
 Have a go at some data from the training data sets! Afterwards we'll compare our solutions.
+
+## Plan for tomorrow
+
+Visit to the lab!
 
 ## References {.smaller}
 
@@ -1324,15 +1324,17 @@ Jayes, L. T., Fitzsimmons, G., Weal, M. J., Kaakinen, J. K., & Drieghe, D. (2022
 
 Juhasz, B. J., Pollatsek, A., Hyönä, J., Drieghe, D., & Rayner, K. (2009). Parafoveal processing within and between words. *Quarterly Journal of Experimental Psychology, 62*(7), 1356--1376. https://doi.org/10.1080/17470210802400010
 
+Juhasz, B. J., & Sheridan, H. (2020). The time course of age-of-acquisition effects on eye movements during reading: Evidence from survival analyses. Memory & Cognition, 48(1), 83–95. https://doi.org/10.3758/s13421-019-00963-z
+
 Just, M. A., & Carpenter, P. A. (1980). A theory of reading: from eye fixations to comprehension. *Psychological review, 87*(4), 329.
 
 Keating, G. D. (2009). Sensitivity to Violations of Gender Agreement in Native and Nonnative Spanish: An Eye-Movement Investigation. *Language Learning, 59*(3), 503--535. https://doi.org/10.1111/j.1467-9922.2009.00516.x
 
 Liversedge, S. P., Rayner, K., White, S. J., Vergilino-Perez, D., Findlay, J. M., & Kentridge, R. W. (2004). Eye movements when reading disappearing text: is there a gap effect in reading?. *Vision research, 44*(10), 1013--1024.
 
-McConkie, G. W., & Rayner, K. (1975). The span of the effective stimulus during a fixation in reading. *Perception & Psychophysics, 17*, 578--586.
-
 ## References {.smaller}
+
+McConkie, G. W., & Rayner, K. (1975). The span of the effective stimulus during a fixation in reading. *Perception & Psychophysics, 17*, 578--586.
 
 Mitchell, D. C., Shen, X., Green, M. J., & Hodgson, T. L. (2008). Accounting for regressive eye-movements in models of sentence processing: A reappraisal of the Selective Reanalysis hypothesis. *Journal of Memory and Language, 59*(3), 266--293.
 
@@ -1342,9 +1344,9 @@ Morrison, R. E. (1984). Manipulation of stimulus onset delay in reading: Evidenc
 
 Pellicer-Sánchez, A. (2016). INCIDENTAL L2 VOCABULARY ACQUISITION FROM AND WHILE READING: An Eye-Tracking Study. *Studies in Second Language Acquisition, 38*(1), 97--130. https://doi.org/10.1017/S0272263115000224
 
-Pickering, M. J., Frisson, S., McElree, B., & Traxler, M. J. (2004). Eye Movements and Semantic Composition. In M. Carreiras & C. Clifton Jr. (Eds.), *The On-line Study of Sentence Comprehension*. Psychology Press.
-
 ## References {.smaller}
+
+Pickering, M. J., Frisson, S., McElree, B., & Traxler, M. J. (2004). Eye Movements and Semantic Composition. In M. Carreiras & C. Clifton Jr. (Eds.), *The On-line Study of Sentence Comprehension*. Psychology Press.
 
 Puebla, C., & Felser, C. (2022). Discourse Prominence and Antecedent Mis-Retrieval during Native and Non-Native Pronoun Resolution. Discours. Revue de Linguistique, Psycholinguistique et Informatique. *A Journal of Linguistics, Psycholinguistics and Computational Linguistics, 29*, Article 29. https://doi.org/10.4000/discours.11720
 
@@ -1354,9 +1356,9 @@ Rayner, K., & Bertera, J. H. (1979). Reading without a fovea. *Science, 206*, 46
 
 Rayner, K., & Duffy, S. A. (1986). Lexical complexity and fixation times in reading: Effects of word frequency, verb complexity, and lexical ambiguity. *Memory & Cognition, 14*(3), 191--201. https://doi.org/10.3758/BF03197692
 
-Sereno, S. C., & Rayner, K. (1992). Fast priming during eye fixations in reading. *Journal of Experimental Psychology: Human Perception and Performance, 18*(1), 173.
-
 ## References {.smaller}
+
+Sereno, S. C., & Rayner, K. (1992). Fast priming during eye fixations in reading. *Journal of Experimental Psychology: Human Perception and Performance, 18*(1), 173.
 
 Sereno, S. C., & Rayner, K. (2003). Measuring word recognition in reading: Eye movements and event-related potentials. *Trends in Cognitive Sciences, 7*(11), 489--493. https://doi.org/10.1016/j.tics.2003.09.010
 

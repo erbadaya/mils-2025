@@ -24,8 +24,7 @@ editor: visual
 ## Welcome
 
 ::: {style="text-align: center"}
-Any questions from yesterday?
-How was the lab experience?
+Any questions from yesterday? How was the lab experience?
 :::
 
 ## Wooclap
@@ -36,5 +35,5 @@ How was the lab experience?
 
 -   Pre-process data{.fg style="--col: #e64173"}
 -   Export data for analysis{.fg style="--col: #e64173"}
--   [Visualization]
+-   \[Visualization\]
 -   Analysis

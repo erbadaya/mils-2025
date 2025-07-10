@@ -25,7 +25,7 @@ editor: visual
 
 Teaching team
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Esperanza Badaya
     -   Research focus: Speech comprehension
@@ -37,7 +37,7 @@ Teaching team
     -   Research focus: Reading
     -   mariia.baltais\@ugent.be
 :::
-:::
+:::::
 
 ## Welcome to the course
 
@@ -108,7 +108,7 @@ Optional:
 
 ## Why do we move our eyes? The Human Visual System
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Important parts of the eye's anatomy:
 
@@ -123,11 +123,11 @@ Important parts of the eye's anatomy:
 ::: {.column width="50%"}
 ![](_images/_session1/eye_anatomy.png)
 :::
-:::
+:::::
 
 ## Why do we move our eyes? The Human Visual System
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Light hits the cornea.
     -   Some light is reflected (Purkinje reflections)
@@ -139,11 +139,11 @@ Important parts of the eye's anatomy:
 ::: {.column width="50%"}
 ![](_images/_session1/eye_anatomy.png)
 :::
-:::
+:::::
 
 ## Why do we move our eyes? The Human Visual System
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 The fovea is a small section of our [visual field]{.fg style="--col: #e64173"}.
 
@@ -156,11 +156,11 @@ The fovea is a small section of our [visual field]{.fg style="--col: #e64173"}.
 ::: {.column width="50%"}
 ![](_images/_session1/central_vision.png)
 :::
-:::
+:::::
 
 ## Why do we move our eyes? The Human Visual System
 
-::: columns
+:::::: columns
 ::: {.column width="50%"}
 Retina:
 
@@ -169,16 +169,16 @@ Retina:
 -   Peripheria: Remaining space beyond the parafovea.
 :::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: {layout="[[-1], [1], [-1]]"}
 ![Central vision != foveal vision.](_images/_session1/vision_angles.png){fig-align="center"}
 :::
-:::
-:::
+::::
+::::::
 
 ## Why do we move our eyes? The Human Visual System
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Light hits the cornea.
     -   Some light is reflected (Purkinje reflections)
@@ -190,7 +190,7 @@ Retina:
 ::: {.column width="50%"}
 ![](_images/_session1/eye_anatomy.png)
 :::
-:::
+:::::
 
 ## Why do we move our eyes? The Human Visual System
 
@@ -205,7 +205,7 @@ Photoreceptors with different properties (e.g., spectral sensitivity, photopigme
 
 ## Why do we move our eyes? The Human Visual System {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 They also differ in where they are located in the fovea.
 
@@ -220,7 +220,7 @@ They also differ in where they are located in the fovea.
 ::: {.column width="50%"}
 ![](_images/_session1/rod_distribution.png)
 :::
-:::
+:::::
 
 ## Why do we move our eyes? The Human Visual System
 
@@ -253,7 +253,7 @@ Attention determines what we process and the detail of the representation built.
 
 ## Why do we move our eyes? Visual attention
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 [Attention]{.fg style="--col: #e64173"} (i.e., [linking hypothesis]{.fg style="--col: #e64173"})
 
@@ -265,7 +265,7 @@ Attention determines what we process and the detail of the representation built.
 ::: {.column width="50%"}
 ![Open University](_images/_session1/endogenous.jpg)
 :::
-:::
+:::::
 
 ## Why do we move our eyes? Visual attention
 
@@ -352,7 +352,7 @@ Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just
 
 ## Eye movements
 
-::: {style="text-align: center"}
+:::: {style="text-align: center"}
 **What eye movements can you think of?**
 
 ::: incremental
@@ -360,7 +360,7 @@ Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just
 -   We also [blink]{.fg style="--col: #e64173"}.
 -   Our [pupils]{.fg style="--col: #e64173"} change in size.
 :::
-:::
+::::
 
 ## Eye movements
 
@@ -443,7 +443,7 @@ When our eye 'stops'.
 
 ## Eye movements: Fixations
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Tremor: Smallest of the movements.
 -   Drifts: Slow movement away from the center of the fixation, happens between microsaccades.
@@ -457,7 +457,7 @@ When our eye 'stops'.
 
 ![](_images/_session1/troxler.jpg){fig-align="center" height="300px"}
 :::
-:::
+:::::
 
 ## Eye movements: Blinks
 
@@ -492,14 +492,14 @@ Pupil dilates for reasons other than light, e.g., [cognitive effort]{.fg style="
 
 ## Why does our pupil change in size? Taxonomy
 
-::: rows
+::::::::: rows
 ::: {.row height="5%"}
 -   Taxonomy by Strauch et al. (2022)
 -   Different networks
 :::
 
-::: {.row height="95%"}
-::: columns
+::::::: {.row height="95%"}
+:::::: columns
 ::: {.column width="30%"}
 **Low-level**
 
@@ -520,9 +520,9 @@ Pupil dilates for reasons other than light, e.g., [cognitive effort]{.fg style="
 
 -   Mental arousal
 :::
-:::
-:::
-:::
+::::::
+:::::::
+:::::::::
 
 ::: notes
 Although we want to draw conclusions about higher-level factors, we also need to keep these other factors in mind, especially when designing experiments e.g., play a beep before stimulus onset would lead to an orienting response
@@ -530,7 +530,7 @@ Although we want to draw conclusions about higher-level factors, we also need to
 
 ## Why does our pupil change in size? Taxonomy
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 **Low-level**
 
@@ -544,7 +544,7 @@ Reading/hearing words that convey brightness/darkness
 
 ![Mathôt et al. (2017)](_images/_session1/mathotetal2017_embodiedcognition.PNG)
 :::
-:::
+:::::
 
 ## Why does our pupil change in size? Higher-level processes
 
@@ -603,7 +603,7 @@ How do you think you can link these eye movements to language research?
 
 ## Eye movements: Conceptualisation
 
-::: rows
+::::: rows
 ::: {.row height="40%"}
 Lots of ways to convey information: Example: Reading
 
@@ -615,7 +615,7 @@ Lots of ways to convey information: Example: Reading
 ::: {.row height="60%"}
 ![Carroll (2017)](_images/_session1/reiterate.JPG)
 :::
-:::
+:::::
 
 ::: notes
 Not going into this, I will only mention this briefly e.g., in reading, for example, the duration of fixations can be subdivided into the first fixation, the amount of fixations on an area of interest etc. and those are believed to map onto different stages of reading comprehension Ask yourself: What are your predictions?
@@ -641,7 +641,7 @@ Eye-tracking is an *online* measurement of cognitive processes.
 
 ## How do eye-trackers work?
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Old, rudimentary eye-trackers.
 
@@ -657,11 +657,11 @@ Old, rudimentary eye-trackers.
 
 ![Huey, 1898; from Hutton, 2019](_images/_session1/huey.JPG)
 :::
-:::
+:::::
 
 ## How do eye-trackers work?
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br> <br> <br>
 
@@ -675,7 +675,7 @@ Old, rudimentary eye-trackers.
 
 ![](_images/_session1/oldtrackers.png)
 :::
-:::
+:::::
 
 ## How do eye-trackers work?
 
@@ -689,13 +689,13 @@ Now you can see why nowadays eye-tracking is non-invasive.
 
 ## How do eye-trackers work?
 
-::: columns
+:::::::: columns
 ::: {.column width="50%"}
 <br> <br> ![](_images/_session1/trackers_today.jpg)
 :::
 
-::: {.column width="50%"}
-::: rows
+:::::: {.column width="50%"}
+::::: rows
 ::: {.row width="50%"}
 ![](_images/_session1/tracking_eyes2.png){fig-align="center"}
 :::
@@ -703,9 +703,9 @@ Now you can see why nowadays eye-tracking is non-invasive.
 ::: {.rows width="50%"}
 ![](_images/_session1/et_work.png){fig-align="center"}
 :::
-:::
-:::
-:::
+:::::
+::::::
+::::::::
 
 ## How do eye-trackers work?
 
@@ -754,7 +754,7 @@ Why pupil and corneal reflection?
 
 ## How do eye-trackers work?
 
-::: rows
+::::: rows
 ::: {.row height="50%"}
 ![Participant moving their eyes](_images/_session1/tracking_eyes4.png){fig-align="center"}
 :::
@@ -762,7 +762,7 @@ Why pupil and corneal reflection?
 ::: {.row height="50%"}
 ![Participant moving their head](_images/_session1/cr_example3.PNG){fig-align="center"}
 :::
-:::
+:::::
 
 ## How do eye-trackers work?
 
@@ -875,7 +875,7 @@ Detects gaze and records its [x and y coordinates]{.fg style="--col: #e64173"} o
 
 Detects gaze and records its [x and y coordinates]{.fg style="--col: #e64173"} on the screen.
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Accuracy
 
@@ -892,7 +892,7 @@ Precision
 -   Spatial precision: Eye fixating on a stationary target.
 -   Temporal precision: Standard deviation of delays from actual movements until they are marked (eye-tracker latencies).
 :::
-:::
+:::::
 
 ## How do eye-trackers work? Accuracy
 
@@ -1142,7 +1142,7 @@ A camera, a screen, etc.
 
 ## The eye-tracking lab
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1157,7 +1157,7 @@ Hardware
 ::: {.column width="50%"}
 ![](_images/_session1/lab_setup2.jpg){fig-align="center"}
 :::
-:::
+:::::
 
 ## The eye-tracking lab
 
@@ -1176,7 +1176,7 @@ All in a sound isolated, no-sunlight room.
 
 Host PC and camera are connected and synchronized. Host PC and Presentation PC are connected and synchronized.
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Recording/Host PC
     -   Camera set up.
@@ -1192,7 +1192,7 @@ Host PC and camera are connected and synchronized. Host PC and Presentation PC a
     -   Control when in time gaze is actually recorded.
     -   Gathers behavioural data.
 :::
-:::
+:::::
 
 ## The eye-tracking lab
 
@@ -1210,7 +1210,7 @@ What information do you think is sent between the two computers?
 
 How can I code an eye-tracking experiment?
 
-::: columns
+:::::: columns
 ::: {.column width="30%"}
 General commercial software:
 
@@ -1245,7 +1245,7 @@ Advantages: Free software, nicely documented, versatile, user-friendly interface
 
 Disadvantages: More complex functionalities require coding ("more intimidating").
 :::
-:::
+::::::
 
 ## The experiment
 
@@ -1299,7 +1299,7 @@ more points for small areas of interest,
 
 ## Calibration
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![Bad calibration](_images/_session1/bad_calibration.jpg){height="500px"}
 :::
@@ -1307,7 +1307,7 @@ more points for small areas of interest,
 ::: {.column width="50%"}
 ![Good calibration](_images/_session1/good_calibration.jpg){height="500px"}
 :::
-:::
+:::::
 
 ## Validation
 
@@ -1319,7 +1319,7 @@ Done after calibration to ensure accuracy. Same principle as calibration.
 
 ## Validation
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![Bad validation](_images/_session1/bad_validation.jpg){height="500px"}
 :::
@@ -1327,7 +1327,7 @@ Done after calibration to ensure accuracy. Same principle as calibration.
 ::: {.column width="50%"}
 ![Good calibration](_images/_session1/good_validation.jpg){height="500px"}
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
@@ -1354,7 +1354,7 @@ Every so often, re-check our measurement (accuracy): Drift correction/check.
 
 ## Drift correction
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![Drift correction reading](_images/_session1/drift_reading.jpg){height="500px"}
 :::
@@ -1362,13 +1362,13 @@ Every so often, re-check our measurement (accuracy): Drift correction/check.
 ::: {.column width="50%"}
 ![Drift correction VWP](_images/_session1/drift_vwp.jpg){height="500px"}
 :::
-:::
+:::::
 
 ## Areas of Interest
 
 Areas of display we are interested in measuring and analysing.
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![Single sentence reading](_images/_session1/ia_reading.png){height="200px" fig-align="center"}
 :::
@@ -1376,11 +1376,11 @@ Areas of display we are interested in measuring and analysing.
 ::: {.column width="50%"}
 ![VWP](_images/_session1/ia_vwp.png){height="300px" fig-align="center"}
 :::
-:::
+:::::
 
 ## Areas of Interest
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Reading
 
@@ -1395,7 +1395,7 @@ VWP
 -   Individual images
 -   Blank space!
 :::
-:::
+:::::
 
 ## Areas of Interest
 
@@ -1474,7 +1474,7 @@ Focus of this course:
 
 ## Eye-tracking in language research
 
-::: rows
+:::::::: rows
 ::: {.row height="40%"}
 -   Visual World Paradigm (Cooper, 1974; Tanenhaus et al., 1995)
 
@@ -1482,17 +1482,17 @@ Focus of this course:
     -   IV: Increase in fixations (but also: saccade latency, for example)
 :::
 
-::: {.row height="60%"}
-::: columns
+:::::: {.row height="60%"}
+::::: columns
 ::: {.column width="20%"}
 :::
 
 ::: {.column width="60%"}
 {{< video _images/_session1/disfluent-native.mp4 width="500%" height="500%">}}
 :::
-:::
-:::
-:::
+:::::
+::::::
+::::::::
 
 ::: notes
 to explore how the latter affects the former cf. preview window
@@ -1564,7 +1564,7 @@ Hutton, S. B. (2019). *Eye tracking methodology. Eye movement research: An intro
 
 ## References {.smaller}
 
-James, A. N., Ryskin, R., Hartshorne, J. K., Backs, H., Bala, N., Barcenas-Meade, L., \... & de Leeuw, J. R. (2025). What Paradigms Can Webcam Eye-Tracking Be Used For? Attempted Replications of Five Cognitive Science Experiments. *Collabra: Psychology*, *11*(1), 140755.
+James, A. N., Ryskin, R., Hartshorne, J. K., Backs, H., Bala, N., Barcenas-Meade, L., ... & de Leeuw, J. R. (2025). What Paradigms Can Webcam Eye-Tracking Be Used For? Attempted Replications of Five Cognitive Science Experiments. *Collabra: Psychology*, *11*(1), 140755.
 
 King, J. P., Loy, J. E., & Corley, M. (2018). Contextual effects on online pragmatic inferences of deception. *Discourse Processes, 55*(2), 123-135.
 

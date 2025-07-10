@@ -47,7 +47,7 @@ The Visual World Paradigm
 
 ## Visual World Paradigm
 
-The Visual World Paradigm (VWP) is an eye-tracking paradigm that commonly describes an experiment where [auditory and visual stimuli]{.fg style="--col: #e64173"} are presented to a participant, with the goal of understanding how the formet influences the latter around a scene.
+The Visual World Paradigm (VWP) is an eye-tracking paradigm that commonly describes an experiment where [auditory and visual stimuli]{.fg style="--col: #e64173"} are presented to a participant, with the goal of understanding how the former influences the latter around a scene.
 
 -   Exploring speech as it unfolds (i.e., [time-locked]{.fg style="--col: #e64173"})
     -   Or as it is produced (e.g., Meyer et al., 1998; Pistono & Hartsuiker, 2023)
@@ -780,7 +780,7 @@ Audio properties
 ## Confounds: Exercise
 
 ::: {style="text-align: center"}
-Let's brainstorm! What could be potential confounds in your study?
+Let's brainstorm! What could potential confounds be in your study?
 :::
 
 ## Side note: Reporting {.smaller}

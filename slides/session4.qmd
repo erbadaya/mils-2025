@@ -3,7 +3,7 @@ title: "Lab set up"
 author: "Badaya & Baltaiis"
 format: 
    clean-revealjs:
-    logo: images/logo_mils.png
+    logo: /_images/logo_mils.png
     footer: "Introduction to eye-tracking"
     include-in-header: 
       text: |
@@ -92,7 +92,7 @@ Adjust seating
 
 ## Camera set up
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Access to eye image
 
@@ -105,18 +105,18 @@ Access to eye image
 ::: {.column width="50%"}
 ![](_images/_session1/host_pc_setup.JPG)
 :::
-:::
+:::::
 
 ## Camera set up
 
-Which eye to track? 
+Which eye to track?
 
-- Dominant eye (by default, right eye)
-  - Ideally, eye dominance test.
+-   Dominant eye (by default, right eye)
+    -   Ideally, eye dominance test.
 
 Detect the eye
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](_images/_session1/eye_undetected.JPG){height="300px"}
 :::
@@ -124,13 +124,13 @@ Detect the eye
 ::: {.column width="50%"}
 ![](_images/_session1/eye_detected.JPG){height="300px"}
 :::
-:::
+:::::
 
 ## Camera set up
 
 Focus
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](_images/_session1/unfocused_camera.JPG){height="300px"}
 :::
@@ -138,11 +138,11 @@ Focus
 ::: {.column width="50%"}
 ![](_images/_session1/eye_detected.JPG){height="300px"}
 :::
-:::
+:::::
 
 ## Camera set up
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br> <br> <br>
 
@@ -154,11 +154,11 @@ Focus
 ::: {.column width="50%"}
 ![](_images/_session1/good_captureeye1.png) ![](_images/_session1/good_pupil.png)
 :::
-:::
+:::::
 
 ## Camera set up
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -174,7 +174,7 @@ Pupil tracking
 ::: {.column width="50%"}
 ![](_images/_session1/options.jpg){height="550px"}
 :::
-:::
+:::::
 
 ## Camera set up
 
@@ -217,7 +217,7 @@ Pupil tracking
         -   Stop the experiment
         -   Dim the light in the lab
         -   Tell the participant to go home
-        
+
 ## During the experiment
 
 During trials
@@ -228,7 +228,7 @@ During trials
     -   Data cleaning
     -   Blinking
     -   Are they moving their lips while they read?
-    
+
 ## End of experiment
 
 Any additional data you may want to explore in relation to eye-tracking data.
