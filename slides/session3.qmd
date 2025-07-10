@@ -733,7 +733,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ## Non-linguistic confounds
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   Line spacing[^5]
     -   Tracking less accurate for vertical movements (vertical drift)
@@ -745,7 +745,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ![From Conklin et al., 2018](_images/_session3/example_spacing.JPG)
 :::
-:::::
+:::
 
 [^5]: Less important for global measures (sentence-level processing).
 
@@ -974,7 +974,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 
 ## Pros & cons
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 **Pros**
 
@@ -992,7 +992,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 -   Many potential confounds.
 -   Resource-costly.
 :::
-:::::
+:::
 
 # Data pre-processing
 
@@ -1028,7 +1028,7 @@ For now, we'll look at the data that's already imported ('SingleLine_view.evs').
 
 ## Interest period
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1040,11 +1040,11 @@ First make sure your IAs are displayed.
 ::: {.column width="50%"}
 ![](_images/_session3/showIAs.png){fig-align="center" width="400"}
 :::
-:::::
+:::
 
 ## Interest period
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1054,7 +1054,7 @@ From stimulus presentation to button press (trial end)
 ::: {.column width="50%"}
 ![](_images/_session3/interest_period.png){fig-align="center" width="600"}
 :::
-:::::
+:::
 
 ## Check data
 
@@ -1145,7 +1145,7 @@ Different thresholds -\> report *exactly* what you did.
 
 ## Automatized cleaning
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1157,7 +1157,7 @@ Right-click on the whole folder.
 ::: {.column width="50%"}
 ![](_images/_session3/4stage_a.png)
 :::
-:::::
+:::
 
 ## Automatized cleaning
 
@@ -1187,7 +1187,7 @@ We surely need participant ID (Session_Name\_), condition, item ID, and interest
 
 Let's choose some common measures:
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   Skipping
 -   First fixation duration
@@ -1201,7 +1201,7 @@ Let's choose some common measures:
 ::: {.column width="50%"}
 ![](_images/_session3/var_choose.png)
 :::
-:::::
+:::
 
 ## Output
 
@@ -1322,7 +1322,7 @@ Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence c
 
 Frisson, S., Harvey, D. R., & Staub, A. (2017). No prediction error cost in reading: Evidence from eye movements. *Journal of Memory and Language, 95*, 200--214. https://doi.org/10.1016/j.jml.2017.04.007
 
-(RETRACTED) Holmqvist, K., Örbom, S. L., Hooge, I. T. C., Niehorster, D. C., Alexander, R. G., Andersson, R., Benjamins, J. S., Blignaut, P., Brouwer, A.-M., Chuang, L. L., Dalrymple, K. A., Drieghe, D., Dunn, M. J., Ettinger, U., Fiedler, S., Foulsham, T., van der Geest, J. N., Hansen, D. W., Hutton, S. B., … Hessels, R. S. (2023). Eye tracking: Empirical foundations for a minimal reporting guideline. Behavior Research Methods, 55(1), 364–416. https://doi.org/10.3758/s13428-021-01762-8
+(RETRACTED) Holmqvist, K., Örbom, S. L., Hooge, I. T. C., Niehorster, D. C., Alexander, R. G., Andersson, R., Benjamins, J. S., Blignaut, P., Brouwer, A.-M., Chuang, L. L., Dalrymple, K. A., Drieghe, D., Dunn, M. J., Ettinger, U., Fiedler, S., Foulsham, T., van der Geest, J. N., Hansen, D. W., Hutton, S. B., ... Hessels, R. S. (2023). Eye tracking: Empirical foundations for a minimal reporting guideline. Behavior Research Methods, 55(1), 364--416. https://doi.org/10.3758/s13428-021-01762-8
 
 ## References {.smaller}
 
@@ -1340,7 +1340,7 @@ Jayes, L. T., Fitzsimmons, G., Weal, M. J., Kaakinen, J. K., & Drieghe, D. (2022
 
 Juhasz, B. J., Pollatsek, A., Hyönä, J., Drieghe, D., & Rayner, K. (2009). Parafoveal processing within and between words. *Quarterly Journal of Experimental Psychology, 62*(7), 1356--1376. https://doi.org/10.1080/17470210802400010
 
-Juhasz, B. J., & Sheridan, H. (2020). The time course of age-of-acquisition effects on eye movements during reading: Evidence from survival analyses. Memory & Cognition, 48(1), 83–95. https://doi.org/10.3758/s13421-019-00963-z
+Juhasz, B. J., & Sheridan, H. (2020). The time course of age-of-acquisition effects on eye movements during reading: Evidence from survival analyses. Memory & Cognition, 48(1), 83--95. https://doi.org/10.3758/s13421-019-00963-z
 
 Just, M. A., & Carpenter, P. A. (1980). A theory of reading: from eye fixations to comprehension. *Psychological review, 87*(4), 329.
 
