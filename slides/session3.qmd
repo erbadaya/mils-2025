@@ -1018,6 +1018,14 @@ Today:
 
 # Reading pipeline
 
+## Viewing session
+
+For now, we'll look at the data that's already imported ('SingleLine_view.evs').
+
+.edf = Eyelink Data File
+
+.evs = Eyelink Viewing Session
+
 ## Interest period
 
 ::::: columns
@@ -1231,7 +1239,7 @@ If IA_SKIP = 1, but we don't want to just assign *NA* to all measures indiscrimi
 
 ## Exercise
 
-*What technical information do we expect to find?*
+*What technical information do we expect to find (and where)?*
 
 ## Exercise
 
@@ -1266,11 +1274,19 @@ Jakobi et al. (2024). Reporting eye-tracking data quality: Towards a new standar
 
 ## Practice time
 
-Have a go at some data from the training data sets! Afterwards we'll compare our solutions.
+Open DataViewer and import data files from 'SingleLine_deploy' to create your own viewing session.
+
+Go through 'DB1' and 'DB2' and make changes as you see fit (don't forget to log them!). Afterwards we'll compare our solutions.
+
+![](_images/_session3/DV_import.png){fig-align="center"}
 
 ## Plan for tomorrow
 
-Visit to the lab!
+Lab visit will be organized in two groups.
+
+Address: Campus Dunant (Henri Dunantlaan 2). Meeting point: main entrance.
+
+![](_images/_session3/dunantlaan.png){fig-align="center"}
 
 ## References {.smaller}
 
