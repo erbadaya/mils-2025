@@ -36,4 +36,4 @@ Here you can find the .qmd files used to create the slides. These slides are mad
 
 ## Pre-requisites
 
-In this course, we will use DataViewer for data pre-processing. We will share the link for download with you on Day 1. On Day 5, we will show snipets of R code for data analysis: Therefore, we welcome you to also download R if you want to practice with some data. To install R, visit the [R Project website](https://www.r-project.org/). We also recommend you to install [RStudio](https://posit.co/). 
+In this course, we will use DataViewer for data pre-processing. We will share the link for download with you on Day 1. On Day 5, we will show snippets of R code for data analysis: Therefore, we welcome you to also download R if you want to practice with some data. To install R, visit the [R Project website](https://www.r-project.org/). We also recommend you to install [RStudio](https://posit.co/). 

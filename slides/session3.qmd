@@ -1259,9 +1259,7 @@ Data preparation:
 
 ## What to report?
 
-Holmqvist et al. (2022). Eye tracking: Empirical foundations for a minimal reporting guideline.[^6]
-
-[^6]: This paper was retracted due to some legal issues.
+Dunn et al. (2024). Minimal reporting guideline for research involving eye tracking (2023 edition).
 
 Jakobi et al. (2024). Reporting eye-tracking data quality: Towards a new standard.
 
@@ -1318,11 +1316,11 @@ Dirix, N., Vander Beken, H., De Bruyne, E., Brysbaert, M., & Duyck, W. (2019). R
 
 Drieghe, D. (2011). Parafoveal-on-foveal effects on eye movements during reading. In S. P. Liversedge, I. Gilchrist, & S. Everling (Eds.), *The Oxford handbook of eye movements* (pp. 840--855). Oxford: Oxford University Press.
 
+Dunn, M. J., Alexander, R. G., Amiebenomo, O. M., Arblaster, G., Atan, D., Erichsen, J. T., Ettinger, U., Giardini, M. E., Gilchrist, I. D., Hamilton, R., Hessels, R. S., Hodgins, S., Hooge, I. T. C., Jackson, B. S., Lee, H., Macknik, S. L., Martinez-Conde, S., Mcilreavy, L., Muratori, L. M., … Sprenger, A. (2024). Minimal reporting guideline for research involving eye tracking (2023 edition). Behavior Research Methods, 56(5), 4351–4357. https://doi.org/10.3758/s13428-023-02187-1
+
 Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence comprehension: Eye movements in the analysis of structurally ambiguous sentences. *Cognitive Psychology, 14*(2), 178--210. https://doi.org/10.1016/0010-0285(82)90008-1
 
 Frisson, S., Harvey, D. R., & Staub, A. (2017). No prediction error cost in reading: Evidence from eye movements. *Journal of Memory and Language, 95*, 200--214. https://doi.org/10.1016/j.jml.2017.04.007
-
-(RETRACTED) Holmqvist, K., Örbom, S. L., Hooge, I. T. C., Niehorster, D. C., Alexander, R. G., Andersson, R., Benjamins, J. S., Blignaut, P., Brouwer, A.-M., Chuang, L. L., Dalrymple, K. A., Drieghe, D., Dunn, M. J., Ettinger, U., Fiedler, S., Foulsham, T., van der Geest, J. N., Hansen, D. W., Hutton, S. B., ... Hessels, R. S. (2023). Eye tracking: Empirical foundations for a minimal reporting guideline. Behavior Research Methods, 55(1), 364--416. https://doi.org/10.3758/s13428-021-01762-8
 
 ## References {.smaller}
 
