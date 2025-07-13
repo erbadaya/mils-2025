@@ -388,13 +388,11 @@ Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just
 
 Parameters
 
--   Amplitude: distance travelled.
-    -   Average: 15°.
--   Temporal parameters (onset, offset, duration).
-    -   Average duration: 30 - 80 ms.
--   Direction: Forward and backwards (i.e., regressions) saccades.
--   Accuracy: Over- and under-shooting.
-    -   In simple lab conditions, fall slightly short of the target, thus followed by a small corrective saccade.
+-   Amplitude: distance travelled e.g., 1.5 degrees in silent reading
+-   Temporal parameters (onset, offset, duration)
+    -   Average duration: 30 - 80 ms
+-   Direction: Forward and backwards (i.e., regressions) saccades
+-   Accuracy: Over- and under-shooting
 
 ## Eye movements: Saccades
 
@@ -412,13 +410,11 @@ Forward and backwards (i.e., regressions) saccades.
 
 When our eye 'stops' i.e., multiple gaze points close in time and/or space.
 
--   Eye is *relatively* stable.
+-   Eye is *relatively* stable
 
--   Average duration: 200 - 300 ms.
+-   Average duration: 200 - 300 ms
 
--   Minimal duration: 20 - 50 ms (not standard).
-
--   Refraction period + Voluntary period
+-   Minimal duration: 20 - 50 ms (not standard)
 
 -   Oculomotor delay
 
@@ -842,7 +838,6 @@ How small (or slow) can you go with the sampling frequency?
 -   Nyquist-Shannon sampling theorem
     -   Twice as large as the event you want to measure.
 
-In reality, more like 'rule-of-thumb'.
 
 ## How do eye-trackers work? Sampling frequency
 
@@ -853,7 +848,6 @@ Relationship between sampling error, sampling frequency, and [data points]{.fg s
 -   Lower sampling frequencies =\> more data points (power).
     -   NB: More data points might not be the solution.
 
-Conventional: min. 500 Hz for picture viewing, min. 1000 Hz for reading.
 
 ::: notes
 for onset - offset, more data points is not a solution, for duration it may increase power
@@ -885,7 +879,6 @@ Accuracy
 -   Methods to increase accuracy in the experimental session.
     -   Calibration, validation, drift correction.
     -   Screen corners.
--   Data loss.
 :::
 
 ::: {.column width="50%"}
