@@ -49,6 +49,31 @@ The Visual World Paradigm
 
 The Visual World Paradigm (VWP) is an eye-tracking paradigm that commonly describes an experiment where [auditory and visual stimuli]{.fg style="--col: #e64173"} are presented to a participant, with the goal of understanding how the former influences the latter around a scene.
 
+## Visual World Paradigm
+
+:::columns
+:::{.column width="50%"}
+
+{{< video _images/_session1/disfluent-native.mp4 width="500%" height="500%">}}
+
+:::
+:::{.column width="50%"}
+
+![](_images/_session1/expsdata.JPG)
+
+:::
+:::
+
+## Visual World Paradigm
+
+![](_images/_session1/expsdata.JPG)
+
+:::notes
+learning how to read VWP data
+:::
+
+## Visual World Paradigm
+
 -   Exploring speech as it unfolds (i.e., [time-locked]{.fg style="--col: #e64173"})
     -   Or as it is produced (e.g., Meyer et al., 1998; Pistono & Hartsuiker, 2023)
 -   "Natural measure"
@@ -119,7 +144,7 @@ What are the elements in Altmann and Kamide that you can identify as characteris
 -   Visual stimuli
 -   Task
 
-## Design: Auditory stimuli
+## Design: "Auditory stimuli"
 
 Example of Altmann and Kamide?
 
@@ -137,20 +162,32 @@ Stimuli creation:
 
 -   Comparison between levels.
 
--\> Need to have a *baseline* for comparison
+    -Need to have a *baseline* for comparison
 
 -   Applies to design of auditory and/or visual stimuli
 -   Changes in one measure are only meaningful when compared!
 
-## Design: Auditory stimuli
+## Design: "Auditory stimuli"
 
 Variations in stimuli
 
 -   Fine-grained: Acoustic properties (e.g., duration, formant structure)
+  - Example of fine-grained: Dahan et al. (2001a), subcategorical mismatches:
+  - Manipulation: Target: *net* versus Competitors: *neck* and *nep*
 -   Properties of words (e.g., semantic features, frequency of occurrence)
+  - Example of lexical items: Dahan et al. (2001b), word frequency:
+  - Manipulation: High versus low-frequency targets
 -   Linguistic structure (e.g., syntactic structure, pragmatic properties)
+  - Example of linguistic structure: Knoerfele et al., (2005), thematic roles
+  - Manipulation: SVO v OVS
 
 ... As a function of your research question
+
+- /!\ Note that those also map on the visual stimuli (i.e., what's displayed on the screen)
+
+:::notes
+manipulated the vowel so that it had coarticulation consistent with these sounds
+:::
 
 ## Design: Auditory stimuli
 
@@ -161,6 +198,7 @@ Eye-movements in the VWP are [time-locked]{.fg style="--col: #e64173"}.
     -   Triggers (coding)
 -   Different time windows to explore [different processes]{.fg style="--col: #e64173"} within speech comprehension.
     -   Integration versus Prediction (analysis)
+- Time for the measure to occur.
 
 ## Design: Auditory stimuli
 
@@ -170,7 +208,7 @@ What is the point of disambiguation in Altmann and Kamide (1999)?
 
 Verb onset.
 
-[ ](_images/_session2/POD_AK.JPG)
+![](_images/_session2/POD_AK.JPG)
 
 ## Design: Auditory stimuli
 
@@ -208,7 +246,6 @@ Can you think of other properties of audio that can be manipulated?
 -   Traits of the speaker.
 -   Prosody.
 -   Noise.
--   Inter alia.
 
 ## Design: Visual stimuli
 
@@ -276,13 +313,13 @@ Unrelated 3
 
 ## Design: Visual stimuli
 
-They need to be coded for analysis!
+AOIs need to be coded for analysis!
 
 -   Slightly bigger than the edges of the images
 -   Not too close to each other
 -   Not too close to the margins of the monitor (lower accuracy)
 
-![](_images/_session2/example_IA_VWP.JPG)
+![](_images/_session2/example_IA_VWP.JPG){fig-align="center"}
 
 ## Design: Visual stimuli
 
@@ -304,17 +341,20 @@ They need to be coded for analysis!
 
 Ferreira, Foucart and Engelhardt (2013)
 
-:::columns
-:::{.column width="50%"}
-
-![Simple display](_images/_session2/ferreira_simple.JPG){fig-align="left"} 
-
+::: columns
+::: {.column width="50%"}
+![Simple display](_images/_session2/ferreira_simple.JPG){fig-align="left"}
 :::
-:::{.column width="50%"}
 
+::: {.column width="50%"}
 ![Complex display](_images/_session2/ferreira_complex.JPG){fig-align="right"}
-
 :::
+:::
+
+:::notes
+The aim of the study itself is not really relevant (disambiguation of what object the speaker refers tom single prepositional phrase v preposional phrase modifier)
+Put the book on the chair in the bucket.
+also role of the preview window
 :::
 
 ## Design: Visual stimuli
@@ -323,16 +363,13 @@ Ferreira, Foucart and Engelhardt (2013)
 
 Ferreira, Foucart and Engelhardt (2013)
 
-:::columns
-:::{.column width="50%"}
-
-![Simple display fixations](_images/_session2/ferreira_simple_results.JPG){fig-align="left"} 
-
+::: columns
+::: {.column width="50%"}
+![Simple display fixations](_images/_session2/ferreira_simple_results.JPG){fig-align="left"}
 :::
-:::{.column width="50%"}
 
+::: {.column width="50%"}
 ![Complex display fixations](_images/_session2/ferreira_complex_results.JPG){fig-align="right"}
-
 :::
 :::
 
@@ -419,7 +456,7 @@ Different questions about language organisation and/or language-vision interatio
 
 3.  How can we manipulate the items?
 
-![Allopenna et al., 1996](_images/_session2/phonological_manipulation.JPG)
+![Allopenna et al., 1998](_images/_session2/phonological_manipulation.JPG)
 
 ::: notes
 word recognition -\> when do we recognise is X and not Y word that is being said. The typical VWP design for word recognition uses (typically four) images chosen to assess activation for specific classes of words. To assess phonological competitors, a display might include a target (sandal), and onset competitors (sandwich) or rhymes (candle). Typically, upon hearing the sa- in sandal, listeners fixate sandal and sandwich, but not candle, or an unrelated item like necklace. As more of the word is heard, looks to onset competitors rapidly drop off; after hearing sanda-, the listener stops looking at the sandwich, whereas looks to the sandal continue to increase. Later, items that didn't fully match the onset receive some consideration (e.g., candle), suggesting that lexical activation reflects the overall phonological form of the input. The patterns of fixations across time indicate that lexical processing is incremental, parallel, and subject to competition.
@@ -431,10 +468,33 @@ Rather sandwich is a sample from a set of onset competitors, and the listener is
 
 3.  How can we manipulate the items?
 
+![Allopenna et al., 1998](_images/_session2/allopenna_results.png)
+
+## Design: Visual stimuli
+
+3.  How can we manipulate the items?
+
 ![Huettig & Altmann, 2005](_images/_session2/piano.JPG)
 
 ::: notes
 We demonstrate here that such spontaneous fixation can be driven by partial semantic overlap between a word and a visual object. Participants heard the word 'piano' when (a) a piano was depicted amongst unrelated distractors; (b) a trumpet was depicted amongst those same distractors; and (c), both the piano and trumpet were depicted. The probability of fixating the piano and the trumpet in the first two conditions rose as the word 'piano' unfolded. In the final condition, only fixations to the piano rose, although the trumpet was fixated more than the distractors. We conclude that eye movements are driven by the degree of match, along various dimensions that go beyond simple visual form, between a word and the mental representations of objects in the concurrent visual field.
+:::
+
+## Design: Visual stimuli{.smaller}
+
+:::rows
+:::{.row height="20%"}
+![](_images/_session2/huettigaltmann2005A.png){width=40%} 
+Fixations when there's only the piano
+:::
+:::{.row height="20%"}
+![](_images/_session2/huettigaltmann2005B.png){width=40%}
+Fixations when there's only the trumpet
+:::
+:::{.row height="20%"}
+![](_images/_session2/huettigaltmann2005C.png){width=40%}
+Fixations when both the piano and the trumpet are on display
+:::
 :::
 
 ## Design: Visual stimuli
@@ -451,9 +511,13 @@ Target absent -\> maximise competitor effects.
 
 Object affordances: *pour* the egg.
 
--   Comparisons within and between trials.
+![Chambers et al., 2004](_images/_session2/chambers_affordances.JPG)
 
-![Chambers et al., 2014](_images/_session2/chambers_affordances.JPG)
+:::notes
+panel B the competitor cannot be poured
+i have the comparison point to remind them that they need baselines for trials!! so it's fixations within the trial but also between trials for comparison
+
+:::
 
 ## Design: Visual stimuli
 
@@ -461,7 +525,7 @@ Object affordances: *pour* the egg.
 
 Shared versus privileged perspective in interactive experiments.
 
-![Keysar et al., 1999](_images/_session2/priviledged_example.JPG)
+![Keysar et al., 2000](_images/_session2/priviledged_example.JPG)
 
 ## Design: Visual stimuli
 
@@ -514,8 +578,28 @@ Remember: the active viewer (Yarbus).
 ## Task
 
 -   Look and listen: Good subject effects?
+
+. . .
+
     -   Mishra et al., 2013: language-mediated fixations are overlearnt, semi-automatic behaviour.
     -   Brothers et al., 2017: role of instructions, EEG.
+
+::: notes
+ Participants were instructed to read both sentences carefully and to try to predict the final word of each passage before it appeared. Approximately 1700 ms following the offset of the final word, participants were instructed to respond whether their prediction was correct or incorrect. 
+:::
+
+## Design: Exercise
+
+Ito et al. (2018)
+
+- Example audio: The lady will fold/find the scarf.
+
+- What is the time window of analysis?
+- What are the AOIs?
+- What does the graph show?
+
+![](_images/_session2/itoetal_setup.png){fig-align="left"}
+![](_images/_session2/itoetal_results.png){fig-align="right"}
 
 ## Design: Exercise
 
@@ -562,6 +646,11 @@ Let's brainstorm! RQ, design?
 ::: {style="text-align: center"}
 Why do you think it is a critique?
 :::
+
+. . .
+
+- Prenaming of objects
+- Locate objects in space
 
 ## Preview window {.smaller}
 
@@ -635,7 +724,7 @@ Fixations and saccades.
 
 -   When & where
 -   Operationalisation
-    -   Fixation counts, proportion on ROIs, saccadic latency...
+    -   Fixation counts, proportion on AOIs, saccadic latency...
     -   NB PFE for pupillometry.
 -   100-200 ms to launch a saccade (Matin et al., 1993)
 -   Time course v average (more on day 5).
@@ -690,7 +779,7 @@ Caveats (see Magnuson, 2019):
 
 ## Measures: Linking hypothesis
 
-Not necessarily (see Magnuson, 2019):
+From Magnuson (2019):
 
 -   Language processing guiding vision (e.g., Allopenna et al., 1998).
     -   "Hidden competitors"
@@ -790,7 +879,7 @@ Image relationship
 Audio properties
 
 -   Same/different voices
-    -   Uncanny valley
+    -   If AI-generated: Uncanny valley?
 -   Phonetic cues (e.g., co-articulation)
     -   Cross-splicing audios
 -   Volume
@@ -801,15 +890,23 @@ Audio properties
 
 Audio properties
 
--   Speech rate
+-   Speech rate (in interaction with preview window)
 
 ![Huettig & Guerra, 2019](_images/_session2/speechrate_vwp.png)
+
+:::notes
+Preview (4 vs. 1 seconds):
+4seconds: prediction occorred in both conditions
+1second: prediction only showed in slow speech
+::: 
 
 ## Confounds: Exercise
 
 ::: {style="text-align: center"}
 Let's brainstorm! What could potential confounds be in your study?
 :::
+
+![](_images/_session1/wooclap_D1.JPG)
 
 ## Side note: Reporting {.smaller}
 
@@ -869,19 +966,19 @@ Example of a lab protocol: Stone & Bosworth (2017)
 :::
 :::
 
-## Variations
+<!-- ## Variations -->
 
-**Do children's and adults' eye movements differ?**
+<!-- **Do children's and adults' eye movements differ?** -->
 
-Scene viewing (Helo et al., 2014):
+<!-- Scene viewing (Helo et al., 2014): -->
 
--   Shorter fixations, bigger saccades as kids age (2, 4-6, 6-8, 8-10)
--   Main effect of time (changes when viewing a scene)
--   Different attentional modes?
+<!-- -   Shorter fixations, bigger saccades as kids age (2, 4-6, 6-8, 8-10) -->
+<!-- -   Main effect of time (changes when viewing a scene) -->
+<!-- -   Different attentional modes? -->
 
-Biases for information?
+<!-- Biases for information? -->
 
--   Social information, semantic information (see Linka et al., 2023)
+<!-- -   Social information, semantic information (see Linka et al., 2023) -->
 
 ## Variations
 
@@ -906,8 +1003,18 @@ Language production.
 
 Language production.
 
+::: columns
+::: {.column width="50%"}
 -   A direct fixation is not necessary to identify an object or when producing a label.
     -   Speakers tend to look at the next object they will name before they name it.
+
+:::
+::: {.column width="50%"}
+
+![](_images/_session2/variables_production.png)
+
+:::
+:::
 
 ## Variations
 
@@ -936,34 +1043,66 @@ Mouse-tracking e.g., King et al., 2019
 -   Same logic as eye-tracking: track x,y coordinates every X ms (bounded by refresh rate)
 -   Motor movements taken to reflect mental trajectories (Spivey et al., 2004).
 -   See Spivey (2025) as well.
-
-## Variations
-
 -   Can be run online (less costly, e.g., large-scale experiments; wider audience e.g., clinical groups).
--   Computer requirements.
--   Participant instructions (e.g., emphasize they need to move the mouse, but not too much!).
+-   Participant instructions.
 
 ## Variations
 
-Webcam tracking e.g., Slim & Hartsuiker, 2023
-    -   ROIs size
-    -   Display size
+Example: Li et al. (2025)
+
+![Set up](_images/_session2/lietal_setup.png)
+
+## Variations
+
+Example: Li et al. (2025)
+
+![Trial sequence](_images/_session2/lietal_trialsequence.png)
+
+## Variations
+
+Example: Li et al. (2025)
+
+:::columns
+:::{.column width="50%"}
+
+![Pre-processing](_images/_session2/lietal_preprocessing.png)
+
+:::
+:::{.column width="50%"}
+
+![Data](_images/_session2/lietal_data.png)
+
+:::
+:::
+
+## Variations
+
+Webcam tracking e.g., Slim & Hartsuiker, 2023 - ROIs size - Display size
 
 ![Slim & Hartsuiker, 2023](_images/_session2/slim.JPG)
 
 ## Variations
 
-Webcam tracking: James et al. (2025) 
+Webcam tracking: James et al. (2025)
 
 ![James et al., 2025](_images/_session2/james_2025_exptested.JPG)
 
 ## Variations
 
-Webcam tracking: James et al. (2025) 
+Webcam tracking: James et al. (2025)
+
+:::columns
+:::{.column width="50%"}
 
 ![James et al., 2025, Experiments 1a & 1b](_images/_session2/james2025_exp1a1b.JPG)
 
+:::
+:::{.column width="50%"}
+
 ![James et al., 2025, Experiment 4](_images/_session2/james2025_exp4.JPG)
+
+:::
+:::
 
 ## Variations
 
@@ -971,9 +1110,9 @@ Given the topics we've covered so far, what do you think is important to bear in
 
 . . .
 
-- Think of accuracy & areas of interest
-- Think of timing
-- Think of calibration & validation
+-   Think of accuracy & areas of interest
+-   Think of timing
+-   Think of calibration & validation
 
 ## Variations
 
@@ -985,12 +1124,12 @@ Webcam tracking: James et al. (2025)
 
 Webcam tracking: Considerations from James et al. (2025)
 
-- Relatively large areas of interest
-- Good calibration -> Exclusion criteria
-  - Targeted interventions: head distance, poor lighting
-  - Power and effect sizes
-- Synchronization of multiple clocks
-- Communicate with participants e.g., how to improve calibration and validation
+-   Relatively large areas of interest
+-   Good calibration -\> Exclusion criteria
+    -   Targeted interventions: head distance, poor lighting
+    -   Power and effect sizes
+-   Synchronization of multiple clocks
+-   Communicate with participants e.g., how to improve calibration and validation
 
 # Raw data & pre-processing
 
@@ -1493,8 +1632,8 @@ DB1 & DB2
 
 Tomorrow Mariia will discuss eye-tracking-while-reading.
 
-- Read Juhasz & Sheridan (2020) and/or Howard et al. (2017)
-- Download the datasets for reading
+-   Read Juhasz & Sheridan (2020) and/or Howard et al. (2017)
+-   Download the datasets for reading
 
 ## References {.smaller}
 
@@ -1518,13 +1657,16 @@ Chen, Q., & Mirman, D. (2015). Interaction between phonological and semantic rep
 
 Cooper, R. M. (1974). The control of eye fixation by the meaning of spoken language: a new methodology for the real-time investigation of speech perception, memory, and language processing. Cognitive psychology.
 
+Dahan, D., Magnuson, J. S., Tanenhaus, M. K., & Hogan, E. M. (2001a). Subcategorical mismatches and the time course of lexical access: Evidence for lexical competition. *Language and Cognitive Processes, 16*(5-6), 507-534.
+
+Dahan, D., Magnuson, J. S., & Tanenhaus, M. K. (2001b). Time course of frequency effects in spoken-word recognition: Evidence from eye movements. *Cognitive psychology, 42*(4), 317-367.
+
 Grodner, D. J., Klein, N. M., Carbary, K. M., & Tanenhaus, M. K. (2010). "Some," and possibly all, scalar inferences are not delayed: Evidence for immediate pragmatic enrichment. *Cognition, 116*(1), 42-55.
 
-Ferreira, F., Foucart, A., & Engelhardt, P. E. (2013). Language processing in the visual world: Effects of preview, visual complexity, and prediction. *Journal of Memory and Language, 69*(3), 165-182.
 
 ## References {.smaller}
 
-Helo, A., Pannasch, S., Sirri, L., & Rämä, P. (2014). The maturation of eye movement behavior: Scene viewing characteristics in children and adults. *Vision research, 103*, 83-91.
+Ferreira, F., Foucart, A., & Engelhardt, P. E. (2013). Language processing in the visual world: Effects of preview, visual complexity, and prediction. *Journal of Memory and Language, 69*(3), 165-182.
 
 Huettig, F., & Altmann, G. T. (2005). Word meaning and the control of eye fixation: Semantic competitor effects and the visual world paradigm. *Cognition, 96*(1), B23-B32.
 
@@ -1534,9 +1676,10 @@ Huettig, F., & McQueen, J. M. (2007). The tug of war between phonological, seman
 
 Huettig, F., Rommers, J., & Meyer, A. S. (2011). Using the visual world paradigm to study language processing: A review and critical evaluation. *Acta psychologica, 137*(2), 151-171.
 
-James, A. N., Ryskin, R., Hartshorne, J. K., Backs, H., Bala, N., Barcenas-Meade, L., ... & de Leeuw, J. R. (2025). What Paradigms Can Webcam Eye-Tracking Be Used For? Attempted Replications of Five Cognitive Science Experiments. *Collabra: Psychology, 11*(1), 140755.
 
 ## References {.smaller}
+
+James, A. N., Ryskin, R., Hartshorne, J. K., Backs, H., Bala, N., Barcenas-Meade, L., ... & de Leeuw, J. R. (2025). What Paradigms Can Webcam Eye-Tracking Be Used For? Attempted Replications of Five Cognitive Science Experiments. *Collabra: Psychology, 11*(1), 140755.
 
 Keysar, B., Barr, D. J., Balin, J. A., & Brauner, J. S. (2000). Taking perspective in conversation: The role of mutual knowledge in comprehension. *Psychological science, 11*(1), 32-38.
 
@@ -1546,9 +1689,11 @@ Ito, A., Pickering, M. J., & Corley, M. (2018). Investigating the time-course of
 
 Knoeferle, P., Crocker, M. W., Scheepers, C., & Pickering, M. J. (2005). The influence of the immediate visual context on incremental thematic role-assignment: Evidence from eye-movements in depicted events. *Cognition, 95*(1), 95-127.
 
+## References {.smaller}
+
 Knoeferle, P., & Crocker, M. W. (2006). The Coordinated Interplay of Scene, Utterance, and World Knowledge: Evidence From Eye Tracking. *Cognitive Science, 30*(3), 481-529.
 
-## References {.smaller}
+Li, W., Rohde, H., & Corley, M. (2024). Non-plural interpretations of'some': Mouse-tracking evidence for quick social reasoning in real-time. *Glossa Psycholinguistics*.
 
 Linka, M., Sensoy, Ö., Karimpur, H., Schwarzer, G., & de Haas, B. (2023). Free viewing biases for complex scenes in preschoolers and adults. *Scientific reports, 13*(1), 11803.
 
@@ -1556,11 +1701,11 @@ McMurray, B. (2023). I'm not sure that curve means what you think it means: Towa
 
 Magnuson, J. S. (2019). Fixations in the visual world paradigm: where, when, why?. *Journal of Cultural Cognitive Science, 3*(2), 113-139.
 
+## References {.smaller}
+
 Matin, E., Shao, K. C., & Boff, K. R. (1993). Saccadic overhead: Information-processing time with and without saccades. *Perception & psychophysics, 53*, 372-380.
 
 Mirman, D., Yee, E., Blumstein, S. E., & Magnuson, J. S. (2011). Theories of spoken word recognition deficits in aphasia: Evidence from eye-tracking and computational modeling. *Brain and language, 117*(2), 53-68.
-
-## References {.smaller}
 
 Meyer, A. S., Sleiderink, A. M., & Levelt, W. J. (1998). Viewing and naming objects: Eye movements during noun phrase production. *Cognition, 66*(2), B25-B33.
 
@@ -1568,23 +1713,23 @@ Mishra, R. K., Olivers, C. N. L., & Huettig, F. (2013). Spoken language and the 
 
 Papafragou, A., Hulbert, J., & Trueswell, J. (2008). Does language guide event perception? Evidence from eye movements. *Cognition, 108*(1), 155-184.
 
-Pickering, M. J., & Gambi, C. (2018). Predicting while comprehending language: A theory and review. *Psychological bulletin, 144*(10), 1002.
-
-Pistono, A., & Hartsuiker, R. J. (2023). Can object identification difficulty be predicted based on disfluencies and eye-movements in connected speech?. *Plos one, 18*(3), e0281589.
 
 ## References {.smaller}
 
+Pickering, M. J., & Gambi, C. (2018). Predicting while comprehending language: A theory and review. *Psychological bulletin, 144*(10), 1002.
+
+Pistono, A., & Hartsuiker, R. J. (2023). Can object identification difficulty be predicted based on disfluencies and eye-movements in connected speech?. *Plos one, 18*(3), e0281589.
 Slim, M. S., & Hartsuiker, R. J. (2023). Moving visual world experiments online? A web-based replication of Dijkgraaf, Hartsuiker, and Duyck (2017) using PCIbex and WebGazer. js. *Behavior Research Methods, 55*(7), 3786-3804.
 
 Spivey, M. J., Richardson, D. C., & Fitneva, S. A. (2004). Thinking outside the brain: Spatial indices to visual and linguistic information. In J. M. Henderson & F. Ferreira (Eds.), *The interface of language, vision, and action: Eye movements and the visual world* (pp. 161--189). New York, NY, US: Psychology Press.
 
 Spivey, M. J. (2025). A linking hypothesis for eyetracking and mousetracking in the visual world paradigm. *Brain Research*, 149477.
 
+## References {.smaller}
+
 Stone, A., & Bosworth, R. G. (2019). Exploring infant sensitivity to visual language using eye tracking and the preferential looking paradigm. *JoVE (Journal of Visualized Experiments)*, (147), e59581.
 
 Tanenhaus, M. K., Spivey-Knowlton, M. J., Eberhard, K. M., & Sedivy, J. C. (1995). Integration of visual and linguistic information in spoken language comprehension. *Science, 268*(5217), 1632-1634.
-
-## References {.smaller}
 
 Tanenhaus, M. K., Magnuson, J. S., Dahan, D., & Chambers, C. (2000). Eye movements and lexical access in spoken-language comprehension: Evaluating a linking hypothesis between fixations and linguistic processing. *Journal of Psycholinguistic Research,29*, 557--580.
 
