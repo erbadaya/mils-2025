@@ -71,7 +71,7 @@ Briefing
 
 -   Explain the experiment and allow them to ask questions.
     -   Add instructions to the experiment & practice sessions.
--   Let them know in advance the experiment structure (e.g., calibration \> validation \> experiment (practice if there is)).
+-   Let them know in advance about the experiment structure (e.g., calibration \> validation \> experiment (practice if there is)).
 -   Explain (briefly) how the eye-tracker works.
 
 . . .
@@ -85,10 +85,10 @@ Tempted to ask to not blink?
 
 Adjust seating
 
--   Chinrest
+-   Chin rest
 -   Chair height
 -   Sitting straight
--   Head against foreheadrest, chin over chinrest.
+-   Head against forehead rest, chin over chin rest.
 
 ## Camera set up
 
@@ -180,7 +180,7 @@ Pupil tracking
 
 -   Ask them to move their eyes around the corners of the screen
     -   Notice whether we lose track at any place
-    -   Especially near your AIs
+    -   Especially near your IAs
     -   Ensure pupil is not covered
         -   E.g., hair, glasses frame
 
@@ -209,7 +209,7 @@ Pupil tracking
 ## Camera set up: Issues
 
 -   Contact lenses
-    -   Air bubbles between eye and contact lense interact with CR
+    -   Air bubbles between eye and contact lens interact with CR
         -   Camera focus
 -   Wet eyes
     -   Split up the CR
@@ -223,7 +223,7 @@ Pupil tracking
 During trials
 
 -   Lab log
-    -   Adjustments/recalibrations
+    -   Adjustments/recalibrations (drift)
     -   Sneezes, sounds
     -   Data cleaning
     -   Blinking
