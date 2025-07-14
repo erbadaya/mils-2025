@@ -1,6 +1,6 @@
 ---
 title: "Lab set up"
-author: "Badaya & Baltaiis"
+author: "Badaya & Baltais"
 format: 
    clean-revealjs:
     logo: /_images/logo_mils.png
@@ -21,7 +21,7 @@ editor: visual
 
 ## Lab set up
 
-These slides are meant to support what we will cover on Thursday during our lab visit. The idea is that by having them, you won't feel the need to take as many notes. With that being said, there are details that we will mention in the lab visit that might not be here: This is not meant to be an exhaustive list of all the possible solutions for the problems one may experience while running an eye-tracking experiment. Here, we have listed the produce and solutions for the most common issues.
+These slides are meant to support what we will cover on Thursday during our lab visit. The idea is that by having them, you won't feel the need to take as many notes. With that being said, there are details that we will mention in the lab visit that might not be here: This is not meant to be an exhaustive list of all the possible solutions for the problems one may experience while running an eye-tracking experiment. Here, we have listed the solutions for the most common issues.
 
 ## Structure of an eye-tracking experiment
 
@@ -50,7 +50,7 @@ These slides are meant to support what we will cover on Thursday during our lab 
     -   Calibration & validation
     -   Practice trials & familiarisation (optional)
     -   Experimental phase (recording sequence, block division - optional)
-        -   (Drift correction) Stimulus --\> Trigger --\> Follow-up
+        -   (Drift correction) Stimulus --\> Trigger --\> Trial task/Next trial
         -   Goodbye screen
 
 3.  After it

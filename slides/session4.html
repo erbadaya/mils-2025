@@ -8,9 +8,9 @@
 <link href="session4_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="session4_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="session4_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.538">
+  <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="author" content="Badaya &amp; Baltaiis">
+  <meta name="author" content="Badaya &amp; Baltais">
   <title>Lab set up</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -340,7 +340,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Badaya &amp; Baltaiis 
+Badaya &amp; Baltais 
 </div>
 </div>
 </div>
@@ -348,7 +348,7 @@ Badaya &amp; Baltaiis
 </section>
 <section id="lab-set-up" class="slide level2">
 <h2>Lab set up</h2>
-<p>These slides are meant to support what we will cover on Thursday during our lab visit. The idea is that by having them, you won’t feel the need to take as many notes. With that being said, there are details that we will mention in the lab visit that might not be here: This is not meant to be an exhaustive list of all the possible solutions for the problems one may experience while running an eye-tracking experiment. Here, we have listed the produce and solutions for the most common issues.</p>
+<p>These slides are meant to support what we will cover on Thursday during our lab visit. The idea is that by having them, you won’t feel the need to take as many notes. With that being said, there are details that we will mention in the lab visit that might not be here: This is not meant to be an exhaustive list of all the possible solutions for the problems one may experience while running an eye-tracking experiment. Here, we have listed the solutions for the most common issues.</p>
 </section>
 <section id="structure-of-an-eye-tracking-experiment" class="slide level2">
 <h2>Structure of an eye-tracking experiment</h2>
@@ -385,7 +385,7 @@ Badaya &amp; Baltaiis
 <li>Practice trials &amp; familiarisation (optional)</li>
 <li>Experimental phase (recording sequence, block division - optional)
 <ul>
-<li>(Drift correction) Stimulus –&gt; Trigger –&gt; Follow-up</li>
+<li>(Drift correction) Stimulus –&gt; Trigger –&gt; Trial task/Next trial</li>
 <li>Goodbye screen</li>
 </ul></li>
 </ul></li>
@@ -449,8 +449,7 @@ Badaya &amp; Baltaiis
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="_images/_session1/host_pc_setup.JPG"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="camera-set-up-1" class="slide level2">
 <h2>Camera set up</h2>
@@ -467,8 +466,7 @@ Badaya &amp; Baltaiis
 <p><img data-src="_images/_session1/eye_undetected.JPG" height="300"></p>
 </div><div class="column" style="width:50%;">
 <p><img data-src="_images/_session1/eye_detected.JPG" height="300"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="camera-set-up-2" class="slide level2">
 <h2>Camera set up</h2>
@@ -478,8 +476,7 @@ Badaya &amp; Baltaiis
 <p><img data-src="_images/_session1/unfocused_camera.JPG" height="300"></p>
 </div><div class="column" style="width:50%;">
 <p><img data-src="_images/_session1/eye_detected.JPG" height="300"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="camera-set-up-3" class="slide level2">
 <h2>Camera set up</h2>
@@ -495,8 +492,7 @@ Badaya &amp; Baltaiis
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="_images/_session1/good_captureeye1.png"> <img data-src="_images/_session1/good_pupil.png"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="camera-set-up-4" class="slide level2">
 <h2>Camera set up</h2>
@@ -513,8 +509,7 @@ Badaya &amp; Baltaiis
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="_images/_session1/options.jpg" height="550"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="camera-set-up-5" class="slide level2">
 <h2>Camera set up</h2>
@@ -612,7 +607,7 @@ Badaya &amp; Baltaiis
 <p>Debriefing</p>
 <p>See also Rodriguez Ronderos et al.&nbsp;(2018) - Eye Tracking During Visually Situated Language Comprehension: Flexibility and Limitations in Uncovering Visual Context Effects.</p>
 <div class="quarto-auto-generated-content">
-<p><img src="images/logo_mils.png" class="slide-logo"></p>
+<p><img src="/_images/logo_mils.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Introduction to eye-tracking</p>
 </div>
@@ -860,18 +855,7 @@ Badaya &amp; Baltaiis
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -903,7 +887,47 @@ Badaya &amp; Baltaiis
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -940,7 +964,11 @@ Badaya &amp; Baltaiis
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
