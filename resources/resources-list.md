@@ -10,9 +10,9 @@ This list is divided into linguistic stimuli (for all psycholinguistics experime
 
 For linguistic stimuli
 
-1. Dr. Aine Ito has a very useful page with different resources [here](https://aineito.github.io/resources.html). Dr. Jamie Reilly has an extensive list of resources on his lab's website, which you can find [here](https://www.reilly-coglab.com/data). It includes ratings (e.g., Age of Acquisition [AoA], frequency) of words in several languages, amongst other resources. You can make use of these resources to ensure that your linguistic stimuli (be it written or spoken) are matched except for your variables of interest. Dr. Reilly also links to other websites (e.g., [Dr. Dan Mirman's lab](https://www.danmirman.org/research-resources), which expands on his list and includes other resources).
+1. Dr. Aine Ito has a very useful page with different resources [here](https://aineito.github.io/resources.html). Dr. Jamie Reilly has an extensive list of resources on his lab's website, which you can find [here](https://www.reilly-coglab.com/data). It includes ratings (e.g., Age of Acquisition [AoA], frequency) of words in several languages, amongst other resources. You can make use of these resources to ensure that your linguistic stimuli (be it written or spoken) are matched except for your variables of interest. Dr. Reilly also has links to other websites (e.g., [Dr. Dan Mirman's lab](https://www.danmirman.org/research-resources), which expands on his list and includes other resources).
 
-2. A very commonly employed database is the [subtlex database](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents) (scroll to the end of the page), which happens to be UGent-made. It contains word frequencies based on subtitles of films and television, and is available in US English, Chinese, and Dutch.
+2. A very commonly employed database is the [SUBTLEX database](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents) (scroll to the end of the page), which happens to be UGent-made. It contains word frequencies based on subtitles of films and television, and is available in US English, Chinese, and Dutch.
 
 3. Another common database is the [CELEX database](https://catalog.ldc.upenn.edu/LDC96L14). It contains word frequencies and other values for UK English, Dutch, and German.
 
@@ -22,7 +22,7 @@ There is always the possibility to obtain your own ratings (e.g., if you are int
 
 For visual stimuli (images)
 
-The most common database of images in black and white (which also includes ratings of name agreement and visual complexity amongst other important factors to control for) is that Snodgrass and Vanderwart (1980). However, this database is copyright-protected. You can find a list of alternative suggestions [here](https://www.cogsci.nl/stimulus-sets). For example, [Szekely et al., (2004)](https://crl.ucsd.edu/experiments/ipnp/1stimuli.html) have a very nice database of S&V-like images.
+The most common database of images in black and white (which also includes ratings of name agreement and visual complexity amongst other important factors to control for) is that by Snodgrass and Vanderwart (1980). However, this database is copyright-protected. You can find a list of alternative suggestions [here](https://www.cogsci.nl/stimulus-sets). For example, [Szekely et al., (2004)](https://crl.ucsd.edu/experiments/ipnp/1stimuli.html) have a very nice database of S&V-like images.
 
 Remember to cite the source you end up using in your project! Alternatively, there are a couple of image databases with ratings in our department (see [here](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents)), but they are mostly relevant if your experiment is in Dutch.
 
