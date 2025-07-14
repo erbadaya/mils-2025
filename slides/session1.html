@@ -542,24 +542,6 @@ Badaya &amp; Baltais
 <h2>Why do we move our eyes? The Human Visual System</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>The fovea is a small section of our <span class="fg" style="--col: #e64173">visual field</span>.</p>
-<ul>
-<li>Space respect to our eyes that we can perceive.</li>
-<li>Measured in visual angles.
-<ul>
-<li>Interplay between distance and size.</li>
-<li>Important for stimuli presentation.</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="_images/_session1/central_vision.png"></p>
-</div>
-</div>
-</section>
-<section id="why-do-we-move-our-eyes-the-human-visual-system-3" class="slide level2">
-<h2>Why do we move our eyes? The Human Visual System</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
 <p>Retina:</p>
 <ul>
 <li>Fovea: 1-2 degrees of visual angle.</li>
@@ -584,6 +566,24 @@ Badaya &amp; Baltais
 </div>
 </div>
 </div>
+</div>
+</div>
+</section>
+<section id="why-do-we-move-our-eyes-the-human-visual-system-3" class="slide level2">
+<h2>Why do we move our eyes? The Human Visual System</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>The fovea is a small section of our <span class="fg" style="--col: #e64173">visual field</span>.</p>
+<ul>
+<li>Space respect to our eyes that we can perceive.</li>
+<li>Measured in visual angles.
+<ul>
+<li>Interplay between distance and size.</li>
+<li>Important for stimuli presentation.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="_images/_session1/central_vision.png"></p>
 </div>
 </div>
 </section>
@@ -694,7 +694,20 @@ Badaya &amp; Baltais
 <section id="why-do-we-move-our-eyes-visual-attention-4" class="slide level2">
 <h2>Why do we move our eyes? Visual attention</h2>
 
-<img data-src="_images/_session1/natural_environment.PNG" class="r-stretch"></section>
+<img data-src="_images/_session1/natural_environment.PNG" class="r-stretch"><aside class="notes">
+<p>so this is an example of ‘bottom up’: while there might be reasons for a person to look to a specific place, it’s also interesting to see what captures people’s attention. where there’s color, that’s where they’re looking at. this is a heatmap</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="why-do-we-move-our-eyes-visual-attention-5" class="slide level2">
 <h2>Why do we move our eyes? Visual attention</h2>
 <p>Yarbus (1960): Scanpaths guided by attention.</p>
@@ -798,6 +811,19 @@ Badaya &amp; Baltais
 <li><span class="fg" style="--col: #e64173">Where</span> we look indicates <span class="fg" style="--col: #e64173">what we are processing</span>, <span class="fg" style="--col: #e64173">for how long we look</span> indicates the <span class="fg" style="--col: #e64173">cognitive effort it takes to process it</span>.</li>
 <li>Underlying assumptions: Serial processing.</li>
 </ul>
+<aside class="notes">
+<p>it is important to note that the focus of this course and everything we’re talking about is eye-tracking as a window to cognitive processes, as opposed to eye-tracking for descriptive purpoises. in this end, what we mean is describing, for example, the HVS, how are saccades, etc.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </div>
 </section>
 <section id="why-do-we-do-it" class="slide level2">
@@ -1277,6 +1303,11 @@ Badaya &amp; Baltais
 <li>Detects gaze and records its x and y coordinates on the screen.</li>
 <li>Parse gaze position into eye events, e.g., any gaze points nearby close in time are grouped into a <em>fixation</em>.</li>
 </ul>
+<p>Monocular or binocular recording?</p>
+<ul>
+<li>Usually: One eye (assumption: synchrony).</li>
+<li><strong>But</strong>: Depends on your research question (e.g., microsaccades), compensate for data loss.</li>
+</ul>
 </section>
 <section id="how-do-eye-trackers-work-6" class="slide level2">
 <h2>How do eye-trackers work?</h2>
@@ -1358,14 +1389,6 @@ Badaya &amp; Baltais
 </ul>
 </section>
 <section id="how-do-eye-trackers-work-13" class="slide level2">
-<h2>How do eye-trackers work?</h2>
-<p>Monocular or binocular recording?</p>
-<ul>
-<li>Usually: One eye (assumption: synchrony).</li>
-<li><strong>But</strong>: Depends on your research question (e.g., microsaccades), compensate for data loss.</li>
-</ul>
-</section>
-<section id="how-do-eye-trackers-work-14" class="slide level2">
 <h2>How do eye-trackers work?</h2>
 <p>Detects gaze and <span class="fg" style="--col: #e64173">records</span> its x and y coordinates on the screen.</p>
 <ul>
@@ -1450,7 +1473,7 @@ Badaya &amp; Baltais
 <p>How small (or slow) can you go with the sampling frequency?</p>
 <p>Relationship between sampling error, sampling frequency, and <span class="fg" style="--col: #e64173">data points</span>.</p>
 <ul>
-<li>Lower sampling frequencies =&gt; more data points (power).
+<li>Lower sampling frequencies would require more data points (power).
 <ul>
 <li>NB: More data points might not be the solution.</li>
 </ul></li>
@@ -1469,7 +1492,7 @@ Badaya &amp; Baltais
           display:block!important;
       }</style></aside>
 </section>
-<section id="how-do-eye-trackers-work-15" class="slide level2">
+<section id="how-do-eye-trackers-work-14" class="slide level2">
 <h2>How do eye-trackers work?</h2>
 <p>Detects gaze and records its <span class="fg" style="--col: #e64173">x and y coordinates</span> on the screen.</p>
 <ul>
@@ -1484,11 +1507,11 @@ Badaya &amp; Baltais
 </figure>
 </div>
 </section>
-<section id="how-do-eye-trackers-work-16" class="slide level2">
+<section id="how-do-eye-trackers-work-15" class="slide level2">
 <h2>How do eye-trackers work?</h2>
 
 <img data-src="_images/_session1/example_dataquality.jpg" class="r-stretch quarto-figure-center"><p class="caption">Nyström et al., 2025</p></section>
-<section id="how-do-eye-trackers-work-17" class="slide level2">
+<section id="how-do-eye-trackers-work-16" class="slide level2">
 <h2>How do eye-trackers work?</h2>
 <p>Detects gaze and records its <span class="fg" style="--col: #e64173">x and y coordinates</span> on the screen.</p>
 <div class="columns">
@@ -1602,7 +1625,7 @@ Badaya &amp; Baltais
           display:block!important;
       }</style></aside>
 </section>
-<section id="how-do-eye-trackers-work-18" class="slide level2">
+<section id="how-do-eye-trackers-work-17" class="slide level2">
 <h2>How do eye-trackers work?</h2>
 <p>These properties impact data quality.</p>
 <p>Why do we care about data quality?</p>
@@ -1675,7 +1698,7 @@ Badaya &amp; Baltais
 <p>Head-mounted:</p>
 <ul>
 <li>Camera and infrared light are mounted on the participant’s head (e.g., with glasses)</li>
-<li>Pros: Ecological validaity.</li>
+<li>Pros: Ecological validity.</li>
 <li>Cons: Usually, lower sampling frequencies, lower accuracy.</li>
 </ul>
 </section>
@@ -1744,7 +1767,7 @@ Badaya &amp; Baltais
 
 <img data-src="_images/_session1/hollesteinetal.JPG" class="r-stretch"><p>For more on co-registration:Pokhoday et al.&nbsp;(2023); for another example, Chen et al.&nbsp;(2024)</p>
 </section>
-<section id="how-do-eye-trackers-work-19" class="slide level2">
+<section id="how-do-eye-trackers-work-18" class="slide level2">
 <h2>How do eye-trackers work?</h2>
 <ul>
 <li>We track the x and y coordinates of gaze on a screen by figuring out the position of either the pupil or the pupil and the corneal reflection.</li>
@@ -1924,7 +1947,7 @@ Badaya &amp; Baltais
 <li>Practice trials &amp; familiarisation (optional)</li>
 <li>Experimental phase (recording sequence, block division - optional)
 <ul>
-<li>(Drift correction) Stimulus –&gt; Trigger –&gt; Follow-up</li>
+<li>(Drift correction) Stimulus –&gt; Trigger –&gt; Trial task/Next trial</li>
 <li>Goodbye screen</li>
 </ul></li>
 </ul></li>

@@ -145,23 +145,6 @@ Important parts of the eye's anatomy:
 
 ::: columns
 ::: {.column width="50%"}
-The fovea is a small section of our [visual field]{.fg style="--col: #e64173"}.
-
--   Space respect to our eyes that we can perceive.
--   Measured in visual angles.
-    -   Interplay between distance and size.
-    -   Important for stimuli presentation.
-:::
-
-::: {.column width="50%"}
-![](_images/_session1/central_vision.png)
-:::
-:::
-
-## Why do we move our eyes? The Human Visual System
-
-::: columns
-::: {.column width="50%"}
 Retina:
 
 -   Fovea: 1-2 degrees of visual angle.
@@ -173,6 +156,22 @@ Retina:
 ::: {layout="[[-1], [1], [-1]]"}
 ![Central vision != foveal vision.](_images/_session1/vision_angles.png){fig-align="center"}
 :::
+:::
+:::
+## Why do we move our eyes? The Human Visual System
+
+::: columns
+::: {.column width="50%"}
+The fovea is a small section of our [visual field]{.fg style="--col: #e64173"}.
+
+-   Space respect to our eyes that we can perceive.
+-   Measured in visual angles.
+    -   Interplay between distance and size.
+    -   Important for stimuli presentation.
+:::
+
+::: {.column width="50%"}
+![](_images/_session1/central_vision.png)
 :::
 :::
 
@@ -271,6 +270,12 @@ Attention determines what we process and the detail of the representation built.
 
 ![](_images/_session1/natural_environment.PNG)
 
+:::{.notes}
+
+so this is an example of 'bottom up': while there might be reasons for a person to look to a specific place, it's also interesting to see what captures people's attention. where there's color, that's where they're looking at. this is a heatmap
+
+:::
+
 ## Why do we move our eyes? Visual attention
 
 Yarbus (1960): Scanpaths guided by attention.
@@ -330,6 +335,12 @@ Example in language: The [eye-mind hypothesis]{.fg style="--col: #e64173"} (Just
 
 -   [Where]{.fg style="--col: #e64173"} we look indicates [what we are processing]{.fg style="--col: #e64173"}, [for how long we look]{.fg style="--col: #e64173"} indicates the [cognitive effort it takes to process it]{.fg style="--col: #e64173"}.
 -   Underlying assumptions: Serial processing.
+
+:::{.notes}
+
+it is important to note that the focus of this course and everything we're talking about is eye-tracking as a window to cognitive processes, as opposed to eye-tracking for descriptive purpoises. in this end, what we mean is describing, for example, the HVS, how are saccades, etc.
+
+:::
 
 ## Why do we do it?
 
@@ -708,7 +719,12 @@ Now you can see why nowadays eye-tracking is non-invasive.
 ## How do eye-trackers work?
 
 -   Detects gaze and records its x and y coordinates on the screen.
--   Parse gaze position into eye events, e.g., any gaze points nearby close in time are grouped into a *fixation*.
+-   Parse gaze position into eye events, e.g., any gaze points nearby close in time are grouped into a *fixation*. 
+
+Monocular or binocular recording?
+
+-   Usually: One eye (assumption: synchrony).
+-   **But**: Depends on your research question (e.g., microsaccades), compensate for data loss.
 
 ## How do eye-trackers work?
 
@@ -772,13 +788,6 @@ Why pupil and corneal reflection?
 
 ## How do eye-trackers work?
 
-Monocular or binocular recording?
-
--   Usually: One eye (assumption: synchrony).
--   **But**: Depends on your research question (e.g., microsaccades), compensate for data loss.
-
-## How do eye-trackers work?
-
 Detects gaze and [records]{.fg style="--col: #e64173"} its x and y coordinates on the screen.
 
 -   How many times? [Sampling frequency]{.fg style="--col: #e64173"}
@@ -838,16 +847,14 @@ How small (or slow) can you go with the sampling frequency?
 -   Nyquist-Shannon sampling theorem
     -   Twice as large as the event you want to measure.
 
-
 ## How do eye-trackers work? Sampling frequency
 
 How small (or slow) can you go with the sampling frequency?
 
 Relationship between sampling error, sampling frequency, and [data points]{.fg style="--col: #e64173"}.
 
--   Lower sampling frequencies =\> more data points (power).
+-   Lower sampling frequencies would require more data points (power).
     -   NB: More data points might not be the solution.
-
 
 ::: notes
 for onset - offset, more data points is not a solution, for duration it may increase power
@@ -1026,7 +1033,7 @@ Table-mounted, head free:
 Head-mounted:
 
 -   Camera and infrared light are mounted on the participant's head (e.g., with glasses)
--   Pros: Ecological validaity.
+-   Pros: Ecological validity.
 -   Cons: Usually, lower sampling frequencies, lower accuracy.
 
 ## How do eye-trackers work? Types
@@ -1253,7 +1260,7 @@ Structure of an eye-tracking experiment
     -   Calibration & validation
     -   Practice trials & familiarisation (optional)
     -   Experimental phase (recording sequence, block division - optional)
-        -   (Drift correction) Stimulus --\> Trigger --\> Follow-up
+        -   (Drift correction) Stimulus --\> Trigger --\> Trial task/Next trial
         -   Goodbye screen
 
 3.  After it
