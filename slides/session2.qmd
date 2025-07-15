@@ -686,6 +686,14 @@ After a moderate preview (500 ms), moderate semantic processing constrains the l
 
 ![](_images/_session2/allisonetal_results.png)
 
+
+:::notes
+fix prediction to predictable target, dashed lines are looks to distractors.
+visual load delays semantic pred
+corsi task in the middle of the exp
+:::
+
+
 ## Preview window
 
 [Pros and cons]{.fg style="--col: #e64173"} of preview window: Apfelbaum et al. (2021)
@@ -693,6 +701,17 @@ After a moderate preview (500 ms), moderate semantic processing constrains the l
 ![](_images/_session2/apfelbaum.JPG){fig-align="center"}
 
 ::: notes
+
+24 pairs of monosyllabic words that overlapped in initial consonants and vowel but differed in offset consonant (cohorts; e.g. brain and braid). A presentation set (the four items in a display) consisted of two cohort pairs with minimal phonological and semantic overlap
+
+enhaces the validity of the VWP because it allows for object recognition and visual search
+
+phonological activation ~ prenaming
+
+text preview absent visual semantic, more prime for phonology, does not help with search process
+
+visual new location"activate semantic features, but not bind to locations
+
 Lexical competition arises in the VWP even when no stimulus preview occurs. • Stimulus preview does not cause phonological preactivation in typical contexts. • Visual stimulus preview increases sensitivity to phonological competition in the VWP. • The VWP relies on a complex interaction of linguistic and non-linguistic processes. • Observed fixation patterns are dependent on the structure of the VWP trial.
 
 The current study identified a range of processes that may be carried out during preview: object recognition, locating features in space, and prenaming the responses, to understand how these processes interact throughout VWP trials. Ultimately however, phonological competitor effects proved not to rely on stimulus preview -- they were apparent even when no preview was provided -- strongly countering doubts about what the VWP is measuring. Instead, some aspects of preview that reduced variance of visual-semantic factors during the trial appeared critical for sensitivity to competitor effects by reducing other sources of noise in the measurement.
@@ -705,6 +724,9 @@ The current study identified a range of processes that may be carried out during
 ![](_images/_session2/apfelbaum_results.JPG){fig-align="center"}
 
 ::: notes
+
+proportion of fix in the preview window
+
 The preview of the visual display is designed to take care of some of the non-linguistic tasks before the word is heard. Preview lets participants activate visuo-semantic features and bind them to spatial locations. As a result, when they hear the word, fixations should be primarily driven by lexical processes.
 
 unlikely that a trial is a closed-set:First it is unlikely that participants could activate all possible linguistic forms from a display (Magnuson, 2019). Even a concrete object like a wizard could be named a sorcerer, magician, warlock, or Harry, or could indicate properties or concepts (magic, spell, nemesis of He Who Shall Not Be Named, etc.).
@@ -717,6 +739,13 @@ This study seems to indicate phonological preactivation during preview if enough
 
 Our results strongly reject this for several reasons. First, competitor effects were present regardless of preview condition--even in the No preview condition. Stimulus preview is not a prerequisite for observing competitor effects in the VWP.
 :::
+
+## Preview window
+
+[Pros and cons]{.fg style="--col: #e64173"} of preview window: Apfelbaum et al. (2021)
+
+![](_images/_session2/prop_fix_target.png){fig-align="center"}
+
 
 ## Preview window
 
