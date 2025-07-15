@@ -4,7 +4,7 @@ author: "Badaya & Baltais"
 format: 
    clean-revealjs:
     logo: /_images/logo_mils.png
-    footer: "Introduction to eye-tracking"
+    footer: "Lab notes"
     include-in-header: 
       text: |
         <style>
@@ -92,7 +92,7 @@ Adjust seating
 
 ## Camera set up
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 Access to eye image
 
@@ -105,7 +105,7 @@ Access to eye image
 ::: {.column width="50%"}
 ![](_images/_session1/host_pc_setup.JPG)
 :::
-:::::
+:::
 
 ## Camera set up
 
@@ -113,10 +113,11 @@ Which eye to track?
 
 -   Dominant eye (by default, right eye)
     -   Ideally, eye dominance test.
+    - See [here](https://www.youtube.com/watch?v=dBCU6W2Pw6A)
 
 Detect the eye
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](_images/_session1/eye_undetected.JPG){height="300px"}
 :::
@@ -124,13 +125,13 @@ Detect the eye
 ::: {.column width="50%"}
 ![](_images/_session1/eye_detected.JPG){height="300px"}
 :::
-:::::
+:::
 
 ## Camera set up
 
 Focus
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](_images/_session1/unfocused_camera.JPG){height="300px"}
 :::
@@ -138,11 +139,11 @@ Focus
 ::: {.column width="50%"}
 ![](_images/_session1/eye_detected.JPG){height="300px"}
 :::
-:::::
+:::
 
 ## Camera set up
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br> <br> <br>
 
@@ -154,11 +155,11 @@ Focus
 ::: {.column width="50%"}
 ![](_images/_session1/good_captureeye1.png) ![](_images/_session1/good_pupil.png)
 :::
-:::::
+:::
 
 ## Camera set up
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -174,7 +175,7 @@ Pupil tracking
 ::: {.column width="50%"}
 ![](_images/_session1/options.jpg){height="550px"}
 :::
-:::::
+:::
 
 ## Camera set up
 
