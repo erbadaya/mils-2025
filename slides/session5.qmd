@@ -34,12 +34,12 @@ Any questions from yesterday? How was the lab experience?
 ## Plan for today
 
 -   (Minimal) Data wrangling
-- Data visualization
-  - VWP
-  - Reading
-- Data analysis
-  - VWP
-  - Reading
+-   Data visualization
+    -   VWP
+    -   Reading
+-   Data analysis
+    -   VWP
+    -   Reading
 
 ## Before we start
 
@@ -522,7 +522,7 @@ Example of binary fixations, time course analysis (time continuous): Bosker et a
 
 ![](_images/_session5/4.png){fig-align="center"} ![](_images/_session5/5.png){fig-align="center"}
 
-## Visual World Paradigm
+\## Visual World Paradigm
 
 If you are only interested in whether there is an effect or not over time, fit a (generalised) linear mixed model, you would be fine (yet cf. assumptions of models).
 
@@ -558,6 +558,7 @@ Sometimes our questions revolve around specific times, or rate of increase/decre
 Veríssimo & Lago (2025, pre-print)
 
 ![](_images/_session5/verssimo_gamms.png){fig-align="center"}
+
 ## VWP: What to report
 
 -   Time window of analysis (and if there was a correction for triggering a saccade)
@@ -737,13 +738,17 @@ NB: Some parts are shared with VWP
 
 Organise in groups of 5.
 
-- Each group decides a RQ (with some theory underlying it)*.
-- Design an experiment
-- Specify the eye-tracking components (e.g., calibration and validation, drift, sampling rate, AOIs, triggers)
-- Measures of interest
-- Analysis strategy
+-   Each group decides a RQ (with some theory underlying it)\*.
 
-* Doesn't have to be real. You can make something up just for the fun of it.
+-   Design an experiment
+
+-   Specify the eye-tracking components (e.g., calibration and validation, drift, sampling rate, AOIs, triggers)
+
+-   Measures of interest
+
+-   Analysis strategy
+
+-   Doesn't have to be real. You can make something up just for the fun of it.
 
 # Wrap up
 
@@ -761,7 +766,6 @@ Organise in groups of 5.
 Throughout this course, we have aimed to explain what is eye-tracking, and how it looks like in language research. We have focused on two paradigms, with the goal of explaining what is their underlying logic so you can easily transfer it to your own questions within your field. We have also focused on giving you a hands-down approach to eye-tracking, so that you feel confident about your abilities after this course!
 
 Thoughts? You will send be a link on Ufora to give feedback :)
-
 
 ## References {.smaller}
 
