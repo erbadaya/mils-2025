@@ -162,6 +162,9 @@ Skipping
 
 -   70% of the words in a text are fixated
 -   Content words are fixated 85% of the time, function words 35% of the time
+
+. . .
+
 -   Main predictor: word length; also predictability, frequency, etc.
     -   Parafoveal processing!
 -   Due to 'overshooting' or processing ease
@@ -196,7 +199,7 @@ Moving window paradigm (e.g., McConkie & Rayner, 1975)
 -   Shows: Parafoveal processing and perceptual span (extraction and use of information).
 -   IV: Size of the window.
 
-[^3]: This paper was retracted due to some legal issues.
+[^3]: IA = Interest Area. IV = independent variable.
 
 ::: notes
 By varying the size of the window and the type of mask (e.g., X's, visually similar or dissimilar characters) and comparing the reading times in the window and normal reading conditions, it is possible to define the size of the area from which a reader can efficiently extract and utilize information.
@@ -733,7 +736,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ## Non-linguistic confounds
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Line spacing[^5]
     -   Tracking less accurate for vertical movements (vertical drift)
@@ -745,7 +748,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ![From Conklin et al., 2018](_images/_session3/example_spacing.JPG)
 :::
-:::
+:::::
 
 [^5]: Less important for global measures (sentence-level processing).
 
@@ -974,7 +977,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 
 ## Pros & cons
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 **Pros**
 
@@ -992,7 +995,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 -   Many potential confounds.
 -   Resource-costly.
 :::
-:::
+:::::
 
 # Data pre-processing
 
@@ -1018,19 +1021,21 @@ Today:
 
 # Reading pipeline
 
-## Viewing session
+## Import data
 
-For now, we'll look at the data that's already imported ('SingleLine_view.evs').
+Open DataViewer and import data files from 'SingleLine_deploy' to create your own viewing session.
 
 .edf = Eyelink Data File
-
 .evs = Eyelink Viewing Session
+
+![](_images/_session3/DV_import.png){fig-align="center"}
 
 ## Interest period
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
+= Time window of interest.
 
 First make sure your IAs are displayed.
 
@@ -1040,11 +1045,11 @@ First make sure your IAs are displayed.
 ::: {.column width="50%"}
 ![](_images/_session3/showIAs.png){fig-align="center" width="400"}
 :::
-:::
+:::::
 
 ## Interest period
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1054,7 +1059,7 @@ From stimulus presentation to button press (trial end)
 ::: {.column width="50%"}
 ![](_images/_session3/interest_period.png){fig-align="center" width="600"}
 :::
-:::
+:::::
 
 ## Check data
 
@@ -1145,7 +1150,7 @@ Different thresholds -\> report *exactly* what you did.
 
 ## Automatized cleaning
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1157,7 +1162,7 @@ Right-click on the whole folder.
 ::: {.column width="50%"}
 ![](_images/_session3/4stage_a.png)
 :::
-:::
+:::::
 
 ## Automatized cleaning
 
@@ -1187,7 +1192,7 @@ We surely need participant ID (Session_Name\_), condition, item ID, and interest
 
 Let's choose some common measures:
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Skipping
 -   First fixation duration
@@ -1201,7 +1206,7 @@ Let's choose some common measures:
 ::: {.column width="50%"}
 ![](_images/_session3/var_choose.png)
 :::
-:::
+:::::
 
 ## Output
 
@@ -1272,7 +1277,7 @@ Jakobi et al. (2024). Reporting eye-tracking data quality: Towards a new standar
 
 ## Practice time
 
-Open DataViewer and import data files from 'SingleLine_deploy' to create your own viewing session.
+Import data files from 'SingleLine_deploy'.
 
 Go through 'DB1' and 'DB2' and make changes as you see fit (don't forget to log them!). Afterwards we'll compare our solutions.
 
@@ -1280,7 +1285,7 @@ Go through 'DB1' and 'DB2' and make changes as you see fit (don't forget to log 
 
 ## Plan for tomorrow
 
-Lab visit will be organized in two groups.
+Lab visit will be organized in groups.
 
 Address: Campus Dunant (Henri Dunantlaan 2). Meeting point: main entrance.
 
