@@ -736,7 +736,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ## Non-linguistic confounds
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   Line spacing[^5]
     -   Tracking less accurate for vertical movements (vertical drift)
@@ -748,7 +748,7 @@ Conklin et al., 2018: Aside from the problem of sentence wrap-up effects, fixati
 
 ![From Conklin et al., 2018](_images/_session3/example_spacing.JPG)
 :::
-:::::
+:::
 
 [^5]: Less important for global measures (sentence-level processing).
 
@@ -977,7 +977,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 
 ## Pros & cons
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 **Pros**
 
@@ -995,7 +995,7 @@ Spoiler: analysis (data pre-processing, critical IAs, choice of measures).
 -   Many potential confounds.
 -   Resource-costly.
 :::
-:::::
+:::
 
 # Data pre-processing
 
@@ -1025,17 +1025,15 @@ Today:
 
 Open DataViewer and import data files from 'SingleLine_deploy' to create your own viewing session.
 
-.edf = Eyelink Data File
-.evs = Eyelink Viewing Session
+.edf = Eyelink Data File .evs = Eyelink Viewing Session
 
 ![](_images/_session3/DV_import.png){fig-align="center"}
 
 ## Interest period
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
-<br>
-= Time window of interest.
+<br> = Time window of interest.
 
 First make sure your IAs are displayed.
 
@@ -1045,11 +1043,11 @@ First make sure your IAs are displayed.
 ::: {.column width="50%"}
 ![](_images/_session3/showIAs.png){fig-align="center" width="400"}
 :::
-:::::
+:::
 
 ## Interest period
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1059,7 +1057,7 @@ From stimulus presentation to button press (trial end)
 ::: {.column width="50%"}
 ![](_images/_session3/interest_period.png){fig-align="center" width="600"}
 :::
-:::::
+:::
 
 ## Check data
 
@@ -1150,7 +1148,7 @@ Different thresholds -\> report *exactly* what you did.
 
 ## Automatized cleaning
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -1162,7 +1160,7 @@ Right-click on the whole folder.
 ::: {.column width="50%"}
 ![](_images/_session3/4stage_a.png)
 :::
-:::::
+:::
 
 ## Automatized cleaning
 
@@ -1192,7 +1190,7 @@ We surely need participant ID (Session_Name\_), condition, item ID, and interest
 
 Let's choose some common measures:
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   Skipping
 -   First fixation duration
@@ -1206,7 +1204,7 @@ Let's choose some common measures:
 ::: {.column width="50%"}
 ![](_images/_session3/var_choose.png)
 :::
-:::::
+:::
 
 ## Output
 
